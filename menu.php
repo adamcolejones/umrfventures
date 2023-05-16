@@ -3,8 +3,8 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - 
-	// - 
+	// - This file creates the menu bar content.
+	// - The extra menuitems create a spacing that prevents scrollbar overlap
     // -
     // -
 	// -
@@ -20,6 +20,8 @@
                 <a href="newsroom.php" class="menuitem">Media Room</a>
                 <a href="employment.php" class="menuitem">Employment</a>
                 <a href="contact.php" class="menuitem">Contact</a>
+                <div class="menuitem"></div>
+                <div class="menuitem"></div>
             </div>
         ';
     }

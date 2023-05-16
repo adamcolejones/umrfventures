@@ -165,6 +165,7 @@ html {
     background-color: #fff;
     position: relative;
     height: 100%;
+    overflow-y: overlay; /* Keeps Scroll bar from shifting the content of the page*/
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -253,7 +254,7 @@ li {
     min-height: 5%; /*Needs to be the same as video top margin*/
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: right;
     /* background: #254992; */
     /* background: #26275d; */
     /* background: #0e0e21; */

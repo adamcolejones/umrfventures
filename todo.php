@@ -3,8 +3,8 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - 
-	// - 
+	// - This file contains features that need to be worked on.
+	// - This file also tests the scroll height content
     // -
     // -
 	// -
