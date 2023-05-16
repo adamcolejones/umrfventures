@@ -47,6 +47,7 @@ body {
     background-color: #fff;
     position: relative;
     height: 100%;
+    position: fixed; /*When the Body is fixed, we don't see scroll bar overlaying the menu, instead we only see scroll bars where the content extends past the height of the window*/
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -165,7 +166,8 @@ html {
     background-color: #fff;
     position: relative;
     height: 100%;
-    overflow-y: overlay; /* Keeps Scroll bar from shifting the content of the page*/
+    /* Keeps Scroll bar from shifting the content of the page*/
+    /* overflow-y: overlay;  */
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -252,8 +254,7 @@ li {
     position: fixed;
     width: 100%;
     /*Needs to be the same as video top margin*/
-    /* min-height: 5%;  */
-    height: 60px;
+    min-height: 5%; 
     display: flex;
     align-items: center;
     justify-content: right;
@@ -272,6 +273,7 @@ li {
   color: white;
   float: right;
   padding: 5px;
+  font-size: 1.3vh;
 }
 
 /* Style the button used to pause/play the video */
@@ -382,22 +384,26 @@ li {
  */
 
 .scrollableContent {
-    position: relative;
-    display: block;
-    /* View height Prevents White space when resizing windows*/
-    /* top: 5vh; */
-    top: 60px;
-    /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
-    /* padding-bottom: 5vh;  */
-    padding-bottom: 60px;
-    left: 0px;
-    right: 0px;
-    min-height: 90%;
-    /* -OLD- background: #474554; */
-    background: #D5EDEE;
-    color: #254992;
-    z-index: 2; /*The lower the number, the further back the content is*/
-    /* margin-bottom: 5vh; */
+  position: relative;
+  overflow: scroll;
+  display: block;
+  width: 100vw;
+  height: calc(95% - 60px);
+  /* View height Prevents White space when resizing windows*/
+  /* top: 5vh; */
+  top: 5%;
+  /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
+  /* padding-bottom: 5vh;  */
+  padding-bottom: 120px;
+  left: 0px;
+  right: 0px;
+  min-height: 90%;
+  /* -OLD- background: #474554; */
+  /* background: #D5EDEE; */
+  background: white;
+  color: #254992;
+  z-index: 2; /*The lower the number, the further back the content is*/
+  /* margin-bottom: 5vh; */
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */

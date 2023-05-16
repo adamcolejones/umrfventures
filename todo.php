@@ -41,8 +41,8 @@
                 <li>Leoevents.com (hoverable content)</li>
                 <li>Consider the trade-offs of a colorful page vs. a colorful logo</li>
                 <li>Assets should have folders pertaining to each page's content</li>
-                <li></li>
-                <li></li>
+                <li>Menu sizing, pixels shrink in phone view, revert to vh sizing</li>
+                <li>Get consistent sizing across body, menu, scrollable content, and footer</li>
                 <li></li>
                 <li></li>
                 <li></li>
