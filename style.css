@@ -70,7 +70,7 @@ body {
     position: relative;
     display: block; /*Display block moves all surrounding content above or below this content*/
     /*This height needs to match the .scrollablecontent padding*/
-    height: 5%; /*having to use % instead of pixels for consistency with menu sizing*/ 
+    height: 60px; /*having to use % instead of pixels for consistency with menu sizing*/ 
     width: 100%;
     bottom: 0;
     z-index: 3;
@@ -251,7 +251,9 @@ li {
 .menu {
     position: fixed;
     width: 100%;
-    min-height: 5%; /*Needs to be the same as video top margin*/
+    /*Needs to be the same as video top margin*/
+    /* min-height: 5%;  */
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -382,8 +384,12 @@ li {
 .scrollableContent {
     position: relative;
     display: block;
-    top: 5vh; /* View height Prevents White space when resizing windows*/
-    padding-bottom: 5vh; /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
+    /* View height Prevents White space when resizing windows*/
+    /* top: 5vh; */
+    top: 60px;
+    /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
+    /* padding-bottom: 5vh;  */
+    padding-bottom: 60px;
     left: 0px;
     right: 0px;
     min-height: 90%;

@@ -25,7 +25,7 @@
             menu()
         ?>
         <div class="scrollableContent">
-            <h2>Navigation Bar</h2>
+            <h2>Navigation </h2>
             <ul>
                 <li>Coivid-19 Red Banner</li>
                 <li>Hamburger Menu</li>
