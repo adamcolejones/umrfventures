@@ -68,13 +68,14 @@ body {
 .contactfooter {
     /* background: #0e0e21; */
     background: #254992;
-    position: relative;
+    position: sticky;
     display: block; /*Display block moves all surrounding content above or below this content*/
     /*This height needs to match the .scrollablecontent padding*/
-    height: 60px; /*having to use % instead of pixels for consistency with menu sizing*/ 
+    height: 5%; /*having to use % instead of pixels for consistency with menu sizing*/ 
     width: 100%;
-    bottom: 0;
+    top: 100%; /*keeps footer at the bottom of the page*/
     z-index: 3;
+    align-items: end;
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -385,19 +386,17 @@ li {
 
 .scrollableContent {
   position: relative;
-  overflow: scroll;
+  overflow-y: scroll;
   display: block;
   width: 100vw;
-  height: calc(95% - 60px);
+  height: calc(95%);
+  min-height: 95vh;
   /* View height Prevents White space when resizing windows*/
   /* top: 5vh; */
   top: 5%;
   /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
-  /* padding-bottom: 5vh;  */
-  padding-bottom: 120px;
   left: 0px;
   right: 0px;
-  min-height: 90%;
   /* -OLD- background: #474554; */
   /* background: #D5EDEE; */
   background: white;

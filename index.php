@@ -25,33 +25,25 @@
             menu()
         ?>
         <div class="scrollableContent">
-            <h2>Navigation </h2>
-            <ul>
-                <li>Coivid-19 Red Banner</li>
-                <li>Hamburger Menu</li>
-                <li></li>
-            </ul>
-            <h2>Home</h2>
-            <ul>
-                <li>A Unique Solution</li>
-                <li>A managed service provider employing University students to meet your needs</li>
-                <li>Partner with us Video</li>
-                <li>A Unique Model</li>
-                <li>One of the only private companies in America owned by a public university – doing what we do</li>
-                <li>A Unique Talent Pipeline (Link)</li>
-                <li>When our students graduate,  you have trained and qualified candidates for jobs in your organization</li>
-                <li>FedEx Logo</li>
-                <li>Raymond James</li>
-                <li>Sedgwick</li>
-                <li>Social Media Links</li>
-                <li></li>
-            </ul>
+            <div>A Unique Solution</div>
+            <div>A managed service provider employing University students to meet your needs</div>
+            <video width="320" height="240" autoplay><source src="assets/homevideo.mp4" type="video/mp4"></video>
+            <div>A Unique Model</div>
+            <div>One of the only private companies in America owned by a public university – doing what we do</div>
+            <div>A Unique</div>
+            <a href="">Talent Pipeline</a>
+            <div>When our students graduate,  you have trained and qualified candidates for jobs in your organization</div>
+            <div>FedEx Logo</div>
+            <div>Raymond James</div>
+            <div>Sedgwick</div>
+            <div>Social Media Links</div>
             <a href="todo.php">To Do List</a>
             <a href="video.php">Video Test</a>
             <a href="test.php">Test</a>
+            <div class="contactfooter">
+        
+            </div>
         </div>
-        <div class="contactfooter">
-
-        </div>
+        
     </body>
 </html>

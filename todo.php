@@ -43,8 +43,8 @@
                 <li>Assets should have folders pertaining to each page's content</li>
                 <li>Menu sizing, pixels shrink in phone view, revert to vh sizing</li>
                 <li>Get consistent sizing across body, menu, scrollable content, and footer</li>
-                <li></li>
-                <li></li>
+                <li>Covid-19 Red Banner</li>
+                <li>Hamburger Menu</li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -108,9 +108,10 @@
                 <li>a</li>
                 <li>bottom line</li>
             </ul>
-        </div>
-        <div class="contactfooter">
+            <div class="contactfooter">
 
+            </div>
         </div>
+        
     </body>
 </html>
