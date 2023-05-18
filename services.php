@@ -47,6 +47,9 @@
                 <li>Contact Us</li>
                 <li></li>
             </ul>
+            <a href="todo.php">To Do List</a>
+            <a href="video.php">Video Test</a>
+            <a href="test.php">Test</a>
         </div>
         <div class="contactfooter">
 

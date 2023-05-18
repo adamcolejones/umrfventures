@@ -45,6 +45,15 @@
                 <li>Get consistent sizing across body, menu, scrollable content, and footer</li>
                 <li>Covid-19 Red Banner</li>
                 <li>Hamburger Menu</li>
+                <li>Popups on scrolled content</li>
+                <li>more animations</li>
+                <li>more color, constistency with font, weight, and colors</li>
+                <li>cohesive consistent design</li>
+                <li>Photos with titles on top</li>
+                <li>Chime solutions, culture (view values)</li>
+                <li>talent pipeline is important</li>
+                <li>flashcard movement transitions with titles and descriptions</li>
+                <li>Background photos</li>
                 <li></li>
                 <li></li>
                 <li></li>

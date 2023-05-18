@@ -123,6 +123,17 @@ body {
  ██████
 */
 
+.facebooklogo {
+  height: 50px;
+  border: 1px solid black;
+}
+
+.fedexlogo {
+  /* width: 50px; */
+  height: 100px;
+  border: 1px solid black;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -186,6 +197,24 @@ html {
  ██████████
 */
 
+.inlinetextlink {
+  color: #0073e5;
+  display: inline;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.inlinetexttitle {
+  color: #3AA4DF;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.instagramlogo {
+  height: 50px;
+  border: 1px solid black;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
          ██████
@@ -236,6 +265,11 @@ li {
   display: block;
 }
 
+.linkedinlogo {
+  height: 50px;
+  border: 1px solid black;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /*
 ██████          ██████
@@ -266,6 +300,7 @@ li {
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: hidden;
+    gap: 10px;
 }
 
 .menuitem {
@@ -340,6 +375,13 @@ li {
 ██████
 */
 
+.partnerrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -369,6 +411,12 @@ li {
  ██████  ██████████
  */
 
+.raymondjameslogo {
+  /* width: 50px; */
+  height: 150px;
+  border: 1px solid black;
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -386,7 +434,7 @@ li {
 
 .scrollableContent {
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   display: block;
   width: 100vw;
   height: calc(95%);
@@ -403,6 +451,20 @@ li {
   color: #254992;
   z-index: 2; /*The lower the number, the further back the content is*/
   /* margin-bottom: 5vh; */
+}
+
+.sedgwicklogo {
+  /* width: 50px; */
+  height: 100px;
+  border: 1px solid black;
+}
+
+.sociallinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -431,6 +493,31 @@ li {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   background-color: blue;
   /* Transition time is determined in the parent class */
+}
+
+.textcontent {
+  padding: 50px 50px 0px 50px;
+}
+
+.textdescription {
+  color: #6EC1E4;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.textlink {
+  color: #0073e5;
+}
+
+.texttitle {
+  color: #3AA4DF;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.twitterlogo {
+  height: 50px;
+  border: 1px solid black;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
