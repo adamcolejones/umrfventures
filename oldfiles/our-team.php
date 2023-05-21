@@ -3,7 +3,7 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - 
+	// - This is for the "who we are" page, in the "our team" section
 	// - 
     // -
     // -

@@ -9,7 +9,8 @@
     // - 4. Value Titles and Descriptions
 	// - 5. Partner Logos
 	// - 6. Social Media Links
-    // - 7. Contact Footer
+    // - 7. News, Media Room, testing links
+    // - 8. Contact Footer
     // ********************************************************
 
 
@@ -69,7 +70,22 @@
                 <img class="instagramlogo" src="assets/Instagram Logo.png" alt="">
                 <img class="twitterlogo" src="assets/Twitter Logo.png" alt="">
             </div>
-            <!-- - 7. Contact Footer -->
+            <!-- - 7. News, Media Room, testing links -->
+            <h2>Media Room</h2>
+            <ul>
+                <li>Carousell of Most Recent News Stories</li>
+                <li>Older Stories listed below</li>
+                <li>UMRF Logo</li>
+                <li>Title</li>
+                <li>Description</li>
+                <li>Read More Link</li>
+                <li>Repeat Per Story</li>
+                <li></li>
+            </ul>
+            <a href="todo.php">To Do List</a>
+            <a href="video.php">Video Test</a>
+            <a href="test.php">Test</a>
+            <!-- - 8. Contact Footer -->
             <div class="contactfooter">
         
             </div>

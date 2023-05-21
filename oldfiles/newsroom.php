@@ -3,7 +3,7 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - 
+	// - This is for the "media room" page
 	// - 
     // -
     // -
