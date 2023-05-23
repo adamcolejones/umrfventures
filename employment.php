@@ -25,9 +25,14 @@
             menu()
         ?>
         <div class="scrollableContent">
+            <div>
+                <video width="100%" height="auto" controls loop autoplay playsinline muted>
+                    <source src="assets/employmentvideo.mp4" type="video/mp4">    
+                </video>
+            </div>
             <h2>Employment</h2>
+            <img class="defaultpicture" src="assets/ChristmasParty.png" alt="">
             <ul>
-                <li>Memphis Video</li>
                 <li>Student success is our goal.</li>
                 <li>UMRF Ventures is a company staffed by students. We offer part-time jobs on campus, providing a variety of services to local companies. University of Memphis students have the exclusive opportunity to apply.</li>
                 <li>#VENTUREWITHUS</li>

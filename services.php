@@ -30,6 +30,9 @@
             <div>
                 <h2>About Us - Who We Are / What We Do</h2>
                 <img class="defaultpicture" src="assets/UMRFGroupPhoto.png" alt="">
+                <img class="defaultpicture" src="assets/WorkRoom.png" alt="">
+                <img class="defaultpicture" src="assets/WorkRoomAttentive.png" alt="">
+                <img class="defaultpicture" src="assets/DeskSpaces.png" alt="">
                 <ul>
                     <li>About Us</li>
                     <li>UMRF Ventures is a company staffed by students who attend the University of Memphis. Today’s students have to successfully balance life with their school commitments. Many students take on significant debt to further their education and work multiple jobs while they go to school to meet their financial obligations. UMRF Ventures mission is to help our students succeed by providing good-paying, part-time jobs, scheduled around their classroom commitments, and conveniently located on campus.</li>
@@ -41,7 +44,7 @@
                     <li>Want to reach out?</li>
                     <li>UMRF Ventures is always open to talking about our work, but we do request that any visits be scheduled through the manager. Service centers are off limits unless explicitly approved.</li>
                     <li>Contact Us</li>
-                    <li>WHAT WE DO STARTS HERE</li>
+                    <li>WHAT WE DO STARTS HERE-------------------------</li>
                     <li>Photo</li>
                     <li>Services We Offer</li>
                     <li>Our student employees are diverse, talented, and hard-working. What they can do is almost limitless. We currently operate basic and advanced call center operations, data mining and analytical services, telephone sales support, ticket sales, event support, and donor solicitation.</li>
@@ -66,78 +69,78 @@
             </div>
             <div>
                 <h2>Our Students - Who We Are</h2>
+                <img class="defaultpicture" src="assets/TPSpencerP.png" alt="">
+                <img class="defaultpicture" src="assets/TPChloeB.png" alt="">
+                <img class="defaultpicture" src="assets/TPJacobM.png" alt="">
+                <img class="defaultpicture" src="assets/TPAndrewE.png" alt="">
+                <img class="defaultpicture" src="assets/TPDylanD.png" alt="">
+                <img class="defaultpicture" src="assets/TPMicaelaS.png" alt="">
                 <ul>
                     <li>Talent Pipeline</li>
                     <li>Since 2017 more than 70 of our student employees have been employed by our partners. When you hire UMRF Ventures Inc we can become a training ground for your future staff.</li>
-                    <li>Quote Photo</li>
-                    <li>Quote Photo</li>
-                    <li>Quote Photo</li>
-                    <li>Quote Photo</li>
-                    <li>Quote Photo</li>
-                    <li>Quote Photo</li>
                     <li></li>
                 </ul>
             </div>
             <div>
                 <h2>Our Team and Governance</h2>
+                <img class="defaultpicture" src="assets/TeamPierreLandaiche.png" alt="">
+                <img class="defaultpicture" src="assets/TeamSheritaJohnson.png" alt="">
+                <img class="defaultpicture" src="assets/TeamKeithSisson.png" alt="">
+                <img class="defaultpicture" src="assets/TeamJuttaSchneider.png" alt="">
+                <img class="defaultpicture" src="assets/TeamJasmineSankhon.png" alt="">
+                <img class="defaultpicture" src="assets/TeamLashawnWillingham.png" alt="">
+                <img class="defaultpicture" src="assets/TeamKatyHiggins.png" alt="">
+                <img class="defaultpicture" src="assets/TeamCruzSeguraRamirez.png" alt="">
+                <img class="defaultpicture" src="assets/TeamLaurenBoyette.png" alt="">
+                <img class="defaultpicture" src="assets/UMRFFrontLawn.png" alt="">
+                <img class="defaultpicture" src="assets/GovernanceTomKadien.png" alt="">
+                <img class="defaultpicture" src="assets/GovernancePierreLandaiche.png" alt="">
+                <img class="defaultpicture" src="assets/GovernanceLanWang.png" alt="">
+                <img class="defaultpicture" src="assets/GovernanceJasbirDhaliwal.png" alt="">
+                <img class="defaultpicture" src="assets/GovernanceDonHutson.png" alt="">
+                <img class="defaultpicture" src="assets/GovernanceRaajKurapati.png" alt="">
+                <img class="defaultpicture" src="assets/GovernanceRickSpell.png" alt="">
+                <img class="defaultpicture" src="assets/GovernanceMarkFogelman.png" alt="">
+                <img class="defaultpicture" src="assets/GovernancePatrickElam.png" alt="">
                 <ul>
-                    <li>Photo</li>
                     <li>Pierre Landaiche – CEO</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Sherita Johnson – Managing Director | Business Division A</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Keith Sisson – Managing Director | Business Division B</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Jutta “JT” Schneider – Director | Project Management & Corporate Initiatives</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Jasmine Sankhon – Manager | ECS</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>LaShawn Willingham – Manager | Sedgwick</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Katy Higgins – Manager | FedEx Command Center</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Cruz Segura-Ramirez – Manager | Workforce Management</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Lauren Boyette – Manager | Raymond James</li>
                     <li>Description</li>
                     <li>GOVERNANCE STARTS HERE</li>
-                    <li>Photo</li>
                     <li>Governance</li>
                     <li>UMRF Ventures was established as a for-profit, C Corporation in 2017. We are affiliated with the University of Memphis, but the University of Memphis Research Foundation owns 100% of the shares of our company. Any profits that Ventures earns are paid back to the Research Foundation in the form of dividends.</li>
                     <li>The company has about 10 full-time employees and over 200 part-time student employees.</li>
                     <li>UMRF Ventures Board Members</li>
-                    <li>Photo</li>
                     <li>Tom Kadien Chairman</li>
-                    <li>Photo</li>
                     <li>Pierre Lanaiche CEO (Link)</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Lan Wang (Link)</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Jasbir Dhaliwal (Link)</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Don Hutson (Link)</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Raaj Kurapati (Link)</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Rick Spell (Link)</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Patrick Elam (Link)</li>
                     <li>Description</li>
-                    <li>Photo</li>
                     <li>Mark Fogelman (Link)</li>
                     <li>Description</li>
                     <li></li>
