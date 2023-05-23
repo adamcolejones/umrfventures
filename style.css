@@ -464,6 +464,39 @@ li {
   border: 1px solid black;
 }
 
+.servicessection {
+  display: inline-flex;
+  width: 50%;
+  vertical-align: top;
+}
+
+.servicessectionpicture {
+  display: inline;
+}
+
+
+.servicessectiontext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+}
+
+.servicestitle {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.servicesdescription {
+  display: block;
+}
+
+/* ONCE THE SCREEN WIDTH IS TOO SMALL, REARRANGE CONTENT */
+@media screen and (max-width: 600px) {
+  .servicessection {
+    width: 100%;
+  }
+}
+
 .sociallinks {
   display: flex;
   align-items: center;

@@ -26,6 +26,7 @@
         ?>
         <div class="scrollableContent">
             <h2>Contact Us</h2>
+            <img class="defaultpicture" src="assets/UMRFBuildingFront.png" alt="">
             <ul>
                 <li>Photo</li>
                 <li>Contact Us</li>
