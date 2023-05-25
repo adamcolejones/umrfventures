@@ -49,9 +49,9 @@
                 <li>Our students typically work 10-20 hours per week. We schedule their work hours around their classroom commitments.</li>
                 <li></li>
             </ul>
-        </div>
-        <div class="contactfooter">
+            <div class="contactfooter">
 
+            </div>
         </div>
     </body>
 </html>

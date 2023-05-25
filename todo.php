@@ -27,95 +27,24 @@
         <div class="scrollableContent">
             <h2>To Do List</h2>
             <ul>
-                <li>Consistent Naming Across Tab Items and File Names</li>
-                <li>Github Integration</li>
                 <li>Merge contact information / social media links to the bottom</li>
                 <li>Get White Version of UMRF Logo</li>
-                <li>Combine: Who We Are + What We Do</li>
-                <li>Combine: Home + Media Room</li>
-                <li>Combine: Contact + Footer</li>
-                <li>Have all content shifted, expecting the scroll bar.</li>
-                <li>This way the content on the page won't change when the scroll bar appears</li>
                 <li>We should look into more campus footage and slow shots</li>
                 <li>Chimesolutions.com (white logo, shortened menu titles)</li>
+                <li>Chime solutions, culture (view values)</li>
                 <li>Leoevents.com (hoverable content)</li>
                 <li>Consider the trade-offs of a colorful page vs. a colorful logo</li>
-                <li>Assets should have folders pertaining to each page's content</li>
                 <li>Menu sizing, pixels shrink in phone view, revert to vh sizing</li>
-                <li>Get consistent sizing across body, menu, scrollable content, and footer</li>
-                <li>Covid-19 Red Banner</li>
                 <li>Hamburger Menu</li>
                 <li>Popups on scrolled content</li>
                 <li>more animations</li>
-                <li>more color, constistency with font, weight, and colors</li>
                 <li>cohesive consistent design</li>
                 <li>Photos with titles on top</li>
-                <li>Chime solutions, culture (view values)</li>
-                <li>talent pipeline is important</li>
                 <li>flashcard movement transitions with titles and descriptions</li>
                 <li>Background photos</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <h2>Testing</h2>
-            <ul>
-                <li>This list is longer to test page length and scrolling</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>bottom line</li>
+                <li>Consider: Move Governance into the Services Page to show businesses who they will be working with</li>
+                <li>Consider: Move Team into the Employment Page to show new employees who they will be working for</li>
+                <li>Link to student pipe-line in both services and employment.  Students want to see where they will be too</li>
             </ul>
             <div class="contactfooter">
 

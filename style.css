@@ -78,6 +78,10 @@ body {
     align-items: end;
 }
 
+.contactpicture {
+  width: 100%;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ████████████
@@ -298,10 +302,8 @@ li {
     display: flex;
     align-items: center;
     justify-content: right;
-    /* background: #254992; */
-    /* background: #26275d; */
-    /* background: #0e0e21; */
     background: #254992;
+    /* background-image: linear-gradient(to top, rgba(37,73,146,0), rgba(37,73,146,1)); */
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: hidden;

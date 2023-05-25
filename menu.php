@@ -16,7 +16,7 @@
                 <a href="index.php" class="menuitem">Home</a>
                 <a href="services.php" class="menuitem">Services</a>
                 <a href="employment.php" class="menuitem">Employment</a>
-                <a href="contact.php" class="menuitem">Contact Us</a>
+                <a href="contact.php" class="menuitem">Contact</a>
                 <div class="menuitem"></div>
             </div>
         ';
