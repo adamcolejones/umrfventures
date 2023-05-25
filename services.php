@@ -26,7 +26,7 @@
         <?php
             menu()
         ?>
-        <div class="scrollableContenttest">
+        <div class="scrollableContent">
             <div>
                 <video width="100%" height="auto" controls loop autoplay playsinline muted>
                     <source src="assets/homevideo.mp4" type="video/mp4">    
