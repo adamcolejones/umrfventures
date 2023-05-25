@@ -26,7 +26,7 @@
         <?php
             menu()
         ?>
-        <div class="scrollableContent">
+        <div class="scrollableContenttest">
             <div>
                 <video width="100%" height="auto" controls loop autoplay playsinline muted>
                     <source src="assets/homevideo.mp4" type="video/mp4">    
@@ -66,7 +66,7 @@
                 </div>
                 <div class="servicessectiontext">
                     <div class="servicestitle">FAQs</div>
-                    <div class="servicesdescription">Description Goes Here  <a href="faq.php" class="readmore">Read More</a></div>
+                    <div class="servicesdescription">Description Goes Here<a href="faq.php" class="readmore">Read More</a></div>
                 </div>
             </div>
             

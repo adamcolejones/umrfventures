@@ -67,7 +67,7 @@ body {
 
 .contactfooter {
     /* background: #0e0e21; */
-    background: #254992;
+    background: #060d1a;
     position: sticky;
     display: block; /*Display block moves all surrounding content above or below this content*/
     /*This height needs to match the .scrollablecontent padding*/
@@ -302,7 +302,8 @@ li {
     display: flex;
     align-items: center;
     justify-content: right;
-    background: #254992;
+    /* background: #254992; */
+    background: linear-gradient(to right, black , #060d1a);
     /* background-image: linear-gradient(to top, rgba(37,73,146,0), rgba(37,73,146,1)); */
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -454,8 +455,29 @@ li {
   right: 0px;
   /* -OLD- background: #474554; */
   /* background: #D5EDEE; */
-  background: white;
-  color: #254992;
+  background: #091325;
+  color: white;
+  z-index: 2; /*The lower the number, the further back the content is*/
+  /* margin-bottom: 5vh; */
+}
+
+.scrollableContenttest {
+  position: relative;
+  overflow-y: auto;
+  display: block;
+  width: 100vw;
+  height: calc(95%);
+  min-height: 95vh;
+  /* View height Prevents White space when resizing windows*/
+  /* top: 5vh; */
+  top: 5%;
+  /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
+  left: 0px;
+  right: 0px;
+  /* -OLD- background: #474554; */
+  /* background: #D5EDEE; */
+  background: #091325;
+  color: white;
   z-index: 2; /*The lower the number, the further back the content is*/
   /* margin-bottom: 5vh; */
 }
@@ -468,8 +490,16 @@ li {
 
 .servicessection {
   display: inline-flex;
-  width: 50%;
+  width: 100%;
   vertical-align: top;
+  /* background-color:#122449; */
+}
+
+/* ONCE THE SCREEN WIDTH IS TOO SMALL, REARRANGE CONTENT */
+@media screen and (min-width: 768px) {
+  .servicessection {
+    width: 50%;
+  }
 }
 
 .servicessectionpicture {
@@ -481,6 +511,11 @@ li {
   display: inline;
   width: fit-content;
   text-overflow: wrap;
+  color: white;
+}
+
+.servicessectiontext a {
+  color: white;
 }
 
 .servicestitle {
@@ -490,13 +525,6 @@ li {
 
 .servicesdescription {
   display: block;
-}
-
-/* ONCE THE SCREEN WIDTH IS TOO SMALL, REARRANGE CONTENT */
-@media screen and (max-width: 600px) {
-  .servicessection {
-    width: 100%;
-  }
 }
 
 .sociallinks {
