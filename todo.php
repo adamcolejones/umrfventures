@@ -45,6 +45,10 @@
                 <li>Consider: Move Governance into the Services Page to show businesses who they will be working with</li>
                 <li>Consider: Move Team into the Employment Page to show new employees who they will be working for</li>
                 <li>Link to student pipe-line in both services and employment.  Students want to see where they will be too</li>
+                <li>Need another div container inside the menu bar to prevent flex auto sizing based on the menu item height</li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
             <div class="contactfooter">
 

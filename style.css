@@ -299,9 +299,10 @@ li {
     padding-right: 50px;
     /*Needs to be the same as video top margin*/
     min-height: 5%; 
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: right;
+    /* align-items: center; */
+    /* justify-content: right; */
     /* background: #254992; */
     background: linear-gradient(to right, black, 20%, #060d1a);
     /* background-image: linear-gradient(to top, rgba(37,73,146,0), rgba(37,73,146,1)); */
@@ -318,6 +319,15 @@ li {
   float: right;
   padding: 5px;
   font-size: 1.3vh;
+}
+
+.menuitemcontainer {
+  position: fixed;
+  width: 100%;
+  min-height: 5%; 
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
 /* Style the button used to pause/play the video */
@@ -586,8 +596,9 @@ ul {
   display: block
 }
 .umrflogo {
+  position: relative;
   max-width: 100%;
-  max-height: 100%;
+  /* max-height: 100%; */
   flex: 3;
   position: absolute;
   left: 0px;
