@@ -25,9 +25,9 @@
             menu()
         ?>
         <div class="scrollableContent">
+            <img class="contactpicture" src="assets/UMRFBuildingFront.png" alt="">
             <h2>Contact Us</h2>
             <ul>
-                <li>Photo</li>
                 <li>Contact Us</li>
                 <li>UMRF Ventures, Inc 4075 Park Avenue Memphis, TN 38111</li>
                 <li>Phone: (901) 678-4444 Email: info@umrfventures.com</li>

@@ -47,6 +47,7 @@ body {
     background-color: #fff;
     position: relative;
     height: 100%;
+    position: fixed; /*When the Body is fixed, we don't see scroll bar overlaying the menu, instead we only see scroll bars where the content extends past the height of the window*/
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -66,14 +67,19 @@ body {
 
 .contactfooter {
     /* background: #0e0e21; */
-    background: #254992;
-    position: relative;
+    background: #060d1a;
+    position: sticky;
     display: block; /*Display block moves all surrounding content above or below this content*/
     /*This height needs to match the .scrollablecontent padding*/
     height: 5%; /*having to use % instead of pixels for consistency with menu sizing*/ 
     width: 100%;
-    bottom: 0;
+    top: 100%; /*keeps footer at the bottom of the page*/
     z-index: 3;
+    align-items: end;
+}
+
+.contactpicture {
+  width: 100%;
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -90,6 +96,10 @@ body {
  ██░░░░░░░░████
  ████████████
 */
+
+.defaultpicture {
+  height: 100px;
+}
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
@@ -120,6 +130,18 @@ body {
  ██░░██
  ██████
 */
+
+.facebooklogo {
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.fedexlogo {
+  /* width: 50px; */
+  height: 100px;
+  border: 1px solid black;
+}
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
@@ -165,6 +187,8 @@ html {
     background-color: #fff;
     position: relative;
     height: 100%;
+    /* Keeps Scroll bar from shifting the content of the page*/
+    /* overflow-y: overlay;  */
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -181,6 +205,25 @@ html {
  ██░░░░░░██
  ██████████
 */
+
+.inlinetextlink {
+  color: #0073e5;
+  display: inline;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.inlinetexttitle {
+  /* color: #3AA4DF; */
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.instagramlogo {
+  height: 50px;
+  border: 1px solid black;
+}
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
@@ -232,6 +275,11 @@ li {
   display: block;
 }
 
+.linkedinlogo {
+  height: 50px;
+  border: 1px solid black;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /*
 ██████          ██████
@@ -250,17 +298,20 @@ li {
 .menu {
     position: fixed;
     width: 100%;
-    min-height: 5%; /*Needs to be the same as video top margin*/
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    padding-right: 50px;
+    /*Needs to be the same as video top margin*/
+    min-height: 5%; 
+    height: auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: right; */
     /* background: #254992; */
-    /* background: #26275d; */
-    /* background: #0e0e21; */
-    background: #254992;
+    background: linear-gradient(to right, black, 20%, #060d1a);
+    /* background-image: linear-gradient(to top, rgba(37,73,146,0), rgba(37,73,146,1)); */
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: hidden;
+    /* gap: 10px; */
 }
 
 .menuitem {
@@ -269,6 +320,17 @@ li {
   color: white;
   float: right;
   padding: 5px;
+  font-size: 1.3vh;
+}
+
+.menuitemcontainer {
+  position: fixed;
+  width: 100%;
+  min-height: inherit; 
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 10px;
 }
 
 /* Style the button used to pause/play the video */
@@ -334,6 +396,13 @@ li {
 ██████
 */
 
+.partnerrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -363,6 +432,13 @@ li {
  ██████  ██████████
  */
 
+.raymondjameslogo {
+  /* width: 50px; */
+  height: 150px;
+  border: 1px solid black;
+  background-color: white;
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -379,18 +455,89 @@ li {
  */
 
 .scrollableContent {
-    position: relative;
-    display: block;
-    top: 5vh; /* View height Prevents White space when resizing windows*/
-    padding-bottom: 5vh; /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
-    left: 0px;
-    right: 0px;
-    min-height: 90%;
-    /* -OLD- background: #474554; */
-    background: #D5EDEE;
-    color: #254992;
-    z-index: 2; /*The lower the number, the further back the content is*/
-    /* margin-bottom: 5vh; */
+  position: relative;
+  overflow-y: auto;
+  display: block;
+  width: 100vw;
+  height: calc(95%);
+  min-height: 95vh;
+  /* View height Prevents White space when resizing windows*/
+  /* top: 5vh; */
+  top: 5%;
+  /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
+  left: 0px;
+  right: 0px;
+  /* -OLD- background: #474554; */
+  /* background: #D5EDEE; */
+  background: #091325;
+  color: white;
+  z-index: 2; /*The lower the number, the further back the content is*/
+  /* margin-bottom: 5vh; */
+}
+
+.sedgwicklogo {
+  /* width: 50px; */
+  height: 100px;
+  border: 1px solid black;
+}
+
+.servicessection {
+  display: inline-flex;
+  width: 100%;
+  vertical-align: top;
+  /* background-color:#122449; */
+}
+
+/* ONCE THE SCREEN WIDTH IS TOO SMALL, REARRANGE CONTENT */
+@media screen and (min-width: 650px) {
+  .servicessection {
+    width: 50%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .servicessection {
+    width: 50%;
+  }
+}
+
+/* @media screen and (orientation: portrait) {
+  .servicessection {
+    width: 100%;
+  }
+} */
+
+.servicessectionpicture {
+  display: inline;
+}
+
+
+.servicessectiontext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  color: white;
+}
+
+.servicessectiontext a {
+  color: white;
+}
+
+.servicestitle {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.servicesdescription {
+  display: block;
+}
+
+.sociallinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -421,6 +568,33 @@ li {
   /* Transition time is determined in the parent class */
 }
 
+.textcontent {
+  padding: 50px 50px 0px 50px;
+}
+
+.textdescription {
+  /* color: #6EC1E4; */
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.textlink {
+  color: #0073e5;
+}
+
+.texttitle {
+  /* color: #3AA4DF; */
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.twitterlogo {
+  height: 50px;
+  border: 1px solid black;
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ██████  ██████
@@ -440,11 +614,13 @@ ul {
   display: block
 }
 .umrflogo {
-  max-width: 100%;
-  max-height: 100%;
-  flex: 3;
+  position: relative;
+  /* max-width: 100%; */
+  max-height: calc(100% - 20px);
+  padding: 10px;
+  height: inherit;
   position: absolute;
-  left: 0px;
+  left: 20px;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -492,6 +668,100 @@ ul {
  ██░░██████░░██████░░██
  ██████  ██████  ██████
 */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #050b15;
+  box-shadow: inset 0 0 5px black; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0e1c37; 
+  /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d1a31; 
+}
+
+.welcomecontainer {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
+  border-bottom: 10px solid #38348b;
+  /* background-color:#122449; */
+  background: linear-gradient(to right, #060d1a, 60%, #091325);
+}
+
+/* ONCE THE SCREEN WIDTH IS TOO SMALL, REARRANGE CONTENT */
+@media screen and (max-width: 650px) { /*These max-widths need to match each other*/
+  .welcomecontainer {
+    /* display: flex; */
+    flex-direction: column-reverse;
+  }
+}
+
+.welcomedescription {
+  display: block;
+  padding: 20px 0px 10px 0px; 
+}
+
+.welcometext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+}
+
+@media screen and (max-width: 650px) { /*These max-widths need to match each other*/
+  .welcometext {
+    padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+    /* display: flex; */
+  }
+}
+
+.welcometitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 50px;
+  color: #0073e5;
+}
+.welcomesubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+.welcomevideo {
+  display: inline;
+  width: 50%;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;  
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+@media screen and (max-width: 650px) { /*These max-widths need to match each other*/
+  .welcomevideo {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    /* display: flex; */
+  }
+}
+
+
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
