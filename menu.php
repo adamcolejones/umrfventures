@@ -11,7 +11,7 @@
 
     function menu() {
         echo'  
-            <div class="menu">
+            <nav class="menu">
                 <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
                 <div class="menuitemcontainer">
                     <a href="index.php" class="menuitem">Home</a>
@@ -22,6 +22,6 @@
                     <div class="menuitem"></div>
                     <div class="menuitem"></div>
                 </div>
-            </div>
+            </nav>
         ';
     }
