@@ -35,24 +35,25 @@
         ?>
         <div class="scrollableContent">
         <!-- - 3. The Home video will autoplay on most browsers if it's muted on start -->
-            <div>
-                <video width="100%" height="auto" controls loop autoplay playsinline muted>
+            <div class="welcomecontainer">
+                <video class="welcomevideo" loop autoplay playsinline muted>
                     <source src="assets/homevideo.mp4" type="video/mp4">    
                 </video>
+                <div class="welcometext">
+                    <div class="welcometitle">Unique Models and Solutions.</div>
+                    <div class="welcomesubtitle">Building Talent Pipelines.</div>
+                    <div class="welcomedescription">A managed service provider employing University students to meet your needs</div>
+                </div>
             </div>
             <!-- - 4. Value Titles and Descriptions -->
             <div class="textcontent">
-                <div class="texttitle">A Unique Solution</div>
-                <div class="textdescription">A managed service provider employing University students to meet your needs</div>
-            </div>
-            <div class="textcontent">
-                <div class="texttitle">A Unique Model</div>
+                <div class="texttitle">Partner With Us</div>
                 <div class="textdescription">One of the only private companies in America owned by a public university – doing what we do</div>
             </div>
             <div class="textcontent">
                 <div>
-                    <span class="inlinetexttitle">A Unique</span>
-                    <a class="inlinetextlink" href="">Talent Pipeline</a>
+                    <span class="inlinetexttitle">Placeholder Text Here</span>
+                    <!-- <a class="inlinetextlink" href="">Talent Pipeline</a> -->
                 </div>
                 <div class="textdescription">When our students graduate,  you have trained and qualified candidates for jobs in your organization</div>
             </div>

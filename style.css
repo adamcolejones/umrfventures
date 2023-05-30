@@ -134,6 +134,7 @@ body {
 .facebooklogo {
   height: 50px;
   border: 1px solid black;
+  background-color: white;
 }
 
 .fedexlogo {
@@ -213,7 +214,8 @@ html {
 }
 
 .inlinetexttitle {
-  color: #3AA4DF;
+  /* color: #3AA4DF; */
+  color: white;
   font-weight: 700;
   font-size: 50px;
 }
@@ -300,7 +302,7 @@ li {
     /*Needs to be the same as video top margin*/
     min-height: 5%; 
     height: auto;
-    display: flex;
+    /* display: flex; */
     /* align-items: center; */
     /* justify-content: right; */
     /* background: #254992; */
@@ -309,7 +311,7 @@ li {
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: hidden;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .menuitem {
@@ -324,10 +326,11 @@ li {
 .menuitemcontainer {
   position: fixed;
   width: 100%;
-  min-height: 5%; 
+  min-height: inherit; 
   display: flex;
   align-items: center;
   justify-content: right;
+  gap: 10px;
 }
 
 /* Style the button used to pause/play the video */
@@ -397,7 +400,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -433,6 +436,7 @@ li {
   /* width: 50px; */
   height: 150px;
   border: 1px solid black;
+  background-color: white;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -485,11 +489,23 @@ li {
 }
 
 /* ONCE THE SCREEN WIDTH IS TOO SMALL, REARRANGE CONTENT */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 650px) {
   .servicessection {
     width: 50%;
   }
 }
+
+@media screen and (orientation: landscape) {
+  .servicessection {
+    width: 50%;
+  }
+}
+
+/* @media screen and (orientation: portrait) {
+  .servicessection {
+    width: 100%;
+  }
+} */
 
 .servicessectionpicture {
   display: inline;
@@ -557,7 +573,8 @@ li {
 }
 
 .textdescription {
-  color: #6EC1E4;
+  /* color: #6EC1E4; */
+  color: white;
   font-weight: 500;
   font-size: 30px;
 }
@@ -567,7 +584,8 @@ li {
 }
 
 .texttitle {
-  color: #3AA4DF;
+  /* color: #3AA4DF; */
+  color: white;
   font-weight: 700;
   font-size: 50px;
 }
@@ -597,11 +615,12 @@ ul {
 }
 .umrflogo {
   position: relative;
-  max-width: 100%;
-  /* max-height: 100%; */
-  flex: 3;
+  /* max-width: 100%; */
+  max-height: calc(100% - 20px);
+  padding: 10px;
+  height: inherit;
   position: absolute;
-  left: 0px;
+  left: 20px;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -649,6 +668,100 @@ ul {
  ██░░██████░░██████░░██
  ██████  ██████  ██████
 */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #050b15;
+  box-shadow: inset 0 0 5px black; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0e1c37; 
+  /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d1a31; 
+}
+
+.welcomecontainer {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
+  border-bottom: 10px solid #38348b;
+  /* background-color:#122449; */
+  background: linear-gradient(to right, #060d1a, 60%, #091325);
+}
+
+/* ONCE THE SCREEN WIDTH IS TOO SMALL, REARRANGE CONTENT */
+@media screen and (max-width: 650px) { /*These max-widths need to match each other*/
+  .welcomecontainer {
+    /* display: flex; */
+    flex-direction: column-reverse;
+  }
+}
+
+.welcomedescription {
+  display: block;
+  padding: 20px 0px 10px 0px; 
+}
+
+.welcometext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+}
+
+@media screen and (max-width: 650px) { /*These max-widths need to match each other*/
+  .welcometext {
+    padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+    /* display: flex; */
+  }
+}
+
+.welcometitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 50px;
+  color: #0073e5;
+}
+.welcomesubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+.welcomevideo {
+  display: inline;
+  width: 50%;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;  
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+@media screen and (max-width: 650px) { /*These max-widths need to match each other*/
+  .welcomevideo {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    /* display: flex; */
+  }
+}
+
+
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 

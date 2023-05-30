@@ -60,6 +60,14 @@
                     <div class="servicesdescription">Description Goes Here  <a href="management.php" class="readmore">Read More</a></div>
                 </div>
             <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
+            </div><div class="servicessection">
+                <div class="servicessectionpicture">
+                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
+                </div>
+                <div class="servicessectiontext">
+                    <div class="servicestitle">FAQs</div>
+                    <div class="servicesdescription">Description Goes Here<a href="faq.php" class="readmore">Read More</a></div>
+                </div>
             </div>
             
             <div class="contactfooter">
