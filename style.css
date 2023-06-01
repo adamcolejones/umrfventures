@@ -299,19 +299,12 @@ li {
     position: fixed;
     width: 100%;
     padding-right: 50px;
-    /*Needs to be the same as video top margin*/
-    min-height: 5%; 
-    height: auto;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: right; */
-    /* background: #254992; */
+    /*height needs to match the scrollable content height*/
+    min-height: 10%; 
     background: linear-gradient(to right, black, 10%, #060d1a);
-    /* background-image: linear-gradient(to top, rgba(37,73,146,0), rgba(37,73,146,1)); */
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: hidden;
-    /* gap: 10px; */
 }
 
 .menuitem {
@@ -414,6 +407,7 @@ li {
   align-items: center;
   justify-content: space-evenly;
   padding-top: 100px;
+  height: max-content;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -447,7 +441,7 @@ li {
 
 .raymondjameslogo {
   /* width: 50px; */
-  height: 150px;
+  height: 100px;
   border: 1px solid black;
   background-color: white;
 }
@@ -472,11 +466,11 @@ li {
   overflow-y: auto;
   display: block;
   width: 100vw;
-  height: calc(95%);
-  min-height: 95vh;
+  height: calc(90%);
+  min-height: 90vh;
   /* View height Prevents White space when resizing windows*/
   /* top: 5vh; */
-  top: 5%;
+  top: 10%;
   /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
   left: 0px;
   right: 0px;
@@ -608,12 +602,10 @@ ul {
   display: block
 }
 .umrflogo {
-  position: relative;
-  /* max-width: 100%; */
+  position: absolute;  /* max-width: 100%; */
   max-height: calc(100% - 20px);
+  height: 100%;
   padding: 10px;
-  height: inherit;
-  position: absolute;
   left: 20px;
 }
 
@@ -722,7 +714,6 @@ ul {
   font-weight: 700;
   font-size: 50px;
   color: #0073e5;
-  
 }
 .welcomesubtitle {
   display:inline-block;

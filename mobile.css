@@ -216,19 +216,17 @@
   position: fixed;
   width: 100%;
   padding-right: 50px;
-  /*Needs to be the same as video top margin*/
-  min-height: 5%; 
-  height: auto;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: right; */
-  /* background: #254992; */
-  /* background: linear-gradient(to right, black, 20%, red); */
   background: linear-gradient(to right, black, 40%, #060d1a);
   z-index: 10; /*Higher the number, the further front the content is*/
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   overflow: hidden;
+  /*height needs to match the scrollable content height*/
+  min-height: 7%; 
   /* gap: 10px; */
+}
+
+.menuitem {
+  font-size: 2.5vh;
 }
 
 /* ---------------------------------------------------------------------------------------------- N ---------------------------------------------------------------------------------------------- */
@@ -320,10 +318,16 @@
  ██████████████
  */
 
+.scrollableContent {
+  /* View height Prevents White space when resizing windows*/
+  height: calc(93%);
+  min-height: 93vh;
+  top: 7%;
+}
+
 .servicessection {
   display: inline-flex;
   width:50%;
-  vertical-align: top;
 }
 
 
@@ -397,10 +401,11 @@
 .welcomecontainer {
   display: inline-flex;
   flex-direction: column-reverse;
+  /* flex-direction: column; */
   align-items: center;
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
-  padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
+  padding: 5% 5% 10% 5%; /*top, right, bottom. left*/
   border-bottom: 10px solid #38348b;
   /* background-color:#122449; */
   background: linear-gradient(to right, #060d1a, 60%, #091325);
@@ -408,7 +413,7 @@
 
 .welcomedescription {
   display: block;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 40;
   padding: 20px 0px 10px 0px; 
 }
@@ -418,12 +423,18 @@
   width: fit-content;
   text-overflow: wrap;
   padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.welcometitle {
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .welcomevideo {
   display: inline;
   width: 100%;
-  margin: 20px 0px 0px 0px;
+  margin: 5% 0px 0% 0px;
   height: max-content;
   box-shadow: 0px 0px 100px 10px #060d1a;  
   /* margin: 100px 0px 100px 0px; */

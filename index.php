@@ -62,9 +62,10 @@
                     <source src="assets/homevideo.mp4" type="video/mp4">    
                 </video>
                 <div class="welcometext">
-                    <div class="welcometitle">A UNIQUE MODEL</div>
+                    <div class="welcometitle">A UNIQUE MODEL&nbsp;</div>
                     <div class="welcometitle">WITH UNIQUE SOLUTIONS</div>
-                    <div class="welcomesubtitle">BUILDING YOUR TALENT PIPELINE</div>
+                    <div class="welcomesubtitle">BUILDING YOUR </div>
+                    <div class="welcomesubtitle">TALENT PIPELINE</div>
                     <div class="welcomedescription">UMRF Ventures is a managed service and contact center provider employing University students to meet your needs.</div>
                 </div>
             </div>
