@@ -306,7 +306,7 @@ li {
     /* align-items: center; */
     /* justify-content: right; */
     /* background: #254992; */
-    background: linear-gradient(to right, black, 20%, #060d1a);
+    background: linear-gradient(to right, black, 10%, #060d1a);
     /* background-image: linear-gradient(to top, rgba(37,73,146,0), rgba(37,73,146,1)); */
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -347,6 +347,19 @@ li {
 #myBtn:hover {
   background: #ddd;
   color: black;
+}
+
+.menu1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  transition: transform .2s; /* Animation */
+}
+
+.menu1:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: blue;
+  /* Transition time is determined in the parent class */
 }
 
 
@@ -685,7 +698,13 @@ ul {
 
 .welcomedescription {
   display: block;
-  padding: 20px 0px 10px 0px; 
+  font-size: 20px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  /* text-align: center; */
 }
 
 .welcometext {
@@ -693,6 +712,8 @@ ul {
   width: fit-content;
   text-overflow: wrap;
   padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+  font-size: fit-content;
+  font-variant: small-caps;
 }
 
 .welcometitle {
@@ -701,13 +722,16 @@ ul {
   font-weight: 700;
   font-size: 50px;
   color: #0073e5;
+  
 }
 .welcomesubtitle {
   display:inline-block;
   vertical-align: top;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 50px;
   color: white;
+  letter-spacing: -1px;
+  line-height: 50px;;
 }
 
 .welcomevideo {

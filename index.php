@@ -32,18 +32,18 @@
         <style id="style-sheet"></style>
         <script>
             function setStylesheet() {
-            var screenWidth = window.innerWidth;
-            var screenHeight = window.innerHeight;
-            var styleSheet = document.getElementById('style-sheet');
+                var screenWidth = window.innerWidth;
+                var screenHeight = window.innerHeight;
+                var styleSheet = document.getElementById('style-sheet');
 
-            // If screen is wider than its height, apply "style.css"
-            if (screenWidth > screenHeight) {
-                styleSheet.innerHTML = '@import "style.css";';
-            }
-            // Otherwise, apply "mobile.css"
-            else {
-                styleSheet.innerHTML = '@import "mobile.css";';
-            }
+                // If screen is wider than its height, apply "style.css"
+                if (screenWidth > screenHeight) {
+                    styleSheet.innerHTML = '@import "style.css";';
+                }
+                // Otherwise, apply "mobile.css"
+                else {
+                    styleSheet.innerHTML = '@import "mobile.css";';
+                }
             }
 
             window.addEventListener('resize', setStylesheet);
@@ -62,9 +62,10 @@
                     <source src="assets/homevideo.mp4" type="video/mp4">    
                 </video>
                 <div class="welcometext">
-                    <div class="welcometitle">Unique Models and Solutions.</div>
-                    <div class="welcomesubtitle">Building Talent Pipelines.</div>
-                    <div class="welcomedescription">A managed service provider employing University students to meet your needs.</div>
+                    <div class="welcometitle">A UNIQUE MODEL</div>
+                    <div class="welcometitle">WITH UNIQUE SOLUTIONS</div>
+                    <div class="welcomesubtitle">BUILDING YOUR TALENT PIPELINE</div>
+                    <div class="welcomedescription">UMRF Ventures is a managed service and contact center provider employing University students to meet your needs.</div>
                 </div>
             </div>
             <!-- - 4. Value Titles and Descriptions -->
@@ -93,19 +94,7 @@
                 <img class="instagramlogo" src="assets/Instagram Logo.png" alt="">
                 <img class="twitterlogo" src="assets/Twitter Logo.png" alt="">
             </div>
-            <!-- - 7. News, Media Room, testing links -->
-            <h2>Media Room</h2>
-            <ul>
-                <li>Carousell of Most Recent News Stories</li>
-                <li>Older Stories listed below</li>
-                <li>UMRF Logo</li>
-                <li>Title</li>
-                <li>Description</li>
-                <li>Read More Link</li>
-                <li>Repeat Per Story</li>
-                <li></li>
-            </ul>
-            <a href="todo.php">To Do List</a>
+            <!-- - 7. testing links -->
             <a href="test.php">Test</a>
             <!-- - 8. Contact Footer -->
             <div class="contactfooter">

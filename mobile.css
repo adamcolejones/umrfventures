@@ -59,6 +59,24 @@
  ████████████
 */
 
+.dropdown .menuitemcontainer {
+  display: none;
+}
+
+.dropdown .toggle-button {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.dropdown .menuitem {
+  display: block;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -205,8 +223,8 @@
   /* align-items: center; */
   /* justify-content: right; */
   /* background: #254992; */
-  background: linear-gradient(to right, black, 20%, red);
-  /* background-image: linear-gradient(to top, rgba(37,73,146,0), rgba(37,73,146,1)); */
+  /* background: linear-gradient(to right, black, 20%, red); */
+  background: linear-gradient(to right, black, 40%, #060d1a);
   z-index: 10; /*Higher the number, the further front the content is*/
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   overflow: hidden;
@@ -324,6 +342,13 @@
      ██████
 */
 
+.textdescription {
+  /* color: #6EC1E4; */
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ██████  ██████
@@ -379,6 +404,13 @@
   border-bottom: 10px solid #38348b;
   /* background-color:#122449; */
   background: linear-gradient(to right, #060d1a, 60%, #091325);
+}
+
+.welcomedescription {
+  display: block;
+  font-size: 40px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px; 
 }
 
 .welcometext {
