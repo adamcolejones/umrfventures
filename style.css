@@ -313,7 +313,7 @@ li {
   color: white;
   float: right;
   padding: 5px;
-  font-size: 1.3vh;
+  font-size: 2vh;
 }
 
 .menuitemcontainer {
@@ -490,7 +490,7 @@ li {
 
 .servicessection {
   display: inline-flex;
-  width: 100%;
+  width: 50%;
   vertical-align: top;
   /* background-color:#122449; */
 }
@@ -684,9 +684,14 @@ ul {
   vertical-align: top;
   padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
   border-bottom: 10px solid #38348b;
-  /* background-color:#122449; */
-  background: linear-gradient(to right, #060d1a, 60%, #091325);
+  background-image: url('assets/CampusAdministrationBuildingBlur.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,25,.80);
+  background-blend-mode: multiply;
 }
+
 
 .welcomedescription {
   display: block;
@@ -696,6 +701,7 @@ ul {
   font-style: italic;
   color: rgba(255, 255, 255, 0.728);
   font-variant: none;
+  z-index: 10;
   /* text-align: center; */
 }
 
@@ -706,6 +712,8 @@ ul {
   padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
   font-size: fit-content;
   font-variant: small-caps;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0px 0px 100px 10px #060d1a;   */
 }
 
 .welcometitle {
@@ -729,7 +737,8 @@ ul {
   display: inline;
   width: 50%;
   height: max-content;
-  box-shadow: 0px 0px 100px 10px #060d1a;  
+  box-shadow: 0px 0px 100px 10px #060d1a;
+  flex: 3; 
   /* margin: 100px 0px 100px 0px; */
   /* filter: sepia(1) hue-rotate(200deg);  */
 }

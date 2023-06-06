@@ -59,23 +59,54 @@
  ████████████
 */
 
-.dropdown .menuitemcontainer {
-  display: none;
-}
-
-.dropdown .toggle-button {
-  display: block;
-  background: none;
+.dropbtn {
+  height: fit-content; 
+  background-color: transparent;
+  padding: 0px 15px 0px 15px;
+  color: white;
+  font-size: 4vh;
   border: none;
-  font-size: 24px;
-  color: #000;
   cursor: pointer;
-  padding: 10px;
+  float: right;
+  /* display: flex; */
+  /* display: block; */
 }
 
-.dropdown .menuitem {
+.dropdown {
+  position: relative;
   display: block;
+  float: right;
+  /* display: flex; */
+  /* flex-direction: row-reverse; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  /* display: block; */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 30px 30px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.dropdown a:hover {background-color: #2980B9;}
+
+.show {display: block;}
+
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
@@ -327,7 +358,9 @@
 
 .servicessection {
   display: inline-flex;
-  width:50%;
+  width: 100%;
+  vertical-align: top;
+  /* background-color:#122449; */
 }
 
 
@@ -367,6 +400,14 @@
  ██░░░░░░░░░░██
  ██████████████
 */
+
+.umrflogo {
+  position: absolute;  /* max-width: 100%; */
+  max-height: calc(7vh - 20px);
+  height: 100%;
+  padding: 10px;
+  left: 20px;
+}
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
@@ -408,7 +449,7 @@
   padding: 5% 5% 10% 5%; /*top, right, bottom. left*/
   border-bottom: 10px solid #38348b;
   /* background-color:#122449; */
-  background: linear-gradient(to right, #060d1a, 60%, #091325);
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
 }
 
 .welcomedescription {

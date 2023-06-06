@@ -47,10 +47,15 @@
                         contentDiv.innerHTML = `
                             <nav id="menu" class="menu">
                                 <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
-                                <div class="menuitemcontainer">
-                                    <a href="index.php" class="menuitem">&#9776;</a>
-                                    <div class="menuitem"></div>
-                                    <div class="menuitem"></div>
+                                <div class="dropdown">
+                                    <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <a href="index.php">Home</a>
+                                        <a href="whoweare.php">Who We Are</a>
+                                        <a href="whatwedo.php">What We Do</a>
+                                        <a href="employment.php">Employment</a>
+                                        <a href="contact.php">Contact Us</a>
+                                    </div>
                                 </div>
                             </nav> 
                         `;
@@ -59,6 +64,26 @@
 
                 window.addEventListener(`resize`, screenSize);
                 window.addEventListener(`load`, screenSize);
+
+                /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(event) {
+                    if (!event.target.matches(".dropbtn")) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains("show")) {
+                                openDropdown.classList.remove("show");
+                            }
+                        }
+                    }
+                }
+
             </script>
         ';
     }

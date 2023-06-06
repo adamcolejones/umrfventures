@@ -18,8 +18,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>UMRF</title>
+        <title>UMRF</title>
+        <!-- Default Style Sheet, keep this to prevent white flashes on screen resizing -->
         <link rel="stylesheet" href="style.css">
+        <!-- - #. Check if screen height or width is bigger, display content accordingly -->
+        <style id="style-sheet"></style>
+        <script>
+            function setStylesheet() {
+                var screenWidth = window.innerWidth;
+                var screenHeight = window.innerHeight;
+                var styleSheet = document.getElementById('style-sheet');
+
+                // If screen is wider than its height, apply "style.css"
+                if (screenWidth > screenHeight) {
+                    styleSheet.innerHTML = '@import "style.css";';
+                }
+                // Otherwise, apply "mobile.css"
+                else {
+                    styleSheet.innerHTML = '@import "mobile.css";';
+                }
+            }
+
+            window.addEventListener('resize', setStylesheet);
+            window.addEventListener('load', setStylesheet);
+        </script>
     </head>
     <body>
         <!-- - 2. The menu.php file loads at the top of the page for navigation -->
@@ -60,14 +82,6 @@
                     <div class="servicesdescription">Description Goes Here  <a href="management.php" class="readmore">Read More</a></div>
                 </div>
             <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
-            </div><div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">FAQs</div>
-                    <div class="servicesdescription">Description Goes Here<a href="faq.php" class="readmore">Read More</a></div>
-                </div>
             </div>
             
             <div class="contactfooter">
