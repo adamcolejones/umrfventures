@@ -18,6 +18,7 @@
 <html>
 	<head>
         <title>UMRF</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Default Style Sheet, keep this to prevent white flashes on screen resizing -->
         <link rel="stylesheet" href="style.css">
         <!-- - #. Check if screen height or width is bigger, display content accordingly -->
@@ -64,9 +65,11 @@
                 <li>Email: info@umrfventures.com</li>
                 <li></li>
             </ul>
-        </div>
-        <div class="contactfooter">
+            <a href="test.php">Test</a>
+            <div class="contactfooter">
 
+            </div>
         </div>
+        
     </body>
 </html>

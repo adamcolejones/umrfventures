@@ -18,6 +18,7 @@
 <html>
 	<head>
         <title>UMRF</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Default Style Sheet, keep this to prevent white flashes on screen resizing -->
         <link rel="stylesheet" href="style.css">
         <!-- - #. Check if screen height or width is bigger, display content accordingly -->
