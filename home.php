@@ -59,7 +59,7 @@
         <div class="scrollableContent">
         <!-- - 3. The Home video will autoplay on most browsers if it's muted on start -->
             <div class="welcomecontainer">
-                <div class="welcomebackground"></div>
+                <!-- <div class="welcomebackground"></div> -->
                 <video class="welcomevideo" loop autoplay playsinline muted controls>
                     <source src="assets/homevideo.mp4" type="video/mp4">    
                 </video>
@@ -77,75 +77,24 @@
                 <div class="textdescription">One of the only private companies in America owned by a public university – doing what we do</div>
             </div>
 
+            <div class="partnershowcasecontainer">
+                <!-- <img class="partnershowcase" src="assets/PartnerShowcase.png"> -->
+                <div class="partnershowcasetop">
+                    <div class="partnershowcasetopleft"></div>
+                    <div class="partnershowcasetopright"></div>
+                </div>
+                <div class="partnershowcasebottom">
+                    <div class="partnershowcasebottomleft"></div>
+                    <div class="partnershowcasebottomright"></div>
+                </div>
+            </div>
+
             <!-- 5. CONTENT SLIDESHOW -->
             <!-- Images will need to have the exact same dimensions to keep page from resizng. -->
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="assets/UMRF5thAnny.png" style="width:100%">
-                    <div class="text">Caption One</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="assets/UMRF5thAnny.png" style="width:100%">
-                    <div class="text">Caption Two</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="assets/UMRF5thAnny.png" style="width:100%">
-                    <div class="text">Caption Three</div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-
-            </div>
-            <br>
-
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
-
-            <script>
-                let slideIndex = 1;
-                showSlides(slideIndex);
-
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
-
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-
-                function showSlides(n) {
-                    let i;
-                    let slides = document.getElementsByClassName("mySlides");
-                    let dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) {slideIndex = 1}    
-                    if (n < 1) {slideIndex = slides.length}
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";  
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex-1].style.display = "block";  
-                    dots[slideIndex-1].className += " active";
-                }
-            </script>
+            
 
             <!-- - 6. Partner Logos -->
-            <div class="partnerrow">
-                <img class="fedexlogo" src="assets/FedEx Logo.png" alt="">
-                <img class="raymondjameslogo" src="assets/Raymond James Logo.png" alt="">
-                <img class="sedgwicklogo" src="assets/Sedgwick Logo.png" alt="">
-            </div>
-            <br>
+
             <!-- - 7. Social Media Links -->
             <div class="sociallinks">
                 <img class="facebooklogo" src="assets/Facebook Logo.png" alt="">

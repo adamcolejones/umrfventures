@@ -419,6 +419,81 @@ li {
   width: 100%;
 }
 
+.partnershowcase {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* background-color: #034b8a; */
+}
+
+
+.partnershowcasecontainer {
+  position: relative;
+  /* background-color: #034b8a; */
+  /* background-color: #0067c2; */
+  background-image: url('assets/PartnerShowcase1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 0px;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.5%; /*Padding-Height Work around*/
+  border-bottom: 10px solid #38348b;
+  /* background-color: #034b8a; */
+}
+
+.partnershowcasetop {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+}
+
+.partnershowcasebottom {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+}
+
+.partnershowcasetopleft {
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/PartnerSectionFedExWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partnershowcasetopright {
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.partnershowcasebottomleft {
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/PartnerSectionSedgwickWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partnershowcasebottomright {
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/PartnerSectionCityofMemphisWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -567,7 +642,9 @@ li {
 }
 
 .textcontent {
-  padding: 100px 50px 100px 50px;
+  padding: 50px 50px 50px 50px;
+  /* background-color: #0067c2; */
+  /* border-bottom: 10px solid #38348b; */
 }
 
 .textdescription {
