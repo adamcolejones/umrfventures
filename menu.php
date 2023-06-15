@@ -40,8 +40,8 @@
                     <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
                     <div class="menuitemcontainer">
                       <a href="home.php" class="menuitem">Home</a>
-                      <a href="whoweare.php" class="menuitem">Who We Are</a>
                       <a href="whatwedo.php" class="menuitem">What We Do</a>
+                      <a href="whoweare.php" class="menuitem">Who We Are</a>
                       <a href="employment.php" class="menuitem">Employment</a>
                       <a href="contact.php" class="menuitem">Contact</a>
                       <div class="menuitem"></div>
@@ -62,9 +62,9 @@
                     <div class="dropdown">
                       <button onclick="myFunction()" class="dropbtn">&#9776;</button>
                       <div id="myDropdown" class="dropdown-content">
-                        <a href="home.php" class="menuitem">Home</a>
-                        <a href="whoweare.php" class="menuitem">Who We Are</a>
+                        <a href="home.php" class="menuitem">Home</a>                        
                         <a href="whatwedo.php" class="menuitem">What We Do</a>
+                        <a href="whoweare.php" class="menuitem">Who We Are</a>
                         <a href="employment.php" class="menuitem">Employment</a>
                         <a href="contact.php" class="menuitem">Contact</a>
                       </div>

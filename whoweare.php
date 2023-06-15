@@ -50,39 +50,22 @@
             menu()
         ?>
         <div class="scrollableContent">
-            <div>
-                <video width="100%" height="auto" controls loop autoplay playsinline muted>
-                    <source src="assets/homevideo.mp4" type="video/mp4">    
-                </video>
+
+            <div class="textcontent">
+                <div class="texttitle">About Us</div>
+                <div class="textdescription">UMRF Ventures is a company staffed by students who attend the University of Memphis. Today’s students have to successfully balance life with their school commitments. Many students take on significant debt to further their education and work multiple jobs while they go to school to meet their financial obligations. UMRF Ventures mission is to help our students succeed by providing good-paying, part-time jobs, scheduled around their classroom commitments, and conveniently located on campus.</div>
+                <br>
+                <div class="textdescription">Today we have over 200 undergraduate and graduate students working at UMRF Ventures for our partner companies, who frequently hire our students as full-time employees after they graduate.</div>
             </div>
-            <div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">About Us</div>
-                    <div class="servicesdescription">UMRF Ventures is a company staffed by students who attend the University of Memphis.<a href="about.php" class="readmore">Read More</a></div>
-                </div>
-            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
-            </div><div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">Our Students</div>
-                    <div class="servicesdescription">Description Goes Here  <a href="students.php" class="readmore">Read More</a></div>
-                </div>
+
+            <div class="textcontent">
+                <div class="texttitle">Students</div>
+                <div class="textdescription">Our student employees work in a variety of different ventures, providing paid services to our partner companies. We operate both inbound and outbound Call Centers, on the Memphis and Lambuth campuses. We have student internship programs with partner companies. Our students provide services to both for-profit and nonprofit companies in Memphis.  Our employees are both undergraduate and graduate students from a variety of academic curriculums. They work approximately 10-20 hours per week; after training, they earn approximately $15/per hour to $25/hour. Many earn more in supervisory positions.</div>
             </div>
-            <!--Allow white space new line here for styling-->
-            <div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">Our Team / Governance</div>
-                    <div class="servicesdescription">Description Goes Here  <a href="management.php" class="readmore">Read More</a></div>
-                </div>
-            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
+
+            <div class="textcontent">
+                <div class="texttitle">Want to reach out?</div>
+                <div class="textdescription">UMRF Ventures is always open to talking about our work, but we do request that any visits be scheduled through the manager. Service centers are off limits unless explicitly approved.</div>
             </div>
             
             <div class="contactfooter">

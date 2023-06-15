@@ -316,12 +316,17 @@ li {
   font-size: 2vh;
 }
 
+.menuitem:hover {
+  color: #2980B9;
+}
+
 .menuitem.current {
-  text-decoration: underline;
-  text-decoration-color: white;
+  color: #2980B9;
+  /* text-decoration: underline; */
+  /* text-decoration-color: white; */
   /* text-decoration-color: #034b8a; */
-  text-decoration-thickness: 5px;
-  text-underline-offset: 8px;
+  /* text-decoration-thickness: 5px; */
+  /* text-underline-offset: 8px; */
 }
 
 .menuitemcontainer {
@@ -469,12 +474,20 @@ li {
   background-repeat: no-repeat;
 }
 
+.partnershowcasetopleft:hover {
+  background-image: url('assets/PartnerSectionFedEx.png');
+}
+
 .partnershowcasetopright {
   height: 100%;
   width: 100%;
   background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.partnershowcasetopright:hover {
+  background-image: url('assets/PartnerSectionRaymondJames.png');
 }
 
 
@@ -486,12 +499,20 @@ li {
   background-repeat: no-repeat;
 }
 
+.partnershowcasebottomleft:hover {
+  background-image: url('assets/PartnerSectionSedgwick.png');
+}
+
 .partnershowcasebottomright {
   height: 100%;
   width: 100%;
   background-image: url('assets/PartnerSectionCityofMemphisWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.partnershowcasebottomright:hover {
+  background-image: url('assets/PartnerSectionCityofMemphis.png');
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -643,6 +664,7 @@ li {
 
 .textcontent {
   padding: 50px 50px 50px 50px;
+  text-align: center;
   /* background-color: #0067c2; */
   /* border-bottom: 10px solid #38348b; */
 }

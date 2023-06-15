@@ -50,41 +50,37 @@
             menu()
         ?>
         <div class="scrollableContent">
-            <div>
-                <video width="100%" height="auto" controls loop autoplay playsinline muted>
-                    <source src="assets/homevideo.mp4" type="video/mp4">    
-                </video>
+
+            <div class="textcontent">
+                <div class="texttitle">Services We Offer</div>
+                <div class="textdescription">Our student employees are diverse, talented, and hard-working. What they can do is almost limitless. We currently operate basic and advanced call center operations, data mining and analytical services, telephone sales support, ticket sales, event support, and donor solicitation.</div>
             </div>
-            <div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">About Us</div>
-                    <div class="servicesdescription">UMRF Ventures is a company staffed by students who attend the University of Memphis.<a href="about.php" class="readmore">Read More</a></div>
-                </div>
-            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
-            </div><div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">Our Students</div>
-                    <div class="servicesdescription">Description Goes Here  <a href="students.php" class="readmore">Read More</a></div>
-                </div>
+
+            <div class="textcontent">
+                <div class="texttitle">Custom Ventures</div>
+                <div class="textdescription">We develop custom ventures with our business partners, then hire the right students to support them. Need Computer Science students to support your automation efforts? UMRF Ventures can do that!  If you need our help to support your business, please contact us and we can begin to develop a custom venture.</div>
             </div>
-            <!--Allow white space new line here for styling-->
-            <div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">Our Team / Governance</div>
-                    <div class="servicesdescription">Description Goes Here  <a href="management.php" class="readmore">Read More</a></div>
-                </div>
-            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
+
+            <div class="textcontent">
+                <div class="texttitle">Call Center</div>
+                <div class="textdescription">Student employees at the support center will handle technical support calls including "first level" technical support, like phone configuration and basic application and computing device troubleshooting.</div>
             </div>
-            
+
+            <div class="textcontent">
+                <div class="texttitle">Analytics</div>
+                <div class="textdescription">The students, primarily in science, technology, engineering and mathematics work with command center teams, using advanced software technologies to dig into operational and network performance data and look for possible system improvements.</div>
+            </div>
+
+            <div class="textcontent">
+                <div class="texttitle">Much More...</div>
+                <div class="textdescription">We have the unique opportunity to have our student employees assist with any need your company may have. From accounting to marketing, we can offer student employees who are constantly learning the newest practices in their trade.</div>
+            </div>
+
+            <div class="textcontent">
+                <div class="texttitle">Next Steps...</div>
+                <div class="textdescription">Do you want to establish a talent pipeline for your future hiring needs? Come work with UMRF Ventures and our talented students!</div>
+            </div>
+
             <div class="contactfooter">
 
             </div>

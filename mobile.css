@@ -105,9 +105,9 @@
   font-size: 2em;
 }
 
-.dropdown a:hover {background-color: #2980B9;}
-
-.show {display: block;}
+.dropdown a:hover {background-color: #2980B9; color:white;}
+/* This display flex is only enabled after being shown, otherwise it would always show */
+.show {display: block; display: flex; flex-direction: column;}
 
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */

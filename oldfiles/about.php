@@ -47,7 +47,7 @@
             menu()
         ?>
         <div class="scrollableContent">
-            <div><a href="services.php" class="back">Back</a></div>
+            <div><a href="whoweare.php" class="back">Back</a></div>
             <div>
                 <h2>About Us - Who We Are / What We Do</h2>
                 <img class="defaultpicture" src="assets/UMRFGroupPhoto.png" alt="">

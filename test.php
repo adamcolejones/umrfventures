@@ -56,6 +56,11 @@
             <div class="test1">
 
             </div>
+            <h2>Test 2</h2>
+            <ul>
+                <li>Slideshow Content</li>
+                <li></li>
+            </ul>
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
@@ -85,6 +90,49 @@
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
                 <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+            <h2>Test 3</h2>
+            <ul>
+                <li>Readmore Containers that change order based on screen size</li>
+                <li></li>
+            </ul>
+            <div class="servicessection">
+                <div class="servicessectionpicture">
+                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
+                </div>
+                <div class="servicessectiontext">
+                    <div class="servicestitle">About Us</div>
+                    <div class="servicesdescription">UMRF Ventures is a company staffed by students who attend the University of Memphis.<a href="about.php" class="readmore">Read More</a></div>
+                </div>
+            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
+            </div><div class="servicessection">
+                <div class="servicessectionpicture">
+                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
+                </div>
+                <div class="servicessectiontext">
+                    <div class="servicestitle">Our Students</div>
+                    <div class="servicesdescription">Description Goes Here  <a href="students.php" class="readmore">Read More</a></div>
+                </div>
+            </div>
+            <!--Allow white space new line here for styling-->
+            <div class="servicessection">
+                <div class="servicessectionpicture">
+                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
+                </div>
+                <div class="servicessectiontext">
+                    <div class="servicestitle">Our Team / Governance</div>
+                    <div class="servicesdescription">Description Goes Here  <a href="management.php" class="readmore">Read More</a></div>
+                </div>
+            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
+            </div><div class="servicessection">
+                <div class="servicessectionpicture">
+                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
+                </div>
+                <div class="servicessectiontext">
+                    <div class="servicestitle">FAQs</div>
+                    <div class="servicesdescription">Description Goes Here  <a href="faq.php" class="readmore">Read More</a></div>
+                </div>
             </div>
 
             <script>
