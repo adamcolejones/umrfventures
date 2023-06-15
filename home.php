@@ -79,8 +79,10 @@
 
             <div class="partnershowcasecontainer">
                 <!-- <img class="partnershowcase" src="assets/PartnerShowcase.png"> -->
+                <!-- THESE CLASSES HAVE BACKGROUND IMAGES MADE WITH PHOTOSHOP / GIMP.  Their dimensions are exact, so if you want to replace these, you will need to look at the dimensions of the images. -->
                 <div class="partnershowcasetop">
                     <div class="partnershowcasetopleft"></div>
+                    <div class="partnershowcasetoplefttext">He went out of his way to help half of my office get access to work from home.  - FedEx on UMRF Venture's Frank -</div>
                     <div class="partnershowcasetopright"></div>
                 </div>
                 <div class="partnershowcasebottom">

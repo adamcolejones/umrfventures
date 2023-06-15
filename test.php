@@ -164,6 +164,34 @@
                 }
             </script>
 
+            <h2>Test 4</h2>
+            <ul>
+                <li>Classes change on hover</li>
+                <li></li>
+            </ul>
+            <style>
+            /* Initial state */
+            .element1 {
+                display: block;
+            }
+
+            .element2 {
+                display: none;
+            }
+
+            /* Hover state */
+            .element1:hover {
+                display: none;
+            }
+
+            .element1:hover + .element2 {
+                display: block;
+            }
+            </style>
+
+            <div class="element1">Element 1</div>
+            <div class="element2">Element 2</div>
+
             <div class="contactfooter">
 
             </div>

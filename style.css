@@ -474,8 +474,25 @@ li {
   background-repeat: no-repeat;
 }
 
+.partnershowcasetoplefttext {
+  display: none;
+}
+
 .partnershowcasetopleft:hover {
-  background-image: url('assets/PartnerSectionFedEx.png');
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: none;
+  transition-delay: 100ms; /* Add a slight delay */
+}
+
+.partnershowcasetopleft:hover + .partnershowcasetoplefttext {
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50%;
+  width: 50%;
+  transition-delay: 100ms; /* Add a slight delay */
 }
 
 .partnershowcasetopright {
@@ -681,7 +698,7 @@ li {
 }
 
 .texttitle {
-  /* color: #3AA4DF; */
+  /* color: #0073e5; */
   color: white;
   font-weight: 700;
   font-size: 50px;
@@ -851,6 +868,33 @@ ul {
   flex: 3; 
   /* margin: 100px 0px 100px 0px; */
   /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+/* This id is used to keep the menu item colorized even when on a different url */
+.whoweare.current{
+  color: #2980B9;
+}
+
+.whowearelinks {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding: 50px;
+}
+
+.whowearelinkitem {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 1.5em;
+}
+
+.whowearelinkitem:hover {
+  color: #2980B9;
+}
+
+.whowearelinkitem.current {
+  color: #2980B9;
 }
 
 

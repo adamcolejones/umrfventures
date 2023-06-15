@@ -51,6 +51,13 @@
         ?>
         <div class="scrollableContent">
 
+            <div class="whowearelinks">
+                <a href="whoweare.php" class="whowearelinkitem current">About Us</a>
+                <a href="students.php" class="whowearelinkitem">Students</a>
+                <a href="governance.php" class="whowearelinkitem">Governance</a>
+                <a href="management.php" class="whowearelinkitem">Management</a>
+            </div>
+
             <div class="textcontent">
                 <div class="texttitle">About Us</div>
                 <div class="textdescription">UMRF Ventures is a company staffed by students who attend the University of Memphis. Today’s students have to successfully balance life with their school commitments. Many students take on significant debt to further their education and work multiple jobs while they go to school to meet their financial obligations. UMRF Ventures mission is to help our students succeed by providing good-paying, part-time jobs, scheduled around their classroom commitments, and conveniently located on campus.</div>

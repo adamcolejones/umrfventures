@@ -64,7 +64,7 @@
                       <div id="myDropdown" class="dropdown-content">
                         <a href="home.php" class="menuitem">Home</a>                        
                         <a href="whatwedo.php" class="menuitem">What We Do</a>
-                        <a href="whoweare.php" class="menuitem">Who We Are</a>
+                        <a href="whoweare.php" class="menuitem whoweare">Who We Are</a>
                         <a href="employment.php" class="menuitem">Employment</a>
                         <a href="contact.php" class="menuitem">Contact</a>
                       </div>
@@ -82,16 +82,22 @@
               
                 // Get all the menu items
                 var menuItems = document.getElementsByClassName("menuitem");
+                var whoweare = document.getElementsByClassName("whoweare");
               
                 // Iterate over the menu items and check if the URL matches
                 for (var i = 0; i < menuItems.length; i++) {
                   var menuItem = menuItems[i];
+                  var menuItemURL = menuItem.href;
                   var menuItemURL = menuItem.href;
               
                   // Compare the URL of the menu item with the current page URL
                   if (menuItemURL === currentURL) {
                     // Add a class to the current menu item
                     menuItem.classList.add("current");
+                  }
+                  // This condition will check if the "whoweare" sub menus are being used and set who we are in the menu as the current selection
+                  if (currentURL.includes("students") || currentURL.includes("management") || currentURL.includes("governance")) {
+                    menuItems[2].classList.add("current");
                   }
                 }
               }

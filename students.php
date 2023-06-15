@@ -47,21 +47,26 @@
             menu()
         ?>
         <div class="scrollableContent">
-            <div><a href="whoweare.php" class="back">Back</a></div>
-            <div>
-                <h2>Our Students - Who We Are</h2>
-                <img class="defaultpicture" src="assets/TPSpencerP.png" alt="">
-                <img class="defaultpicture" src="assets/TPChloeB.png" alt="">
-                <img class="defaultpicture" src="assets/TPJacobM.png" alt="">
-                <img class="defaultpicture" src="assets/TPAndrewE.png" alt="">
-                <img class="defaultpicture" src="assets/TPDylanD.png" alt="">
-                <img class="defaultpicture" src="assets/TPMicaelaS.png" alt="">
-                <ul>
-                    <li>Talent Pipeline</li>
-                    <li>Since 2017 more than 70 of our student employees have been employed by our partners. When you hire UMRF Ventures Inc we can become a training ground for your future staff.</li>
-                    <li></li>
-                </ul>
+
+            <div class="whowearelinks">
+                <a href="whoweare.php" class="whowearelinkitem">About Us</a>
+                <a href="students.php" class="whowearelinkitem current">Students</a>
+                <a href="governance.php" class="whowearelinkitem">Governance</a>
+                <a href="management.php" class="whowearelinkitem">Management</a>
             </div>
+            
+            <img class="defaultpicture" src="assets/TPSpencerP.png" alt="">
+            <img class="defaultpicture" src="assets/TPChloeB.png" alt="">
+            <img class="defaultpicture" src="assets/TPJacobM.png" alt="">
+            <img class="defaultpicture" src="assets/TPAndrewE.png" alt="">
+            <img class="defaultpicture" src="assets/TPDylanD.png" alt="">
+            <img class="defaultpicture" src="assets/TPMicaelaS.png" alt="">
+
+            <div class="textcontent">
+                <div class="texttitle">Talent Pipeline</div>
+                <div class="textdescription">Since 2017 more than 70 of our student employees have been employed by our partners. When you hire UMRF Ventures Inc we can become a training ground for your future staff.</div>
+            </div>
+
             <div class="contactfooter">
 
             </div>

@@ -49,22 +49,31 @@
         ?>
         <div class="scrollableContent">
             <img class="contactpicture" src="assets/UMRFBuildingFront.png" alt="">
-            <h2>Contact Us</h2>
-            <ul>
-                <li>Contact Us</li>
-                <li>UMRF Ventures, Inc 4075 Park Avenue Memphis, TN 38111</li>
-                <li>Phone: (901) 678-4444 Email: info@umrfventures.com</li>
-                <li>Map</li>
-                <li>Partners</li>
-                <li>If you are interested in partnering with UMRF Ventures and building a custom venture to support your company while establishing a talent pipeline, contact one of the email addresses below.</li>
-                <li>Pierre Landaiche, CEO Email: pierre@umrfventures.com</li>
-                <li>JT (Jutta) Schneider, Director Project Management & Corporate Initiatives Email: jtschneider@umrfventures.com</li>
-                <li>Photo</li>
-                <li>Students</li>
-                <li>If you are a student at the University of Memphis and looking for employment, visit our employment page. For more information, contact us at this email address.</li>
-                <li>Email: info@umrfventures.com</li>
-                <li></li>
-            </ul>
+
+            <div class="textcontent">
+                <div class="texttitle">Contact Us</div>
+                <div class="textdescription">UMRF Ventures, Inc 4075 Park Avenue Memphis, TN 38111</div>
+                <div class="textdescription">Phone: (901) 678-4444</div>
+                <div class="textdescription">Email: info@umrfventures.com</div>
+            </div>
+
+            <div class="textcontent">
+                <div class="texttitle">Google Map Here</div>
+            </div>
+
+            <div class="textcontent">
+                <div class="texttitle">Partners</div>
+                <div class="textdescription">If you are interested in partnering with UMRF Ventures and building a custom venture to support your company while establishing a talent pipeline, contact one of the email addresses below.</div>
+                <div class="textdescription">Pierre Landaiche, CEO Email: pierre@umrfventures.com</div>
+                <div class="textdescription">JT (Jutta) Schneider, Director Project Management & Corporate Initiatives Email: jtschneider@umrfventures.com</div>
+            </div>
+
+            <div class="textcontent">
+                <div class="texttitle">Students</div>
+                <div class="textdescription">If you are a student at the University of Memphis and looking for employment, visit our employment page. For more information, contact us at this email address.</div>
+                <div class="textdescription">Email: info@umrfventures.com</div>
+            </div>
+
             <a href="test.php">Test</a>
             <div class="contactfooter">
 
