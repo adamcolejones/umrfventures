@@ -3,14 +3,14 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - This file creates the menu bar content.
+	  // - This file creates the menu bar content.
     // - Run a script called 'screenSize' that checks whether or not the window is wider or taller
     // - If the Menu is wider, (pc view) display all menu options on the nav bar
     // - Else the Menu is taller than the width, (mobile view) display a hamburger dropdown menu instead
     // - There is an extra menuitem class to add spacing on the right end
     // - There is an active listener that checks when the screen window is resized and re-runs 'screenSize'
-	// - There is a an underline function that only works if the URL Matches the HREF Filename.  (do not rename files without regarding this)
-	// -
+	  // - There is a an underline function that only works if the URL Matches the HREF Filename.  (do not rename files without regarding this)
+	  // -
 
     function menu() {
         echo'
