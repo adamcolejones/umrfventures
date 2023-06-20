@@ -74,7 +74,8 @@
             <!-- - 4. Value Titles and Descriptions -->
             <div class="textcontent">
                 <div class="texttitle">Partner With Us</div>
-                <div class="textdescription">One of the only private companies in America owned by a public university – doing what we do</div>
+                <a href="contact.php" class="textdescription">Contact UMRF Ventures</a> 
+                <div class="textdescription"> for pricing and how this model can meet your company's needs.</div>
             </div>
 
             <div class="partnershowcasecontainer">
@@ -82,12 +83,15 @@
                 <!-- THESE CLASSES HAVE BACKGROUND IMAGES MADE WITH PHOTOSHOP / GIMP.  Their dimensions are exact, so if you want to replace these, you will need to look at the dimensions of the images. -->
                 <div class="partnershowcasetop">
                     <div class="partnershowcasetopleft"></div>
-                    <div class="partnershowcasetoplefttext">He went out of his way to help half of my office get access to work from home.  - FedEx on UMRF Venture's Frank -</div>
+                    <div class="partnershowcasetoplefttext">"He went out of his way to help half of my office get access to work from home."  - FedEx on UMRF Venture's Frank -</div>
                     <div class="partnershowcasetopright"></div>
+                    <div class="partnershowcasetoprighttext">"We see this as a direct pipeline for future IAM talent at Raymond James."  - Raymond James on partnership with UMRF Ventures -</div>
                 </div>
                 <div class="partnershowcasebottom">
                     <div class="partnershowcasebottomleft"></div>
+                    <div class="partnershowcasebottomlefttext"> ___ </div>
                     <div class="partnershowcasebottomright"></div>
+                    <div class="partnershowcasebottomrighttext">We contacted over ___ people to inform them and encourage ___.</div>
                 </div>
             </div>
 

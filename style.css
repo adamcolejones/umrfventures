@@ -65,6 +65,12 @@ body {
  ██████████████
 */
 
+.contactbutton {
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+}
+
 .contactfooter {
     /* background: #0e0e21; */
     background: #060d1a;
@@ -481,18 +487,19 @@ li {
 .partnershowcasetopleft:hover {
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
   display: none;
-  transition-delay: 100ms; /* Add a slight delay */
+  /* transition-delay: 100ms; /* Add a slight delay */
 }
 
 .partnershowcasetopleft:hover + .partnershowcasetoplefttext {
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
   display: block;
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
-  height: 50%;
-  width: 50%;
-  transition-delay: 100ms; /* Add a slight delay */
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /* transition-delay: 100ms; /* Add a slight delay */
 }
 
 .partnershowcasetopright {
@@ -505,6 +512,28 @@ li {
 
 .partnershowcasetopright:hover {
   background-image: url('assets/PartnerSectionRaymondJames.png');
+}
+
+.partnershowcasetoprighttext {
+  display: none;
+}
+
+.partnershowcasetopright:hover {
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: none;
+  /* transition-delay: 100ms; /* Add a slight delay */
+}
+
+.partnershowcasetopright:hover + .partnershowcasetoprighttext {
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /* transition-delay: 100ms; /* Add a slight delay */
 }
 
 
@@ -520,6 +549,28 @@ li {
   background-image: url('assets/PartnerSectionSedgwick.png');
 }
 
+.partnershowcasebottomlefttext {
+  display: none;
+}
+
+.partnershowcasebottomleft:hover {
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: none;
+  /* transition-delay: 100ms; /* Add a slight delay */
+}
+
+.partnershowcasebottomleft:hover + .partnershowcasebottomlefttext {
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /* transition-delay: 100ms; /* Add a slight delay */
+}
+
 .partnershowcasebottomright {
   height: 100%;
   width: 100%;
@@ -530,6 +581,28 @@ li {
 
 .partnershowcasebottomright:hover {
   background-image: url('assets/PartnerSectionCityofMemphis.png');
+}
+
+.partnershowcasebottomrighttext {
+  display: none;
+}
+
+.partnershowcasebottomright:hover {
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: none;
+  /* transition-delay: 100ms; /* Add a slight delay */
+}
+
+.partnershowcasebottomright:hover + .partnershowcasebottomrighttext {
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /* transition-delay: 100ms; /* Add a slight delay */
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -611,6 +684,41 @@ li {
   border: 1px solid black;
 }
 
+.serviceoptionscontainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10% 0% 10% 0%;
+  border-top: 10px solid #38348b;
+  border-bottom: 10px solid #38348b;
+}
+
+.serviceoption {
+  width: 25%;
+  text-align: center;
+}
+
+.servicedescription {
+  /* color: #6EC1E4; */
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: left;
+}
+
+.servicetitle {
+  /* color: #0073e5; */
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0px 0px 15px 0px;
+}
+
+.serviceoptionsphoto {
+  /* This line changes the black image to white */
+  filter: invert(100%);
+  margin: 0px 0px 15px 0px;
+}
+
 .servicessection {
   display: inline-flex;
   width: 50%;
@@ -621,7 +729,6 @@ li {
 .servicessectionpicture {
   display: inline;
 }
-
 
 .servicessectiontext {
   display: inline;
@@ -895,6 +1002,143 @@ ul {
 
 .whowearelinkitem.current {
   color: #2980B9;
+}
+
+/* .wwdcontainer {
+  display: flex;
+} */
+
+.wwdphoto {
+  width: 50%;
+}
+
+.wwdcontact {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  justify-content: space-evenly;
+}
+
+.wwdcontactsubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+.wwdcontactdescription {
+  display: block;
+  font-size: 20px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: center; */
+}
+
+.wwdcontacttext {
+  width: 60%;
+}
+
+.wwdcontainer {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-color: rgba(0,0,25,.80); */
+  /* background-blend-mode: multiply; */
+}
+
+.wwdcontainerbottom {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 5% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-color: rgba(0,0,25,.80); */
+  /* background-blend-mode: multiply; */
+}
+
+.wwddescription {
+  display: block;
+  font-size: 20px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: center; */
+}
+
+.wwdtext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+  font-size: fit-content;
+  font-variant: small-caps;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+}
+
+.wwdtextleft {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 50px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  font-size: fit-content;
+  font-variant: small-caps;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+}
+
+.wwdtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 50px;
+  color: #0073e5;
+}
+
+.wwdsubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+
+.wwdphoto {
+  position: relative;
+  display: inline;
+  width: 47%;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;
+  flex: 3; 
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
 }
 
 

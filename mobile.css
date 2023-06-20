@@ -489,6 +489,71 @@
   /* filter: sepia(1) hue-rotate(200deg);  */
 }
 
+/**/
+.wwdcontainer {
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+.wwdcontainerbottom {
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 10% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+.wwddescription {
+  display: block;
+  font-size: 30px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px; 
+}
+
+.wwdtext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.wwdtextleft {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.wwdsubtitle {
+  padding: 30px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.wwdphoto {
+  display: inline;
+  width: 100%;
+  margin: 5% 0px 0% 0px;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;  
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
  ████████  ████████
