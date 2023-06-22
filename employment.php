@@ -48,16 +48,16 @@
             menu()
         ?>
         <div class="scrollableContent">
-        <div class="welcomecontainer">
+            <div class="employmentcontainer">
                 <!-- <div class="welcomebackground"></div> -->
-                <video class="welcomevideo" loop autoplay playsinline muted controls>
+                <video class="employmentvideo" loop autoplay playsinline muted controls>
                     <source src="assets/employmentvideo.mp4" type="video/mp4">    
                 </video>
-                <div class="welcometext">
-                    <div class="welcometitle">WE ARE CURRENTLY&nbsp;</div>
-                    <div class="welcometitle">ACCEPTING APPLICATIONS</div>
-                    <div class="welcomesubtitle">APPLY NOW!&nbsp;</div>
-                    <div class="welcomedescription">Kick-start your career with hands-on experience</div>
+                <div class="employmenttext">
+                    <div class="employmenttitle">WE ARE CURRENTLY&nbsp;</div>
+                    <div class="employmenttitle">ACCEPTING APPLICATIONS</div>
+                    <div class="employmentsubtitle">APPLY NOW!&nbsp;</div>
+                    <div class="employmentdescription">Kick-start your career with hands-on experience</div>
                 </div>
             </div>
 

@@ -122,6 +122,74 @@ body {
  ██████████████
 */
 
+.employmentcontainer {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
+  border-bottom: 10px solid #38348b;
+  background-image: url('assets/ChristmasParty.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,25,.80);
+  background-blend-mode: multiply;
+}
+
+
+.employmentdescription {
+  display: block;
+  font-size: 20px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: center; */
+}
+
+.employmenttext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+  font-size: fit-content;
+  font-variant: small-caps;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+}
+
+.employmenttitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 50px;
+  color: #0073e5;
+}
+.employmentsubtitle {
+  display: block;
+  /* vertical-align: top; */
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;;
+}
+
+.employmentvideo {
+  position: relative;
+  display: inline;
+  width: 50%;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;
+  flex: 3; 
+  border-radius: 10px;
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -326,6 +394,15 @@ li {
   color: #2980B9;
 }
 
+.menuitem.connectbutton {
+  background-color: white;
+  color: blue;
+  border-radius: 10px;
+  border-color: rgb(64, 64, 188);
+  text-align: center;
+  padding: 10px;
+}
+
 .menuitem.current {
   color: #2980B9;
   /* text-decoration: underline; */
@@ -443,167 +520,193 @@ li {
   /* background-color: #034b8a; */
   /* background-color: #0067c2; */
   background-image: url('assets/PartnerShowcase1.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   margin: 0px 0px;
-  width: 100%;
+  width: 80%;
   height: 0;
-  padding-bottom: 56.5%; /*Padding-Height Work around*/
-  border-bottom: 10px solid #38348b;
+  /* padding: 0% 10% 0% 10%; */
+  margin: 0% 10% 0% 10%;
+  padding-bottom: 46.5%; /*Padding-Height Work around required to show showcase*/
+  /* border-bottom: 10px solid #38348b; */
   /* background-color: #034b8a; */
 }
 
+/* The Sizing of the height, width, and top margin is specific */
+/* Height needs to be half of width */
+/* Top margin needs to be (100% - width%) / 2 */
+/* Left margin needs to match the top margin */
 .partnershowcasetop {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* height: 35%; */
+  /* width: 70%; */
+  /* top: 15%; */
+  /* left: 15%; */
+
   height: 50%;
   width: 100%;
+  top: 0%;
+  left: 0%;
 }
 
+/* The Sizing of the height, width, and top margin is specific */
+/* Height needs to be half of width */
+/* Bottom margin needs to be (100% - width%) / 2 */
+/* Left margin needs to match the bottom margin */
 .partnershowcasebottom {
   position: absolute;
-  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* height: 35%; */
+  /* width: 70%; */
+  /* bottom: 15%;  */
+  /* left: 15%; */
   height: 50%;
   width: 100%;
+  bottom: 0%;
+  left: 0%;
 }
 
 .partnershowcasetopleft {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url('assets/PartnerSectionFedExWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.partnershowcasetoplefttext {
-  display: none;
-}
-
 .partnershowcasetopleft:hover {
-  /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: none;
-  /* transition-delay: 100ms; /* Add a slight delay */
+  background-image: url('assets/PartnerSectionFedExText.png');
 }
 
-.partnershowcasetopleft:hover + .partnershowcasetoplefttext {
+/* .partnershowcasetoplefttext { */
+  /* display: none; */
+/* } */
+
+/* .partnershowcasetopleft:hover { */
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: block;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  margin: auto;
+  /* display: none; */
   /* transition-delay: 100ms; /* Add a slight delay */
-}
+/* } */
+
+/* .partnershowcasetopleft:hover + .partnershowcasetoplefttext { */
+  /* background-image: url('assets/PartnerSectionFedEx.png'); */
+  /* display: block; */
+  /* position: relative; */
+  /* top: 0px; */
+  /* left: 0px; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* margin: auto; */
+  /* transition-delay: 100ms; /* Add a slight delay */
+/* } */
 
 .partnershowcasetopright {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .partnershowcasetopright:hover {
-  background-image: url('assets/PartnerSectionRaymondJames.png');
+  background-image: url('assets/PartnerSectionRaymondJamesText.png');
 }
 
-.partnershowcasetoprighttext {
+/* .partnershowcasetoprighttext {
   display: none;
-}
+} */
 
-.partnershowcasetopright:hover {
+/* .partnershowcasetopright:hover { */
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: none;
+  /* display: none; */
   /* transition-delay: 100ms; /* Add a slight delay */
-}
+/* } */
 
-.partnershowcasetopright:hover + .partnershowcasetoprighttext {
+/* .partnershowcasetopright:hover + .partnershowcasetoprighttext { */
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: block;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  margin: auto;
+  /* display: block; */
+  /* position: relative; */
+  /* top: 0px; */
+  /* left: 0px; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* margin: auto; */
   /* transition-delay: 100ms; /* Add a slight delay */
-}
+/* } */
 
 
 .partnershowcasebottomleft {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url('assets/PartnerSectionSedgwickWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .partnershowcasebottomleft:hover {
-  background-image: url('assets/PartnerSectionSedgwick.png');
+  background-image: url('assets/PartnerSectionSedgwickText.png');
 }
 
-.partnershowcasebottomlefttext {
+/* .partnershowcasebottomlefttext {
   display: none;
-}
+} */
 
-.partnershowcasebottomleft:hover {
+/* .partnershowcasebottomleft:hover { */
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: none;
+  /* display: none; */
   /* transition-delay: 100ms; /* Add a slight delay */
-}
+/* } */
 
-.partnershowcasebottomleft:hover + .partnershowcasebottomlefttext {
+/* .partnershowcasebottomleft:hover + .partnershowcasebottomlefttext { */
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: block;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  margin: auto;
+  /* display: block; */
+  /* position: relative; */
+  /* top: 0px; */
+  /* left: 0px; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* margin: auto; */
   /* transition-delay: 100ms; /* Add a slight delay */
-}
+/* } */
 
 .partnershowcasebottomright {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url('assets/PartnerSectionCityofMemphisWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .partnershowcasebottomright:hover {
-  background-image: url('assets/PartnerSectionCityofMemphis.png');
+  background-image: url('assets/PartnerSectionCityofMemphisText.png');
 }
 
-.partnershowcasebottomrighttext {
-  display: none;
-}
+/* .partnershowcasebottomrighttext { */
+  /* display: none; */
+/* } */
 
-.partnershowcasebottomright:hover {
+/* .partnershowcasebottomright:hover { */
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: none;
+  /* display: none; */
   /* transition-delay: 100ms; /* Add a slight delay */
-}
+/* } */
 
-.partnershowcasebottomright:hover + .partnershowcasebottomrighttext {
+/* .partnershowcasebottomright:hover + .partnershowcasebottomrighttext { */
   /* background-image: url('assets/PartnerSectionFedEx.png'); */
-  display: block;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  margin: auto;
+  /* display: block; */
+  /* position: relative; */
+  /* top: 0px; */
+  /* left: 0px; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* margin: auto; */
   /* transition-delay: 100ms; /* Add a slight delay */
-}
+/* } */
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
@@ -688,6 +791,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   padding: 10% 0% 10% 0%;
+  margin: 5% 0% 0% 0%;
   border-top: 10px solid #38348b;
   border-bottom: 10px solid #38348b;
 }
@@ -795,9 +899,21 @@ li {
 
 .textdescription {
   /* color: #6EC1E4; */
-  color: white;
+  display: inline;
+  /* color: white; */
+  color: rgba(255, 255, 255, 0.728);
   font-weight: 500;
-  font-size: 30px;
+  font-size: 20px;
+}
+
+a.textdescription {
+  /* color: #6EC1E4; */
+  display: inline;
+  color: white;
+  /* color: rgba(255, 255, 255, 0.728); */
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 .textlink {
@@ -973,6 +1089,7 @@ ul {
   height: max-content;
   box-shadow: 0px 0px 100px 10px #060d1a;
   flex: 3; 
+  border-radius: 10px;
   /* margin: 100px 0px 100px 0px; */
   /* filter: sepia(1) hue-rotate(200deg);  */
 }
@@ -1004,12 +1121,147 @@ ul {
   color: #2980B9;
 }
 
+.wwaphoto {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.wwacontact {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  justify-content: space-evenly;
+}
+
+.wwacontactsubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+.wwacontactdescription {
+  display: block;
+  font-size: 20px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: center; */
+}
+
+.wwacontacttext {
+  width: 60%;
+}
+
+.wwacontainer {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 5% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-color: rgba(0,0,25,.80); */
+  /* background-blend-mode: multiply; */
+}
+
+.wwacontainerbottom {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 5% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-color: rgba(0,0,25,.80); */
+  /* background-blend-mode: multiply; */
+}
+
+.wwadescription {
+  display: block;
+  font-size: 20px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: center; */
+}
+
+.wwatext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+  font-size: fit-content;
+  font-variant: small-caps;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+}
+
+.wwatextleft {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 50px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  font-size: fit-content;
+  font-variant: small-caps;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+}
+
+.wwatitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 50px;
+  color: #0073e5;
+}
+
+.wwasubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+
+.wwaphoto {
+  position: relative;
+  display: inline;
+  width: 47%;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;
+  flex: 3; 
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
 /* .wwdcontainer {
   display: flex;
 } */
 
 .wwdphoto {
   width: 50%;
+  border-radius: 10px;
 }
 
 .wwdcontact {
@@ -1067,7 +1319,7 @@ ul {
   align-items: center;
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
-  padding: 0% 5% 5% 5%; /*top, right, bottom. left*/
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
   /* border-bottom: 10px solid #38348b; */
   /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
   /* background-repeat: no-repeat; */

@@ -52,17 +52,49 @@
         <div class="scrollableContent">            
             
             <div class="wwdcontainer">
-                <img class="wwdphoto" src="assets/WorkRoomAttentive.png" alt="">
+                <img class="wwdphoto" src="assets/wwdtemp1.png" alt="">
                 <div class="wwdtext">
-                    <div class="wwdsubtitle">Services We Offer</div>
-                    <div class="wwddescription">Our student employees are diverse, talented, and hard-working. What they can do is almost limitless. We currently operate basic and advanced call center operations, data mining and analytical services, telephone sales support, ticket sales, event support, and donor solicitation.</div>
+                    <div class="wwdsubtitle">IT Help Desks</div>
+                    <div class="wwddescription">Our IT Help Desk team provides top-notch technical support to resolve computer hardware, software, and network issues. With exceptional problem-solving skills, we ensure smooth technology operations and offer excellent customer service.</div>
+                </div>
+            </div>
+
+            <div class="wwdcontainerbottom">
+                <div class="wwdtextleft">
+                    <div class="wwdsubtitle">Information Security Analysis</div>
+                    <div class="wwddescription">Our Information Security Analysts protect sensitive data by assessing systems, implementing security measures, and monitoring for potential threats. With extensive cybersecurity knowledge, we safeguard information and maintain confidentiality.</div>
+                </div>
+                <img class="wwdphoto" src="assets/wwdtemp2.png" alt="">
+            </div>
+
+            <div class="wwdcontainer">
+                <img class="wwdphoto" src="assets/wwdtemp3.png" alt="">
+                <div class="wwdtext">
+                    <div class="wwdsubtitle">Inbound & Outbound Call Centers</div>
+                    <div class="wwddescription">Our Inbound and Outbound Call Center professionals deliver exceptional customer service through phone interactions. Whether handling inquiries or making proactive calls, we provide solutions, build rapport, and ensure a positive customer experience.</div>
+                </div>
+            </div>
+
+            <div class="wwdcontainerbottom">
+                <div class="wwdtextleft">
+                    <div class="wwdsubtitle">Customer Service Centers</div>
+                    <div class="wwddescription">At our Customer Service Center, we prioritize customer satisfaction and efficient issue resolution. With excellent problem-solving skills, we address inquiries, complaints, and requests to exceed expectations and leave a positive impression.</div>
+                </div>
+                <img class="wwdphoto" src="assets/wwdtemp4.png" alt="">
+            </div>
+
+            <div class="wwdcontainer">
+                <img class="wwdphoto" src="assets/wwdtemp5.png" alt="">
+                <div class="wwdtext">
+                    <div class="wwdsubtitle">Email and Chat Response Services</div>
+                    <div class="wwddescription">Our Email and Chat Response team delivers efficient and accurate customer support through written channels. We provide timely solutions, handle multiple interactions, and ensure exceptional service through effective written communication.</div>
                 </div>
             </div>
 
             <div class="wwdcontainerbottom">
                 <div class="wwdtextleft">
                     <div class="wwdsubtitle">Custom Ventures</div>
-                    <div class="wwddescription">We develop custom ventures with our business partners, then hire the right students to support them. Need Computer Science students to support your automation efforts? UMRF Ventures can do that!  If you need our help to support your business, please contact us and we can begin to develop a custom venture.</div>
+                    <div class="wwddescription">Through Custom Ventures, we offer innovative and tailored solutions to meet clients' unique business needs. With expertise in problem-solving and industry knowledge, we develop customized strategies that drive success and create value.</div>
                 </div>
                 <img class="wwdphoto" src="assets/DeskSpaces.png" alt="">
             </div>
@@ -73,7 +105,7 @@
                     <img class="serviceoptionsphoto" src="assets/headset.png" alt="">
                     <div class="servicecontent">
                         <div class="servicetitle">Call Center</div>
-                        <div class="servicedescription">Student employees at the support center will handle technical support calls including "first level" technical support, like phone configuration and basic application and computing device troubleshooting.</div>
+                        <div class="servicedescription">UMRF Ventures collaborates with partner companies, including FedEx, Sedgwick, Raymond James, the City of Memphis, and Banded/Avery Outdoors. They employ University of Memphis students and provide them with part-time jobs on campus. Their goal is to help students succeed and create potential career paths with their partner companies after graduation.</div>
                     </div>
                 </div>
 
