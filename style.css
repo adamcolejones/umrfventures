@@ -45,7 +45,7 @@ a {
 body {
     margin: 0 0 0 0;
     background-color: #fff;
-    position: relative;
+    /* position: relative; */
     height: 100%;
     position: fixed; /*When the Body is fixed, we don't see scroll bar overlaying the menu, instead we only see scroll bars where the content extends past the height of the window*/
 }
