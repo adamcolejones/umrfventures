@@ -369,6 +369,7 @@
   height: 0;
   padding: 0% 0% 0% 0%;
   padding-bottom: 56.5%; /*Padding-Height Work around*/
+  border-top: 10px solid #38348b;
   border-bottom: 10px solid #38348b;
   /* background-color: #034b8a; */
 }
@@ -398,6 +399,7 @@
 .partnershowcasetopleft {
   height: 100%;
   width: 100%;
+  padding-bottom: 0px;
   background-image: url('assets/PartnerSectionFedExWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -410,6 +412,7 @@
 .partnershowcasetopright {
   height: 100%;
   width: 100%;
+  padding-bottom: 0px;
   background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -521,7 +524,7 @@
   /* color: #6EC1E4; */
   color: white;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -592,9 +595,18 @@
 
 .welcomedescription {
   display: block;
-  font-size: 30px;
+  /* font-size: 30px; */
   font-weight: 40;
-  padding: 20px 0px 10px 0px; 
+}
+
+.welcomesubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 4vw;
+  color: white;
+  /* letter-spacing: -1px; */
+  line-height: 3vw;
 }
 
 .welcometext {
@@ -607,7 +619,7 @@
 
 .welcometitle {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 4vw;
 }
 
 .welcomevideo {

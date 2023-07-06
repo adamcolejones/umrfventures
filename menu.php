@@ -43,7 +43,7 @@
                       <a href="whatwedo.php" class="menuitem">What We Do</a>
                       <a href="whoweare.php" class="menuitem">Who We Are</a>
                       <a href="employment.php" class="menuitem">Employment</a>
-                      <a href="contact.php" class="connectbutton menuitem">Connect<br>With Us</a>
+                      <a href="contact.php" class="contactbutton menuitem">Contact Us</a>
                       <div class="menuitem"></div>
                     </div>
                   </nav>
