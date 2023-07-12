@@ -49,54 +49,51 @@
         <?php
             menu()
         ?>
-        <div class="scrollableContent">            
-            
-            <div class="wwdcontainer">
-                <img class="wwdphoto" src="assets/wwdtemp1.png" alt="">
-                <div class="wwdtext">
-                    <div class="wwdsubtitle">IT Help Desks</div>
-                    <div class="wwddescription">Our IT Help Desk team provides top-notch technical support to resolve computer hardware, software, and network issues. With exceptional problem-solving skills, we ensure smooth technology operations and offer excellent customer service.</div>
-                </div>
-            </div>
-
-            <div class="wwdcontainerbottom">
-                <div class="wwdtextleft">
-                    <div class="wwdsubtitle">Information Security Analysis</div>
-                    <div class="wwddescription">Our Information Security Analysts protect sensitive data by assessing systems, implementing security measures, and monitoring for potential threats. With extensive cybersecurity knowledge, we safeguard information and maintain confidentiality.</div>
-                </div>
-                <img class="wwdphoto" src="assets/wwdtemp2.png" alt="">
-            </div>
+        <div class="scrollableContent">    
 
             <div class="wwdcontainer">
-                <img class="wwdphoto" src="assets/wwdtemp3.png" alt="">
-                <div class="wwdtext">
-                    <div class="wwdsubtitle">Inbound & Outbound Call Centers</div>
-                    <div class="wwddescription">Our Inbound and Outbound Call Center professionals deliver exceptional customer service through phone interactions. Whether handling inquiries or making proactive calls, we provide solutions, build rapport, and ensure a positive customer experience.</div>
+                <div class="wwdpic">
+                    <div class="wwdtext">
+                        <div class="wwdsubtitle">IT Help Desks</div>
+                        <div class="wwdpictext">Our IT Help Desk team provides top-notch technical support to resolve computer hardware, software, and network issues. With exceptional problem-solving skills, we ensure smooth technology operations and offer excellent customer service.</div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="wwdcontainerbottom">
-                <div class="wwdtextleft">
-                    <div class="wwdsubtitle">Customer Service Centers</div>
-                    <div class="wwddescription">At our Customer Service Center, we prioritize customer satisfaction and efficient issue resolution. With excellent problem-solving skills, we address inquiries, complaints, and requests to exceed expectations and leave a positive impression.</div>
+                <div class="wwdpic">
+                    <div class="wwdtext">
+                        <div class="wwdsubtitle">Information Security Analysis</div>
+                        <div class="wwdpictext">Our Information Security Analysts protect sensitive data by assessing systems, implementing security measures, and monitoring for potential threats. With extensive cybersecurity knowledge, we safeguard information and maintain confidentiality.</div>
+                    </div>
                 </div>
-                <img class="wwdphoto" src="assets/wwdtemp4.png" alt="">
             </div>
 
             <div class="wwdcontainer">
-                <img class="wwdphoto" src="assets/wwdtemp5.png" alt="">
-                <div class="wwdtext">
-                    <div class="wwdsubtitle">Email and Chat Response Services</div>
-                    <div class="wwddescription">Our Email and Chat Response team delivers efficient and accurate customer support through written channels. We provide timely solutions, handle multiple interactions, and ensure exceptional service through effective written communication.</div>
+                <div class="wwdpic">
+                    <div class="wwdtext">
+                        <div class="wwdsubtitle">Inbound & Outbound Call Centers</div>
+                        <div class="wwdpictext">Our Inbound and Outbound Call Center professionals deliver exceptional customer service through phone interactions. Whether handling inquiries or making proactive calls, we provide solutions, build rapport, and ensure a positive customer experience.</div>
+                    </div>
+                </div>
+                <div class="wwdpic">
+                    <div class="wwdtext">
+                        <div class="wwdsubtitle">Customer Service Centers</div>
+                        <div class="wwdpictext">At our Customer Service Center, we prioritize customer satisfaction and efficient issue resolution. With excellent problem-solving skills, we address inquiries, complaints, and requests to exceed expectations and leave a positive impression.</div>
+                    </div>
                 </div>
             </div>
 
-            <div class="wwdcontainerbottom">
-                <div class="wwdtextleft">
-                    <div class="wwdsubtitle">Custom Ventures</div>
-                    <div class="wwddescription">Through Custom Ventures, we offer innovative and tailored solutions to meet clients' unique business needs. With expertise in problem-solving and industry knowledge, we develop customized strategies that drive success and create value.</div>
+            <div class="wwdcontainer">
+                <div class="wwdpic">
+                    <div class="wwdtext">
+                        <div class="wwdsubtitle">Email and Chat Response Services</div>
+                        <div class="wwdpictext">Our Email and Chat Response team delivers efficient and accurate customer support through written channels. We provide timely solutions, handle multiple interactions, and ensure exceptional service through effective written communication.</div>
+                    </div>
                 </div>
-                <img class="wwdphoto" src="assets/DeskSpaces.png" alt="">
+                <div class="wwdpic">
+                    <div class="wwdtext">
+                        <div class="wwdsubtitle">Custom Ventures</div>
+                        <div class="wwdpictext">Through Custom Ventures, we offer innovative and tailored solutions to meet clients' unique business needs. With expertise in problem-solving and industry knowledge, we develop customized strategies that drive success and create value.</div>
+                    </div>
+                </div>
             </div>
 
             <div class="serviceoptionscontainer">

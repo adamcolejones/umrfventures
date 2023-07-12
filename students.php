@@ -16,32 +16,33 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>UMRF</title>
-        <!-- Default Style Sheet, keep this to prevent white flashes on screen resizing -->
-        <link rel="stylesheet" href="style.css">
-        <!-- - #. Check if screen height or width is bigger, display content accordingly -->
-        <style id="style-sheet"></style>
-        <script>
-            function setStylesheet() {
-                var screenWidth = window.innerWidth;
-                var screenHeight = window.innerHeight;
-                var styleSheet = document.getElementById('style-sheet');
+    <head>
+            <title>UMRF</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Default Style Sheet, keep this to prevent white flashes on screen resizing -->
+            <link rel="stylesheet" href="style.css">
+            <!-- - #. Check if screen height or width is bigger, display content accordingly -->
+            <style id="style-sheet"></style>
+            <script>
+                function setStylesheet() {
+                    var screenWidth = window.innerWidth;
+                    var screenHeight = window.innerHeight;
+                    var styleSheet = document.getElementById('style-sheet');
 
-                // If screen is wider than its height, apply "style.css"
-                if (screenWidth > screenHeight) {
-                    styleSheet.innerHTML = '@import "style.css";';
+                    // If screen is wider than its height, apply "style.css"
+                    if (screenWidth > screenHeight) {
+                        styleSheet.innerHTML = '@import "style.css";';
+                    }
+                    // Otherwise, apply "mobile.css"
+                    else {
+                        styleSheet.innerHTML = '@import "mobile.css";';
+                    }
                 }
-                // Otherwise, apply "mobile.css"
-                else {
-                    styleSheet.innerHTML = '@import "mobile.css";';
-                }
-            }
 
-            window.addEventListener('resize', setStylesheet);
-            window.addEventListener('load', setStylesheet);
-        </script>
-    </head>
+                window.addEventListener('resize', setStylesheet);
+                window.addEventListener('load', setStylesheet);
+            </script>
+        </head>
     <body>
         <?php
             menu()
@@ -54,13 +55,32 @@
                 <a href="governance.php" class="whowearelinkitem">Governance</a>
                 <a href="management.php" class="whowearelinkitem">Management</a>
             </div>
+
+            <div class="studentContainer">
+                <img class="studentPicture" src="assets/TPSpencerP.png" alt="">
+                <img class="studentPicture" src="assets/TPChloeB.png" alt="">
+            </div>
+
+
+            <div class="studentContainer">
+                <img class="studentPicture" src="assets/TPJacobM.png" alt="">
+                <img class="studentPicture" src="assets/TPSpencerP.png" alt="">
+            </div>
+
+            <div class="studentContainer">
+                <img class="studentPicture" src="assets/TPChloeB.png" alt="">
+                <img class="studentPicture" src="assets/TPJacobM.png" alt="">
+            </div>
+
+            <div class="studentContainer">
+                <img class="studentPicture" src="assets/TPAndrewE.png" alt="">
+                <img class="studentPicture" src="assets/TPDylanD.png" alt="">
+            </div>
             
-            <img class="defaultpicture" src="assets/TPSpencerP.png" alt="">
-            <img class="defaultpicture" src="assets/TPChloeB.png" alt="">
-            <img class="defaultpicture" src="assets/TPJacobM.png" alt="">
-            <img class="defaultpicture" src="assets/TPAndrewE.png" alt="">
-            <img class="defaultpicture" src="assets/TPDylanD.png" alt="">
-            <img class="defaultpicture" src="assets/TPMicaelaS.png" alt="">
+            <div class="studentContainer">
+                <img class="studentPicture" src="assets/TPMicaelaS.png" alt="">
+            </div>
+            
 
             <div class="textcontent">
                 <div class="texttitle">Talent Pipeline</div>

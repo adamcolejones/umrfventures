@@ -504,6 +504,26 @@
   /* background-color:#122449; */
 }
 
+.studentContainer {
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+  
+}
+
+.studentPicture {
+  width: 60%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
 /* 
@@ -711,6 +731,19 @@
 }
 
 .wwdcontainerbottom {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+.wwdtestcontainerbottom {
   display: inline-flex;
   flex-direction: column-reverse;
   /* flex-direction: column; */

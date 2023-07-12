@@ -45,7 +45,7 @@
     </head>
     <body>
         <?php
-            menu()
+            menu();
         ?>
         <div class="scrollableContent">
             <div class="employmentcontainer">
