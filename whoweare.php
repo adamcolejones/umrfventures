@@ -51,11 +51,11 @@
         ?>
         <div class="scrollableContent">
 
-            <div class="whowearelinks">
-                <a href="whoweare.php" class="whowearelinkitem current">About Us</a>
-                <a href="students.php" class="whowearelinkitem">Students</a>
-                <a href="governance.php" class="whowearelinkitem">Governance</a>
-                <a href="management.php" class="whowearelinkitem">Management</a>
+            <div class="wwalinks">
+                <a href="whoweare.php" class="wwalinkitem current">About Us</a>
+                <a href="students.php" class="wwalinkitem">Students</a>
+                <a href="governance.php" class="wwalinkitem">Governance</a>
+                <a href="management.php" class="wwalinkitem">Management</a>
             </div>
 
             <div class="wwacontainer">

@@ -275,11 +275,12 @@ body {
 .governancecontainer {
   display: inline-flex;
   align-items: center;
-  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  width: calc(100% - 10%);
+  height: 50%;
   vertical-align: top;
-  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  padding: 5% 5% 5% 5%;
   /* border-bottom: 10px solid #38348b; */
-  /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+  /* background-image: url(assets/CampusAdministrationBuildingBlur.png); */
   /* background-repeat: no-repeat; */
   /* background-position: center; */
   /* background-size: cover; */
@@ -287,12 +288,12 @@ body {
   /* background-blend-mode: multiply; */
 }
 
-.governancecontainerbottom {
-  display: inline-flex;
-  align-items: center;
-  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
-  vertical-align: top;
-  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
+/* .governancecontainerbottom { */
+  /* display: inline-flex; */
+  /* align-items: center; */
+  /* width: calc(100% - 10%); This calculation width needs to match the padding */
+  /* vertical-align: top; */
+  /* padding: 0% 5% 0% 5%; top, right, bottom. left */
   /* border-bottom: 10px solid #38348b; */
   /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
   /* background-repeat: no-repeat; */
@@ -300,11 +301,11 @@ body {
   /* background-size: cover; */
   /* background-color: rgba(0,0,25,.80); */
   /* background-blend-mode: multiply; */
-}
+/* } */
 
 .governancedescription {
   display: block;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
@@ -312,6 +313,7 @@ body {
   font-variant: none;
   z-index: 10;
   /* text-align: center; */
+  text-overflow: ellipsis;
 }
 
 .governancetext {
@@ -326,30 +328,40 @@ body {
   /* text-shadow: 0px 0px 100px 10px #060d1a;   */
 }
 
-.governancetextleft {
+.governancetextcontent {
+  margin: 20px 10% 20px 10%;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  /* background-color:rgb(16, 36, 67); */
+  border-radius: 10px;
+  /* background-color: #0067c2; */
+  /* border-bottom: 10px solid #38348b; */
+}
+
+/* .governancetextleft {
   display: inline;
   width: fit-content;
   text-overflow: wrap;
   padding: 0px 50px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
-  font-size: fit-content;
-  font-variant: small-caps;
-  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  /* font-size: fit-content; */
+  /* font-variant: small-caps; */
+  /* text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
   /* text-shadow: 0px 0px 100px 10px #060d1a;   */
-}
+/* }  */
 
-.governancetitle {
+/* .governancetitle {
   display:inline-block;
   vertical-align: top;
   font-weight: 700;
   font-size: 50px;
   color: #0073e5;
-}
+} */
 
 .governancesubtitle {
   display:inline-block;
   vertical-align: top;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 2em;
   color: white;
   letter-spacing: -1px;
   line-height: 50px;
@@ -360,13 +372,14 @@ body {
   position: relative;
   display: inline;
   /* width: 47%; */
-  /* height: max-content; */
+  height: 100%;
   box-shadow: 0px 0px 100px 10px #060d1a;
-  flex: 3;
-  width: 50%;
+  /* flex: 3; */
+  /* width: 50%; */
+  /* height: inherit; */
   border-radius: 10px;
   /* margin: 100px 0px 100px 0px; */
-  /* filter: sepia(1) hue-rotate(200deg);  */
+  /* filter: sepia(1) hue-rotate(200deg); */
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -506,6 +519,74 @@ li {
 ██████          ██████
 */
 
+.managementcontainer {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-color: rgba(0,0,25,.80); */
+  /* background-blend-mode: multiply; */
+}
+
+.managementdescription {
+  display: block;
+  font-size: 1em;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: center; */
+}
+
+.managementheader {
+  width: 100%;
+}
+
+.managementphoto {
+  position: relative;
+  display: inline;
+  /* width: 47%; */
+  /* height: max-content; */
+  box-shadow: 0px 0px 100px 10px #060d1a;
+  flex: 3;
+  width: 50%;
+  border-radius: 10px;
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+.managementsubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 2em;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+
+.managementtext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+  font-size: fit-content;
+  font-variant: small-caps;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+}
+
+
 .menu {
     position: fixed;
     width: 100%;
@@ -513,6 +594,7 @@ li {
     /*height needs to match the scrollable content height*/
     min-height: 10%; 
     background: linear-gradient(to right, black, 10%, #060d1a);
+    /* background: linear-gradient(to right, white, 10%, #060d1a); */
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     overflow: hidden;
@@ -711,6 +793,43 @@ li {
   left: 0%;
 }
 
+.partnershowcasetopleft {
+  height: 70%;
+  width: 100%;
+  /* padding-bottom: 50px; */
+  background-image: url('assets/PartnerSectionFedExWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.partnershowcasetopleft:hover {
+  background-image: url('assets/PartnerSectionFedExText.png');
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+.partnershowcasetopright {
+  height: 70%;
+  width: 100%;
+  /* padding-bottom: 50px; */
+  background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.partnershowcasetopright:hover {
+  background-image: url('assets/PartnerSectionRaymondJamesText.png');
+  animation: fadeIn 0.5s;
+}
+
 /* The Sizing of the height, width, and top margin is specific */
 /* Height needs to be half of width */
 /* Bottom margin needs to be (100% - width%) / 2 */
@@ -730,39 +849,7 @@ li {
   left: 0%;
 }
 
-.partnershowcasetopleft {
-  height: 70%;
-  width: 70%;
-  padding-bottom: 50px;
-  background-image: url('assets/PartnerSectionFedExWhite.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-.partnershowcasetopleft:hover {
-  background-image: url('assets/PartnerSectionFedExText.png');
-  animation: fadeIn 0.5s;
-}
-
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-
-
-.partnershowcasetopright {
-  height: 70%;
-  width: 70%;
-  padding-bottom: 50px;
-  background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.partnershowcasetopright:hover {
-  background-image: url('assets/PartnerSectionRaymondJamesText.png');
-  animation: fadeIn 0.5s;
-}
 
 
 .partnershowcasebottomleft {
@@ -771,6 +858,8 @@ li {
   background-image: url('assets/PartnerSectionSedgwickWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .partnershowcasebottomleft:hover {
@@ -784,6 +873,8 @@ li {
   background-image: url('assets/PartnerSectionCityofMemphisWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .partnershowcasebottomright:hover {
@@ -893,8 +984,8 @@ li {
   /* margin: 5% 0% 0% 0%; */
   /* border-top: 10px solid #38348b; */
   /* border-bottom: 10px solid #38348b; */
-  background-color: #050b15;
-  /* background: linear-gradient(0deg, #0c162c 0%, #2c54a4 75%, #0c162c 100%); */
+  /* background-color: #050b15; */
+  background: linear-gradient(0deg, #0c162c 0%, #2c54a4 75%, #0c162c 100%);
 }
 
 .serviceoption {
@@ -1009,8 +1100,8 @@ li {
 }
 
 .textcontent {
-  margin: 20px 25% 0px 25%;
-  padding: 20px 20px 0px 20px;
+  margin: 20px 25% 20px 25%;
+  padding: 20px 20px 20px 20px;
   text-align: center;
   /* background-color:rgb(16, 36, 67); */
   border-radius: 10px;
@@ -1224,7 +1315,7 @@ ul {
   color: #2980B9;
 }
 
-.whowearelinks {
+.wwalinks {
   display: flex;
   justify-content: space-evenly;
   color: white;
@@ -1233,18 +1324,18 @@ ul {
   background-color: #050b15;
 }
 
-.whowearelinkitem {
+.wwalinkitem {
   display: flex;
   justify-content: space-evenly;
   color: white;
   font-size: 1.5em;
 }
 
-.whowearelinkitem:hover {
+.wwalinkitem:hover {
   color: #2980B9;
 }
 
-.whowearelinkitem.current {
+.wwalinkitem.current {
   color: #2980B9;
 }
 
@@ -1320,7 +1411,7 @@ ul {
 
 .wwadescription {
   display: block;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
@@ -1364,7 +1455,7 @@ ul {
   display:inline-block;
   vertical-align: top;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 1em;
   color: white;
   letter-spacing: -1px;
   line-height: 50px;
@@ -1495,7 +1586,7 @@ ul {
   display:inline-block;
   vertical-align: top;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 2em;
   color: white;
   letter-spacing: -1px;
   line-height: 50px;

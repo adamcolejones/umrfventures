@@ -200,6 +200,16 @@
  ██████████████
 */
 
+.governancetextcontent {
+  margin: 20px 10% 20px 10%;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  /* background-color:rgb(16, 36, 67); */
+  border-radius: 10px;
+  /* background-color: #0067c2; */
+  /* border-bottom: 10px solid #38348b; */
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████  ██████
@@ -499,6 +509,7 @@
 
 .serviceoption {
   margin-bottom: 40px;
+  width: 70%;
 }
 
 .serviceoptionscontainer {
@@ -516,6 +527,7 @@
 
 .servicedescription {
   text-align: center;
+  /* width: 70%; */
 }
 
 .servicessection {
@@ -694,7 +706,7 @@
   align-items: center;
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
-  padding: 0% 5% 10% 5%; /*top, right, bottom. left*/
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
   /* border-bottom: 10px solid #38348b; */
   /* background-color:#122449; */
   /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
@@ -702,7 +714,7 @@
 
 .wwadescription {
   display: block;
-  font-size: 30px;
+  font-size: 1em;
   font-weight: 40;
   padding: 20px 0px 10px 0px; 
 }
@@ -746,7 +758,7 @@
   align-items: center;
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
-  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
   /* border-bottom: 10px solid #38348b; */
   /* background-color:#122449; */
   /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
@@ -765,6 +777,32 @@
   /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
 }
 
+.wwddescription {
+  display: block;
+  font-size: 30px;
+  font-weight: 40;
+  padding: 20px; 
+}
+
+.wwdsubject {
+  display: inline-flex;
+  align-items: flex-end;
+  width: calc(100% - 40px); /*This calculation width needs to match the margin*/
+  vertical-align: top;
+  /* margin: 20px 30% 20px 30%; top, right, bottom. left */
+  /* padding: 20px 0px 0px 0px; */
+  /* border-bottom: 10px solid #38348b; */
+  margin: 20px;
+  /* background-image: url('assets/wwdtemp2.png'); */
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 100px 10px #060d1a;
+  /* background-color: rgba(0,0,25,.80); */
+  /* background-blend-mode: multiply; */
+}
+
 .wwdtestcontainerbottom {
   display: inline-flex;
   flex-direction: column-reverse;
@@ -776,13 +814,6 @@
   /* border-bottom: 10px solid #38348b; */
   /* background-color:#122449; */
   /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
-}
-
-.wwddescription {
-  display: block;
-  font-size: 30px;
-  font-weight: 40;
-  padding: 20px 0px 10px 0px; 
 }
 
 .wwdtext {

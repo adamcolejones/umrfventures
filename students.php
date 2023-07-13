@@ -49,11 +49,11 @@
         ?>
         <div class="scrollableContent">
 
-            <div class="whowearelinks">
-                <a href="whoweare.php" class="whowearelinkitem">About Us</a>
-                <a href="students.php" class="whowearelinkitem current">Students</a>
-                <a href="governance.php" class="whowearelinkitem">Governance</a>
-                <a href="management.php" class="whowearelinkitem">Management</a>
+            <div class="wwalinks">
+                <a href="whoweare.php" class="wwalinkitem">About Us</a>
+                <a href="students.php" class="wwalinkitem current">Students</a>
+                <a href="governance.php" class="wwalinkitem">Governance</a>
+                <a href="management.php" class="wwalinkitem">Management</a>
             </div>
 
             <div class="studentContainer">

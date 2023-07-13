@@ -49,14 +49,14 @@
         ?>
         <div class="scrollableContent">
 
-            <div class="whowearelinks">
-                <a href="whoweare.php" class="whowearelinkitem">About Us</a>
-                <a href="students.php" class="whowearelinkitem">Students</a>
-                <a href="governance.php" class="whowearelinkitem current">Governance</a>
-                <a href="management.php" class="whowearelinkitem">Management</a>
+            <div class="wwalinks">
+                <a href="whoweare.php" class="wwalinkitem">About Us</a>
+                <a href="students.php" class="wwalinkitem">Students</a>
+                <a href="governance.php" class="wwalinkitem current">Governance</a>
+                <a href="management.php" class="wwalinkitem">Management</a>
             </div>
             
-            <div class="textcontent">
+            <div class="governancetextcontent">
                 <div class="texttitle">UMRF Ventures Board Members</div>
                 <div class="textdescription">UMRF Ventures was established as a for-profit, C Corporation in 2017. We are affiliated with the University of Memphis, but the University of Memphis Research Foundation owns 100% of the shares of our company. Any profits that Ventures earns are paid back to the Research Foundation in the form of dividends.</div>
                 <div class="textdescription">The company has about 10 full-time employees and over 200 part-time student employees.</div>
