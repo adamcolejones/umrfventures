@@ -369,8 +369,8 @@
   height: 0;
   padding: 0% 0% 0% 0%;
   padding-bottom: 56.5%; /*Padding-Height Work around*/
-  border-top: 10px solid #38348b;
-  border-bottom: 10px solid #38348b;
+  /* border-top: 10px solid #38348b; */
+  /* border-bottom: 10px solid #38348b; */
   /* background-color: #034b8a; */
 }
 
@@ -497,6 +497,27 @@
   top: 7%;
 }
 
+.serviceoption {
+  margin-bottom: 40px;
+}
+
+.serviceoptionscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+  /* margin: 5% 0% 0% 0%; */
+  /* border-top: 10px solid #38348b; */
+  border-bottom: 10px solid #38348b;
+  background-color: #050b15;
+  /* background: linear-gradient(0deg, #0c162c 0%, #2c54a4 75%, #0c162c 100%); */
+}
+
+.servicedescription {
+  text-align: center;
+}
+
 .servicessection {
   display: inline-flex;
   width: 100%;
@@ -545,6 +566,7 @@
   color: white;
   font-weight: 500;
   font-size: 2vw;
+  
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */

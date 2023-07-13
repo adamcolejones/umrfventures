@@ -192,6 +192,27 @@
             <div class="element1">Element 1</div>
             <div class="element2">Element 2</div>
 
+            <h2>Test 5</h2>
+            <ul>
+                <li>Squares with appearing text</li>
+                <li></li>
+            </ul>
+
+            <div class="wwdcontainer">
+                <div class="wwdsubject">
+                    <div class="wwdtext" style="background-image: url('assets/wwdtemp1.png'); border-radius: 10px;   background-repeat: no-repeat;   background-position: center;   background-size: cover;">
+                        <div class="wwdtitle">IT Help Desks</div>
+                        <div class="wwddescription">Our IT Help Desk team provides top-notch technical support to resolve computer hardware, software, and network issues. With exceptional problem-solving skills, we ensure smooth technology operations and offer excellent customer service.</div>
+                    </div>
+                </div>
+                <div class="wwdsubject">
+                    <div class="wwdtext" style="background-image: url('assets/wwdtemp2.png'); border-radius: 10px;   background-repeat: no-repeat;   background-position: center;   background-size: cover;">
+                        <div class="wwdtitle">Information Security Analysis</div>
+                        <div class="wwddescription">Our Information Security Analysts protect sensitive data by assessing systems, implementing security measures, and monitoring for potential threats. With extensive cybersecurity knowledge, we safeguard information and maintain confidentiality.</div>
+                    </div>
+                </div>
+            </div>
+
             <div class="contactfooter">
 
             </div>

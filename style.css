@@ -688,7 +688,6 @@ li {
   /* padding: 0% 10% 0% 10%; */
   margin: 0% 15% 0% 15%;
   padding-bottom: 46.5%; /*Padding-Height Work around required to show showcase*/
-  /* border-bottom: 10px solid #38348b; */
   /* background-color: #034b8a; */
 }
 
@@ -699,7 +698,7 @@ li {
 .partnershowcasetop {
   position: absolute;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   /* height: 35%; */
   /* width: 70%; */
@@ -708,7 +707,7 @@ li {
 
   height: 50%;
   width: 100%;
-  top: -8%;
+  top: 2%;
   left: 0%;
 }
 
@@ -734,7 +733,7 @@ li {
 .partnershowcasetopleft {
   height: 70%;
   width: 70%;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-image: url('assets/PartnerSectionFedExWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -754,7 +753,7 @@ li {
 .partnershowcasetopright {
   height: 70%;
   width: 70%;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -890,10 +889,12 @@ li {
 .serviceoptionscontainer {
   display: flex;
   justify-content: space-evenly;
-  padding: 10% 0% 10% 0%;
-  margin: 5% 0% 0% 0%;
-  border-top: 10px solid #38348b;
-  border-bottom: 10px solid #38348b;
+  padding: 5% 0% 5% 0%;
+  /* margin: 5% 0% 0% 0%; */
+  /* border-top: 10px solid #38348b; */
+  /* border-bottom: 10px solid #38348b; */
+  background-color: #050b15;
+  /* background: linear-gradient(0deg, #0c162c 0%, #2c54a4 75%, #0c162c 100%); */
 }
 
 .serviceoption {
@@ -959,7 +960,9 @@ li {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding-bottom: 50px;
+  padding: 50px;
+  border-top: 10px solid #38348b;
+
 }
 
 .studentContainer {
@@ -1006,8 +1009,8 @@ li {
 }
 
 .textcontent {
-  margin: 20px 25% 20px 25%;
-  padding: 20px;
+  margin: 20px 25% 0px 25%;
+  padding: 20px 20px 0px 20px;
   text-align: center;
   /* background-color:rgb(16, 36, 67); */
   border-radius: 10px;
@@ -1032,6 +1035,7 @@ a.textdescription {
   font-weight: 500;
   font-size: 2vw;
   text-decoration: underline;
+  z-index: 1px;
 }
 
 .textlink {
@@ -1393,7 +1397,10 @@ ul {
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
   padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  margin-top: 5%;
   justify-content: space-evenly;
+  border-top: 10px solid #38348b;
+
 }
 
 .wwdcontactsubtitle {
@@ -1435,35 +1442,36 @@ ul {
   display: inline-flex;
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
-  padding: 20px 5% 0% 5%; /*top, right, bottom. left*/
+  padding: 60px 5% 0% 5%; /*top, right, bottom. left*/
   justify-content: space-evenly;
   align-items: flex start;
 }
 
-.wwdpic {
+.wwdsubject {
   display: inline-flex;
   align-items: flex-end;
   width: calc(40% - 40px); /*This calculation width needs to match the margin*/
   vertical-align: top;
   /* margin: 20px 30% 20px 30%; top, right, bottom. left */
-  padding: 20px 0px 0px 0px;
+  /* padding: 20px 0px 0px 0px; */
   /* border-bottom: 10px solid #38348b; */
   background-image: url('assets/wwdtemp2.png');
   border-radius: 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  box-shadow: 0px 0px 100px 10px #060d1a;
   /* background-color: rgba(0,0,25,.80); */
   /* background-blend-mode: multiply; */
 }
 
-.wwdpictext {
+.wwddescription {
   position: relative;
   display: block;
   font-size: 20px;
   font-weight: 40;
-  margin: 20px 0px 0px 0px;
-  padding: 20px;
+  /* margin: 20px 0px 0px 0px; */
+  padding: 40px 20px 20px 20px;
   font-style: italic;
   color: rgba(255, 255, 255, 0.728);
   font-variant: none;
@@ -1471,19 +1479,19 @@ ul {
   bottom: 0;
 }
 
-.wwdpic .wwdpictext {
+.wwdsubject .wwddescription {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
-.wwdpic:hover .wwdpictext {
+.wwdsubject:hover .wwddescription {
   opacity: 1;
-  background: linear-gradient(to top, #060d1a, transparent);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  background: linear-gradient(to top, #060d1a, #060d1aa9, #060d1aa9, #060d1ab3, transparent);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
-.wwdsubtitle {
+.wwdtitle {
   display:inline-block;
   vertical-align: top;
   font-weight: 900;
@@ -1492,6 +1500,19 @@ ul {
   letter-spacing: -1px;
   line-height: 50px;
   padding: 20px;
+  /* Calculate for the padding */
+  width: calc(100% - 40px);  
+  background: linear-gradient(to bottom, #060d1a,  transparent);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.wwdtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 
