@@ -593,7 +593,7 @@ li {
     padding-right: 50px;
     /*height needs to match the scrollable content height*/
     min-height: 10%; 
-    background: linear-gradient(to right, white, 10%, #060d1a);
+    background: linear-gradient(to right, white, 220px, white 0%, #00369c 100%);
     /* background: linear-gradient(to right, white, 10%, #060d1a); */
     z-index: 10; /*Higher the number, the further front the content is*/
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -610,7 +610,7 @@ li {
 }
 
 .menuitem:hover {
-  color: #2980B9;
+  color: #00369c;
 }
 
 .menuitem.contactbutton {
@@ -637,12 +637,12 @@ li {
 }
 
 .menuitem.contactbutton:hover {
-  background-color: #19305f;
+  background-color: #00369c;
   color: white;
 }
 
 .menuitem.current {
-  color: #2980B9;
+  color: #00369c;
   /* text-decoration: underline; */
   /* text-decoration-color: white; */
   /* text-decoration-color: #034b8a; */
@@ -771,6 +771,10 @@ li {
   margin: 0% 15% 0% 15%;
   padding-bottom: 46.5%; /*Padding-Height Work around required to show showcase*/
   /* background-color: #034b8a; */
+  color: #00369c;
+  filter: grayscale(100%) saturate(100%) brightness(50%) contrast(150%) hue-rotate(225deg);
+
+
 }
 
 /* The Sizing of the height, width, and top margin is specific */
@@ -949,8 +953,8 @@ li {
   /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
   left: 0px;
   right: 0px;
-  background: #091325;
-  color: white;
+  background: white;
+  color: #00369c;
   z-index: 2; /*The lower the number, the further back the content is*/
   /* margin-bottom: 5vh; */
   /* background: linear-gradient(-45deg, #0c162c 0%, #19274a 50%, #0c162c 100%);
@@ -1103,6 +1107,7 @@ li {
   margin: 20px 25% 20px 25%;
   padding: 20px 20px 20px 20px;
   text-align: center;
+  color: #00369c;
   /* background-color:rgb(16, 36, 67); */
   border-radius: 10px;
   /* background-color: #0067c2; */
@@ -1113,7 +1118,8 @@ li {
   /* color: #6EC1E4; */
   display: inline;
   /* color: white; */
-  color: rgba(255, 255, 255, 0.728);
+  /* color: rgba(255, 255, 255, 0.728); */
+  color: #00369c;
   font-weight: 500;
   font-size: 2vw;
 }
@@ -1121,7 +1127,8 @@ li {
 a.textdescription {
   /* color: #6EC1E4; */
   display: inline;
-  color: white;
+  /* color: white; */
+  color: #00369c;
   /* color: rgba(255, 255, 255, 0.728); */
   font-weight: 500;
   font-size: 2vw;
@@ -1135,7 +1142,8 @@ a.textdescription {
 
 .texttitle {
   /* color: #0073e5; */
-  color: white;
+  /* color: white; */
+  color: #00369c;
   font-weight: 700;
   font-size: 5vw;
 }
@@ -1223,20 +1231,21 @@ ul {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: #050b15;
-  box-shadow: inset 0 0 5px black; 
+  background-color: white;
+  box-shadow: inset 0 0 5px white; 
   /* border-radius: 10px; */
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0e1c37; 
+  background: #00369c; 
+
   /* border-radius: 10px; */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0d1a31; 
+  background: #00369c; 
 }
 
 .welcomecontainer {
@@ -1247,10 +1256,11 @@ ul {
   padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
   border-bottom: 10px solid #38348b;
   background-image: url('assets/CampusAdministrationBuildingBlur.png');
+  filter: brightness(100%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(0,0,25,.80);
+  background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: multiply;
 }
 
@@ -1369,7 +1379,8 @@ ul {
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.728);
+  /* color: rgba(255, 255, 255, 0.728); */
+  color: #00369c;
   font-variant: none;
   z-index: 10;
   /* text-align: center; */
