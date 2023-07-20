@@ -65,6 +65,13 @@ body {
  ██████████████
 */
 
+.clampbox {
+  background-color: red;
+  /* Clamp - Minwidth, preferredWidth, MaxWidth */
+  width: clamp(220px, 55%, 300px);
+  height: 150px;
+}
+
 .contactbutton {
   border-radius: 8px;
   background-color: white;
@@ -411,6 +418,7 @@ html {
     background-color: #fff;
     position: relative;
     height: 100%;
+    scroll-behavior: smooth; /* For .testtop and .testbottom */
     /* Keeps Scroll bar from shifting the content of the page*/
     /* overflow-y: overlay;  */
 }
@@ -1099,6 +1107,11 @@ li {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   background-color: blue;
   /* Transition time is determined in the parent class */
+}
+
+.testtop,
+.testbottom {
+  height: 100vh;
 }
 
 .textcontent {

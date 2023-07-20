@@ -57,9 +57,8 @@
                 <div class="textdescription">Email: info@umrfventures.com</div>
             </div>
 
-            <div class="textcontent">
-                <div class="texttitle">Google Map Here</div>
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.995387066702!2d-89.92840922354011!3d35.106826072778134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f86b404b00001%3A0x4353cd43430ffc07!2sUMRF%20Ventures%2C%20Inc!5e0!3m2!1sen!2sus!4v1689864135118!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
             <div class="textcontent">
                 <div class="texttitle">Partners</div>

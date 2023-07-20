@@ -63,7 +63,7 @@
                       <div id="myDropdown" class="dropdown-content">
                         <a href="home.php" class="menuitem">Home</a>                        
                         <a href="whatwedo.php" class="menuitem">What We Do</a>
-                        <a href="whoweare.php" class="menuitem whoweare">Who We Are</a>
+                        <a href="whoweare.php" class="menuitem">Who We Are</a>
                         <a href="employment.php" class="menuitem">Employment</a>
                         <a href="contact.php" class="menuitem">Connect With Us</a>
                       </div>
