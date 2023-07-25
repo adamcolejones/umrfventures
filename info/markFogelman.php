@@ -52,10 +52,10 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/GovernanceRaajKurapati.png" alt="">
+                <img class="managementphoto" src="../assets/GovernanceMarkFogelman.png" alt="">
                 <div class="managementtext">
-                    <div class="managementsubtitle">Raaj Kurapati</div>
-                    <div class="managementdescription">Before joining the University of Memphis, Raaj Kurapati previously held the positions of Vice President for Finance and Chief Financial Officer for Texas A&M University -- Kingsville and Associate Vice Chancellor for Financial Services and Business Operations for the University of Alaska in Fairbanks. He also served as Vice President & Chief Financial/Compliance Officer/Vice President & Chief Internal Auditor for the Bank of FSM in Pohnpei, Micronesia and Senior Auditor for Deloitte & Touche in Saipan and Guam/Micronesia. Kurapati earned his bachelor of business administration (BBA) from East Texas Baptist University with a concentration in management and accounting. He is an accredited investment fiduciary as well as an accredited investment fiduciary analyst and serves on various finance and education boards.</div>
+                    <div class="managementsubtitle">Mark Fogelman</div>
+                    <div class="managementdescription">Mark Fogelman is co-owner and President of Fogelman, a privately held multifamily investment and management company headquartered in Memphis, Tennessee. Mark holds a BSM degree from Tulane University's Freeman School of Business where he was the recipient of the Evelyn and William Burkenroad Award, and currently serves as a Trustee on the Freeman School Council and The Tulane President’s Council. He is past president of the Tennessee Apartment Association, Temple Israel and is on the board of governors of New Memphis Institute, The National Multi-Housing Council and Peak Campus Housing.</div>
                 </div>
             </div>
 

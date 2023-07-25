@@ -48,7 +48,7 @@
                 </div>
             </div>
             <!-- - 4. Value Titles and Descriptions -->
-            <div class="textcontent">
+            <div class="hometextcontent">
                 <div class="texttitle">Partner With Us</div>
                 <a href="contact.php" class="textdescription">Contact UMRF Ventures</a> 
                 <div class="textdescription"> for pricing and how this model can meet your company's needs.</div>
@@ -65,6 +65,14 @@
                     <!-- The Background images for these have specific dimensions.  1/4 the size of 1920 x 1080 -->
                     <div class="partnershowcasebottomleft"></div>
                     <div class="partnershowcasebottomright"></div>
+                </div>
+            </div>
+
+            <div class="joincontainer">
+                <div class="homejoincontent">
+                    <div class="texttitle">Join Our Team!</div>
+                    <a href="employment.php" class="textdescription">Employing university students,</a> 
+                    <div class="textdescription"> building career focused experiences.</div>
                 </div>
             </div>
 

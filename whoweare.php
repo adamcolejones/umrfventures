@@ -50,7 +50,7 @@
                 <img class="wwaphoto" src="assets/DeskSpaces.png" alt="">
             </div>
 
-            <div class="textcontent">
+            <div class="wwatextcontent">
                 <div class="texttitle">Want to reach out?</div>
                 <div class="textdescription">UMRF Ventures is always open to talking about our work, but we do request that any visits be scheduled through the manager. Service centers are off limits unless explicitly approved.</div>
             </div>

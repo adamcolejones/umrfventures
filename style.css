@@ -92,8 +92,26 @@ body {
     align-items: end;
 }
 
+.contactmap {
+  height: square;
+  width: 60%;
+  margin: 0px 20% 0px 20%;
+  border-radius: 10px;
+  background-color: #050b15;
+}
+
 .contactpicture {
   width: 100%;
+}
+
+.contacttextcontent {
+  margin: 20px 25% 20px 25%;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  /* background-color:rgb(16, 36, 67); */
+  border-radius: 10px;
+  /* background-color: #0067c2; */
+  /* border-bottom: 10px solid #38348b; */
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -112,7 +130,12 @@ body {
 */
 
 .defaultpicture {
-  height: 100px;
+  height: 150px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -136,7 +159,7 @@ body {
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
   padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
-  border-bottom: 10px solid #38348b;
+  border-bottom: 10px solid #12284b;
   background-image: url('assets/ChristmasParty.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -240,8 +263,51 @@ body {
  ██████████████
 */
 
-.governancephoto {
-  
+.governanceinfo {
+  height: 300px;
+  width: 250px;
+  background: linear-gradient(to top, #060d1a, transparent, transparent);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  position: absolute;
+  z-index: 1;
+}
+
+.governancename {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+.governancenamehigher {
+  position: absolute;
+  bottom: 45px;
+  left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+.governancetitle {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8em;
+  color: white;
+}
+
+.governancelist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 10% 0px 10%;
+
 }
 
 .governancecontact {
@@ -389,6 +455,17 @@ body {
   /* filter: sepia(1) hue-rotate(200deg); */
 }
 
+.governancepicture {
+  height: 300px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0px 30px 30px 0px;
+  /* box-shadow: 0px 0px 100px 10px #060d1a; */
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████  ██████
@@ -404,6 +481,28 @@ body {
  ██████  ██████
 */
 
+.homejoincontent {
+    margin: 0px 25% 0px 25%;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    /* border-top: 10px solid #38348b; */
+    /* background-color:rgb(16, 36, 67); */
+    /* border-radius: 10px; */
+    /* background-color: #0067c2; */
+    /* border-bottom: 10px solid #38348b; */
+}
+
+
+.hometextcontent {
+  margin: 20px 25% 0px 25%;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  /* background-color:rgb(16, 36, 67); */
+  border-radius: 10px;
+  /* background-color: #0067c2; */
+  /* border-bottom: 10px solid #38348b; */
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #homevideo {
   position: relative;
@@ -414,13 +513,13 @@ body {
 }
 
 html {
-    margin: 0 0 0 0;
-    background-color: #fff;
-    position: relative;
-    height: 100%;
-    scroll-behavior: smooth; /* For .testtop and .testbottom */
-    /* Keeps Scroll bar from shifting the content of the page*/
-    /* overflow-y: overlay;  */
+  margin: 0 0 0 0;
+  background-color: #fff;
+  position: relative;
+  height: 100%;
+  scroll-behavior: smooth; /* For .testtop and .testbottom */
+  /* Keeps Scroll bar from shifting the content of the page*/
+  /* overflow-y: overlay;  */
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -471,6 +570,19 @@ html {
  ██░░░░░░░░░░██
  ██████████████
 */
+
+.joincontainer {
+  /* position: absolute; */
+  height: auto;
+  border-top: 10px solid #12284b;
+  width: 100%;
+  background-image: url('assets/UMRFBuildingFront.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,25,.80);
+  background-blend-mode: multiply;
+}
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
@@ -958,6 +1070,7 @@ li {
   left: 0px;
   right: 0px;
   background: #091325;
+  /* background-color: #12284b; */
   color: white;
   z-index: 2; /*The lower the number, the further back the content is*/
   /* margin-bottom: 5vh; */
@@ -1062,7 +1175,7 @@ li {
   justify-content: center;
   gap: 15px;
   padding: 50px;
-  border-top: 10px solid #38348b;
+  border-top: 10px solid #12284b;
 
 }
 
@@ -1073,6 +1186,7 @@ li {
   vertical-align: top;
   padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .studentPicture {
@@ -1153,6 +1267,7 @@ a.textdescription {
   color: white;
   font-weight: 700;
   font-size: 5vw;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .twitterlogo {
@@ -1184,6 +1299,7 @@ ul {
   height: 100%;
   padding: 10px;
   left: 20px;
+  /* background-color: rgba(0,0,25,.80); */
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -1260,7 +1376,7 @@ ul {
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
   padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
-  border-bottom: 10px solid #38348b;
+  border-bottom: 10px solid #12284b;
   background-image: url('assets/CampusAdministrationBuildingBlur.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -1428,7 +1544,7 @@ ul {
 
 .wwadescription {
   display: block;
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
@@ -1447,6 +1563,16 @@ ul {
   font-variant: small-caps;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+}
+
+.wwatextcontent {
+  margin: 20px 25% 20px 25%;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  /* background-color:rgb(16, 36, 67); */
+  border-radius: 10px;
+  /* background-color: #0067c2; */
+  /* border-bottom: 10px solid #38348b; */
 }
 
 .wwatextleft {
@@ -1469,10 +1595,10 @@ ul {
 }
 
 .wwasubtitle {
-  display:inline-block;
+  display: inline-block;
   vertical-align: top;
   font-weight: 900;
-  font-size: 1em;
+  font-size: 2em;
   color: white;
   letter-spacing: -1px;
   line-height: 50px;
@@ -1507,7 +1633,8 @@ ul {
   padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
   margin-top: 5%;
   justify-content: space-evenly;
-  border-top: 10px solid #38348b;
+  border-top: 10px solid #12284b;
+  background-color:#12284b
 
 }
 
