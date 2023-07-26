@@ -52,7 +52,8 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/TeamLaurenBoyette.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/TeamLaurenBoyette.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/TeamLaurenBoyette.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Lauren Boyette – Manager | Raymond James</div>
                     <div class="managementdescription">Lauren Boyette joined UMRF Ventures in October 2018 and currently serves as Manager of the Raymond James ventures. She previously served as a Technical Support Agent, Technical Support Shift Lead, and Supervisor. Lauren graduated from the University of Memphis in 2021 with a B.B.A. in Management. Lauren strives to help students develop professionally. She is proud of her academic and professional achievements and loves to assist in the success of others.</div>

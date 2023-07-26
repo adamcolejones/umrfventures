@@ -52,7 +52,8 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/TeamCruzSeguraRamirez.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/TeamCruzSeguraRamirez.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/TeamCruzSeguraRamirez.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Cruz Segura-Ramirez – Manager | Workforce Management</div>
                     <div class="managementdescription">Cruz Segura-Ramirez joined UMRF Ventures in September 2017 and currently serves as Manager of Workforce Management and Business Analyst. He previously served as a Technical Support Agent, Technical Support Shift Lead and Level 2 Technical Support Agent. Prior to UMRF Ventures, he worked in education through curriculum design, lecture and instruction, and tutoring. Cruz holds a B.S. in Physics from the University of Central Arkansas and an M.S. in Electrical and Computer Engineering from the University of Memphis.</div>

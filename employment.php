@@ -22,6 +22,20 @@
             menu();
         ?>
         <div class="scrollableContent">
+
+            <div class="wwacontacttext">
+                <div class="wwacontactsubtitle">Student success is our goal.</div>
+                <div class="wwacontactdescription">UMRF Ventures is a company staffed by students. We offer part-time jobs on campus, providing a variety of services to local companies. University of Memphis students have the exclusive opportunity to apply.</div>
+                <div class="wwacontactdescription">#VENTUREWITHUS</div>
+            </div>
+
+            <!-- <div class="textcontent">
+                <div class="texttitle">Student success is our goal.</div>
+                <div class="textdescription">UMRF Ventures is a company staffed by students. We offer part-time jobs on campus, providing a variety of services to local companies. University of Memphis students have the exclusive opportunity to apply.</div>
+                <br>
+                <div class="textdescription">#VENTUREWITHUS</div>
+            </div> -->
+
             <div class="employmentcontainer">
                 <!-- <div class="welcomebackground"></div> -->
                 <video class="employmentvideo" loop autoplay playsinline muted controls>
@@ -35,30 +49,40 @@
                 </div>
             </div>
 
-            <div class="textcontent">
-                <div class="texttitle">Student success is our goal.</div>
-                <div class="textdescription">UMRF Ventures is a company staffed by students. We offer part-time jobs on campus, providing a variety of services to local companies. University of Memphis students have the exclusive opportunity to apply.</div>
-                <br>
-                <div class="textdescription">#VENTUREWITHUS</div>
+            <div class="wwacontacttext">
+                <div class="wwacontactsubtitle">Join Our Team</div>
+                <div class="wwacontactdescription">We are always accepting applications! We create unique opportunities for our student employees for professional development, leadership training, and assistance with their career search after graduation.</div>
+                <div class="wwacontactdescription">Our students are serious about their education and their work at UMRF Ventures.</div>
+                <a href="apply.php" class="contactbutton">View Positions</a>
             </div>
 
-            <div class="textcontent">
+            <div class="wwacontacttext">
+                <div class="wwacontactsubtitle">Recruitment FAQs</div>
+                <div class="wwacontactdescription">How much do you pay?</div>
+                <div class="wwacontactdescription">We pride ourselves on paying our employees a living wage. Our employees make an average of $15.00 per hour. However, graduate students and students in leadership positions typically earn more.</div>
+                <div class="wwacontactdescription">How many hours do I have to work?</div>
+                <div class="wwacontactdescription">Our students typically work 10-20 hours per week. We schedule their work hours around their classroom commitments.</div>
+            </div>
+
+            <!-- <div class="textcontent">
                 <div class="texttitle">Join Our Team</div>
                 <div class="textdescription">We are always accepting applications! We create unique opportunities for our student employees for professional development, leadership training, and assistance with their career search after graduation.</div>
                 <br>
                 <div class="textdescription">Our students are serious about their education and their work at UMRF Ventures.</div>
                 <br>
-                <div class="textdescription">View Positions Button</div>
-            </div>
+                <div class="wwdcontactlink">
+                    <a href="apply.php" class="contactbutton">View Positions</a>
+                </div>
+            </div> -->
 
-            <div class="textcontent">
-                <div class="texttitle">RECRUITMENT FAQS</div>
+            <!-- <div class="textcontent">
+                <div class="texttitle">Recruitment FAQs</div>
                 <div class="textdescription">How much do you pay?</div>
                 <div class="textdescription">We pride ourselves on paying our employees a living wage. Our employees make an average of $15.00 per hour. However, graduate students and students in leadership positions typically earn more.</div>
                 <br>
                 <div class="textdescription">How many hours do I have to work?</div>
                 <div class="textdescription">Our students typically work 10-20 hours per week. We schedule their work hours around their classroom commitments.</div>
-            </div>
+            </div> -->
 
             <div class="contactfooter">
 

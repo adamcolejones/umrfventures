@@ -26,8 +26,8 @@
             <div class="wwalinks">
                 <a href="whoweare.php" class="wwalinkitem">About Us</a>
                 <a href="students.php" class="wwalinkitem">Students</a>
-                <a href="governance.php" class="wwalinkitem current">Governance</a>
                 <a href="management.php" class="wwalinkitem">Management</a>
+                <a href="governance.php" class="wwalinkitem current">Governance</a>
             </div>
 
             <div class="governancetextcontent">
@@ -38,10 +38,10 @@
 
             <div class="governancelist">
                 <div>
-                    <div class="governanceinfo">
+                    <a class="governanceinfo">
                         <div class="governancename">Tom Kadien</div>
                         <div class="governancetitle">Chairman</div>
-                    </div>
+                    </a>
                     <div class="governancepicture" style="background-image: url('assets/GovernanceTomKadien.png');" ></div>
                 </div>
 

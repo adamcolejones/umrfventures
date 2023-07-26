@@ -52,7 +52,8 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/TeamSheritaJohnson.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/TeamSheritaJohnson.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/TeamSheritaJohnson.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Sherita Johnson – Managing Director | Business Division A</div>
                     <div class="managementdescription">Sherita Johnson joined UMRF Ventures in July 2017 and prides herself on being the first employee of the company. She currently serves as Managing Director responsible for business operations, strategic leadership, and IT support for several customers, including FedEx, Raymond James, and the City of Memphis. She manages an energetic and talented team of IT professionals who support employee development and manage the customer experience. Prior to joining UMRF Ventures, she worked for the University of Memphis IT department, where she acquired her love for student development, higher education, and supportive communication. She has more than 8 years of management and business operations experience. She graduated from the University of Memphis with a B.S. in Chemistry and is a magna cum laude graduate with a Master of Science in Computer Science with a concentration in Data Management and Analysis.</div>

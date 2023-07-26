@@ -52,7 +52,8 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/GovernanceTomKadien.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/GovernanceTomKadien.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/GovernanceTomKadien.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Tom Kadien</div>
                     <div class="managementdescription"></div>

@@ -52,7 +52,8 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/TeamKatyHiggins.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/TeamKatyHiggins.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/TeamKatyHiggins.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Katy Higgins – Manager | FedEx Command Center</div>
                     <div class="managementdescription">Katy Higgins joined UMRF Ventures in June 2018 and currently serves as Manager for the Systems Analytics and Information Security teams. She previously served as Operations Lead. Before her position with UMRF Ventures, she held a variety of different leadership positions in retail and academic research settings. She is a magna cum laude graduate with B.S. degrees in Psychology and German, and is currently pursuing a master’s degree in Information Systems and a master’s certificate in Business Project Management. In her spare time, she likes to read, paint, and ride her horse.</div>

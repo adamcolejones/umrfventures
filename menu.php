@@ -98,6 +98,10 @@
                   if (currentURL.includes("students") || currentURL.includes("management") || currentURL.includes("governance")) {
                     menuItems[2].classList.add("current");
                   }
+
+                  if (currentURL.includes("apply")) {
+                    menuItems[3].classList.add("current");
+                  }
                 }
               }
               

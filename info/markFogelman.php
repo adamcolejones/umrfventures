@@ -52,7 +52,8 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/GovernanceMarkFogelman.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/GovernanceMarkFogelman.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/GovernanceMarkFogelman.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Mark Fogelman</div>
                     <div class="managementdescription">Mark Fogelman is co-owner and President of Fogelman, a privately held multifamily investment and management company headquartered in Memphis, Tennessee. Mark holds a BSM degree from Tulane University's Freeman School of Business where he was the recipient of the Evelyn and William Burkenroad Award, and currently serves as a Trustee on the Freeman School Council and The Tulane President’s Council. He is past president of the Tennessee Apartment Association, Temple Israel and is on the board of governors of New Memphis Institute, The National Multi-Housing Council and Peak Campus Housing.</div>

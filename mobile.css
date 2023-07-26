@@ -14,6 +14,51 @@
  ██████  ██████
 */
 
+.applysection {
+    display: inline-flex;
+    align-items: start;
+    width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+    vertical-align: top;
+    padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+    /* border-top: 10px solid #12284b; */
+    background-color:#12284b;
+    flex-direction: column;
+}
+
+.applytitle {
+    display:inline-block;
+    vertical-align: top;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    letter-spacing: -1px;
+    line-height: 50px;
+    width: 100%;
+    overflow-wrap: break-word; /* Use overflow-wrap property to make text wrap or break */
+    /* word-break: break-all; */
+    hyphens: auto;
+  }
+
+  
+  .applydescription {
+    display: block;
+    font-size: 20px;
+    font-weight: 40;
+    padding: 20px 0px 10px 0px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.728);
+    font-variant: none;
+    z-index: 10;
+    /* text-align: bottom; */
+  }
+  
+  .applytext {
+    width: 100%;
+    /* word-wrap: break-word; */
+  }
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -135,7 +180,7 @@
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
   padding: 5% 5% 10% 5%; /*top, right, bottom. left*/
-  border-bottom: 10px solid #38348b;
+  border-bottom: 10px solid #12284b;
   /* background-color:#122449; */
   /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
 }
@@ -304,6 +349,52 @@ html {
 ██░░██          ██░░██
 ██████          ██████
 */
+
+.managementcontainer {
+    display: flex;
+    align-items: center;
+    width: calc(100%); /*This calculation width needs to match the padding*/
+    vertical-align: top;
+    padding: 5% 0px 5% 0px; /*top, right, bottom. left*/
+    flex-direction: column;
+    
+    /* border-bottom: 10px solid #38348b; */
+    /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-color: rgba(0,0,25,.80); */
+    /* background-blend-mode: multiply; */
+  }
+
+.managementphoto {
+    position: relative;
+    display: inline;
+    /* width: 47%; */
+    /* height: max-content; */
+    box-shadow: 0px 0px 100px 10px #060d1a;
+    
+    height: 54vw;
+    width: 45vw;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin: 100px 0px 100px 0px; */
+    /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+.managementtext {
+    display: inline;
+    width: fit-content;
+    text-overflow: wrap;
+    padding: 50px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+    font-size: fit-content;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+  }
 
 .menu {
   position: fixed;
@@ -527,7 +618,7 @@ html {
   padding: 5% 0% 5% 0%;
   /* margin: 5% 0% 0% 0%; */
   /* border-top: 10px solid #38348b; */
-  border-bottom: 10px solid #38348b;
+  border-bottom: 10px solid #12284b;
   /* background-color: #050b15; */
     background-color: #12284b;
   /* background: linear-gradient(0deg, #0c162c 0%, #2c54a4 75%, #0c162c 100%); */
@@ -650,7 +741,7 @@ html {
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
   padding: 5% 5% 10% 5%; /*top, right, bottom. left*/
-  border-bottom: 10px solid #38348b;
+  border-bottom: 10px solid #12284b;
   /* background-color:#122449; */
   /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
 }
@@ -722,7 +813,7 @@ html {
 
 .wwadescription {
   display: block;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 40;
   padding: 20px 0px 10px 0px; 
 }

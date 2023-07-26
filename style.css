@@ -27,6 +27,45 @@ a {
     text-decoration: none;
 }
 
+.applysection {
+  display: inline-flex;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  margin-bottom: 5%;
+  justify-content: space-evenly;
+  /* border-top: 10px solid #12284b; */
+  background-color:#12284b
+
+}
+
+.applytitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+.applydescription {
+  display: block;
+  font-size: 20px;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: bottom; */
+}
+
+.applytext {
+  width: 60%;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -90,14 +129,31 @@ body {
     top: 100%; /*keeps footer at the bottom of the page*/
     z-index: 3;
     align-items: end;
+    margin-top: 5%;
+}
+
+.contactmapcontainer {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 .contactmap {
-  height: square;
-  width: 60%;
+  position: relative;
+  /* display: flex; */
+  height: 300px;
+  width: 60vw;
   margin: 0px 20% 0px 20%;
   border-radius: 10px;
-  background-color: #050b15;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 0px 100px 10px #060d1a;
 }
 
 .contactpicture {
@@ -138,6 +194,53 @@ body {
   border-radius: 10px;
 }
 
+.dykbutton {
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  height: 50px;
+  color: #254992;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.dykcontainer {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
+  background-color: #12284b;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dyktitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+.dyktop {
+  display: flex;
+  justify-content: center;
+}
+
+.dykdescription {
+  display: block;
+  font-size: 1.4em;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  text-align: center;
+}
+
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
  ██████████████
@@ -159,8 +262,9 @@ body {
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
   padding: 10% 5% 10% 5%; /*top, right, bottom. left*/
+  border-top: 10px solid #12284b;
   border-bottom: 10px solid #12284b;
-  background-image: url('assets/ChristmasParty.png');
+  background-image: url('assets/StockConfetti.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -238,7 +342,8 @@ body {
 
 .facebooklogo {
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
+  border-radius: 5px;
   background-color: white;
 }
 
@@ -277,7 +382,7 @@ body {
   position: absolute;
   bottom: 30px;
   left: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   font-size: 1.2em;
   color: white;
 }
@@ -286,7 +391,7 @@ body {
   position: absolute;
   bottom: 45px;
   left: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   font-size: 1.2em;
   color: white;
 }
@@ -295,8 +400,8 @@ body {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 0.8em;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-size: 0.7em;
   color: white;
 }
 
@@ -553,7 +658,8 @@ html {
 
 .instagramlogo {
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -621,7 +727,8 @@ li {
 
 .linkedinlogo {
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
@@ -640,11 +747,13 @@ li {
 */
 
 .managementcontainer {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  /* height: calc(100% - 25%); */
   width: calc(100% - 10%); /*This calculation width needs to match the padding*/
   vertical-align: top;
   padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  justify-content: space-evenly;
   /* border-bottom: 10px solid #38348b; */
   /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
   /* background-repeat: no-repeat; */
@@ -676,9 +785,12 @@ li {
   /* width: 47%; */
   /* height: max-content; */
   box-shadow: 0px 0px 100px 10px #060d1a;
-  flex: 3;
-  width: 50%;
+  height: 36vw;
+  width: 30vw;
   border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   /* margin: 100px 0px 100px 0px; */
   /* filter: sepia(1) hue-rotate(200deg);  */
 }
@@ -698,7 +810,7 @@ li {
   display: inline;
   width: fit-content;
   text-overflow: wrap;
-  padding: 0px 0px 0px 50px; /*Top, right, bottom, left - different measurements based on container padding*/
+  padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
   font-size: fit-content;
   font-variant: small-caps;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -1174,7 +1286,7 @@ li {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding: 50px;
+  padding: 5% 0 0 0;
   border-top: 10px solid #12284b;
 
 }
@@ -1267,12 +1379,13 @@ a.textdescription {
   color: white;
   font-weight: 700;
   font-size: 5vw;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
 
 .twitterlogo {
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -1497,19 +1610,30 @@ ul {
 }
 
 .wwacontactdescription {
-  display: block;
+  display: inline;
   font-size: 20px;
   font-weight: 40;
-  padding: 20px 0px 10px 0px;
+  padding: 20px 5% 10px 5%;
   font-style: italic;
   color: rgba(255, 255, 255, 0.728);
   font-variant: none;
   z-index: 10;
-  /* text-align: center; */
+  text-align: center;
+}
+
+a.wwacontactdescription {
+  text-decoration: underline;
 }
 
 .wwacontacttext {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5% 0 0 0;
+  /* height: 200px; */
+  align-items: center;
+  justify-content: center;
+  /* background-color: #0e1c37; */
 }
 
 .wwacontainer {
@@ -1544,7 +1668,7 @@ ul {
 
 .wwadescription {
   display: block;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
@@ -1553,6 +1677,8 @@ ul {
   z-index: 10;
   /* text-align: center; */
 }
+
+
 
 .wwatext {
   display: inline;

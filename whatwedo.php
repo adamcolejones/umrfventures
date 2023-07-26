@@ -93,7 +93,7 @@
                 </div>
                 <!-- For custom ventures, show a board room meeting in action as the background image -->
                 <div class="wwdsubject">
-                    <div class="wwdtext" style="background-image: url('assets/wwdtemp6.png'); border-radius: 10px;   background-repeat: no-repeat;   background-position: center;   background-size: cover;">
+                    <div class="wwdtext" style="background-image: url('assets/StockStudentMeeting.png'); border-radius: 10px;   background-repeat: no-repeat;   background-position: center;   background-size: cover;">
                         <div class="wwdtitle">Custom Ventures</div>
                         <div class="wwddescription">Through Custom Ventures, we offer innovative and tailored solutions to meet clients' unique business needs. With expertise in problem-solving and industry knowledge, we develop customized strategies that drive success and create value.</div>
                     </div>

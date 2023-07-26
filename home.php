@@ -48,11 +48,17 @@
                 </div>
             </div>
             <!-- - 4. Value Titles and Descriptions -->
-            <div class="hometextcontent">
+
+            <div class="wwacontacttext">
+                <div class="wwacontactsubtitle">Partner With Us</div>
+                <a href="contact.php" class="wwacontactdescription">Contact UMRF Ventures</a><div class="wwacontactdescription"> for pricing and how this model can meet your company's needs.</div>
+            </div>
+
+            <!-- <div class="hometextcontent">
                 <div class="texttitle">Partner With Us</div>
                 <a href="contact.php" class="textdescription">Contact UMRF Ventures</a> 
                 <div class="textdescription"> for pricing and how this model can meet your company's needs.</div>
-            </div>
+            </div> -->
 
             <div class="partnershowcasecontainer">
                 <!-- <img class="partnershowcase" src="assets/PartnerShowcase.png"> -->
@@ -84,10 +90,10 @@
 
             <!-- - 7. Social Media Links -->
             <div class="sociallinks">
-                <img class="facebooklogo" src="assets/Facebook Logo.png" alt="">
-                <img class="linkedinlogo" src="assets/Linkedin Logo.png" alt="">
-                <img class="twitterlogo" src="assets/Twitter Logo.png" alt="">
-                <img class="instagramlogo" src="assets/Instagram Logo.png" alt="">
+                <a href="https://www.facebook.com/umrfventures/"><img class="facebooklogo" src="assets/Facebook Logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/umrfventures/mycompany/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
+                <a href="https://twitter.com/umrfventures"><img class="twitterlogo" src="assets/Twitter Logo.png" alt=""></a>
+                <a href="https://www.instagram.com/umrfventures/"><img class="instagramlogo" src="assets/Instagram Logo.png" alt=""></a>
             </div>
             <!-- - 8. Contact Footer -->
             <div class="contactfooter">

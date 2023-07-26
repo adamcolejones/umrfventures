@@ -26,19 +26,16 @@
             <div class="wwalinks">
                 <a href="whoweare.php" class="wwalinkitem">About Us</a>
                 <a href="students.php" class="wwalinkitem">Students</a>
-                <a href="governance.php" class="wwalinkitem">Governance</a>
                 <a href="management.php" class="wwalinkitem current">Management</a>
+                <a href="governance.php" class="wwalinkitem">Governance</a>
+            </div>
+
+            <div class="governancetextcontent">
+                <div class="texttitle">UMRF Ventures Management</div>
+                <div class="textdescription">Our management plays a crucial role in overseeing and enabling growth for university students they employ. By offering guidance, mentorship, and a nurturing environment, management can instill confidence in the students, empowering them to take on challenging tasks and responsibilities. Additionally, strong management fosters a culture of innovation and continuous improvement within the organization, encouraging students to think creatively and contribute fresh perspectives. Ultimately, a proactive and supportive management approach not only enriches the educational experience for the employed students but also helps build a workforce that is well-prepared for the demands of the ever-evolving professional world.</div>
             </div>
 
             <div class="governancelist">
-                <div>
-                    <a class="governanceinfo" href="info/PierreLandaiche.php">
-                        <div class="governancename">Pierre Landaiche</div>
-                        <div class="governancetitle">CEO</div>
-                    </a>
-                    <div class="governancepicture" style="background-image: url('assets/TeamPierreLandaiche.png');" ></div>
-                </div>
-
                 <div>
                     <a class="governanceinfo" href="info/SheritaJohnson.php">
                         <div class="governancename">Sherita Johnson</div>
@@ -102,6 +99,15 @@
                     </a>
                     <div class="governancepicture" style="background-image: url('assets/TeamLaurenBoyette.png');" ></div>
                 </div>
+
+                <div>
+                    <a class="governanceinfo" href="info/PierreLandaiche.php">
+                        <div class="governancename">Pierre Landaiche</div>
+                        <div class="governancetitle">CEO</div>
+                    </a>
+                    <div class="governancepicture" style="background-image: url('assets/TeamPierreLandaiche.png');" ></div>
+                </div>
+                
             </div>
             
             <div class="contactfooter">

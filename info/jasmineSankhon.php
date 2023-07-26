@@ -53,6 +53,7 @@
 
             <div class="managementcontainer">
                 <img class="managementphoto" src="../assets/TeamJasmineSankhon.png" alt="">
+                <div class="managementphoto" style="background-image: url('../assets/TeamJasmineSankhon.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Jasmine Sankhon – Manager | ECS</div>
                     <div class="managementdescription">Jasmine Sankhon joined UMRF Ventures in August 2017 and currently serves as Manager of the Level 1 and Level 2 Enterprise Common Services Desks for the company’s venture with FedEx. She previously served as a Supervisor and Assistant Manager for Level 1 ECS. She is very proud of her contributions to the development of the training and quality programs used within the company today. Prior to joining UMRF Ventures, she was a Technical Lead for the University of Memphis’s IT Support Desk and a Senior Phonathon Supervisor for the University of Memphis’s Annual Giving department. She is a proud University of Memphis graduate with a B.A. in Anthropology with a minor in Biology. In her free time, she enjoys working out, traveling, and spending time with her friends and family.</div>

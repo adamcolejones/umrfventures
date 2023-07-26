@@ -52,7 +52,9 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/TeamPierreLandaiche.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/TeamPierreLandaiche.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/TeamPierreLandaiche.png');" alt=""></div>
+
                 <div class="managementtext">
                     <div class="managementsubtitle">Pierre Landaiche - CEO</div>
                     <div class="managementdescription">Pierre Landaiche joined UMRF Ventures in September 2020.  Prior to joining the company, he led the startup of the Memphis Sports Hall of Fame and for 22 years, managed the Renasant Convention Center – formerly the Memphis Cook Convention Center.  He is a native of Baton Rouge and graduate of Louisiana State University. He is involved in various community boards including the former chairman of the Better Business Bureau Board of Directors, The Hospitality Hub, the Dorothy Day House and the Bridge Street Newspaper among others. He is a member and former President of the Rotary Club of Memphis.  Pierre enjoys spending time with his wife of 31 years, Gay, and his daughter Caroline, a student at Spring Hill College.  He also enjoys duck hunting, fishing, tinkering with his 1967 Mustang convertible, cooking and breaking bread with friends and family. </div>

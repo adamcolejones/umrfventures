@@ -53,7 +53,8 @@
 
             
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/TeamLashawnWillingham.png" alt="">
+                <!-- <img class="managementphoto" src="../assets/TeamLashawnWillingham.png" alt=""> -->
+                <div class="managementphoto" style="background-image: url('../assets/TeamLashawnWillingham.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">LaShawn Willingham – Manager | Sedgwick</div>
                     <div class="managementdescription">LaShawn Willingham joined UMRF Ventures in July 2018 and currently serves as Manager for the Sedgwick Support Center. She previously served as the Supervisor of the Sedgwick Support Center. Before her management role with Sedgwick, she was a Level 1 agent with the ECS Venture, where she was shortly promoted to shift lead as well as a Level 2 agent. She is a University of Memphis graduate with a B.S. in Health Service Administration with a minor in Public Relations. In her spare time, she enjoys cooking, reading, and journaling.</div>
