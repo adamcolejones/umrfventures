@@ -53,7 +53,8 @@
                 <div class="wwacontactsubtitle">Join Our Team</div>
                 <div class="wwacontactdescription">We are always accepting applications! We create unique opportunities for our student employees for professional development, leadership training, and assistance with their career search after graduation.</div>
                 <div class="wwacontactdescription">Our students are serious about their education and their work at UMRF Ventures.</div>
-                <a href="apply.php" class="contactbutton">View Positions</a>
+                <br><br>
+                <a href="apply.php" class="viewpositionsbutton">View Positions</a>
             </div>
 
             <div class="wwacontacttext">

@@ -50,17 +50,17 @@
                 <img class="wwaphoto" src="assets/DeskSpaces.png" alt="">
             </div>
 
-            <div class="dykcontainer">
+            <!-- <div class="dykcontainer">
                 <div class="dyktop"><div class="dyktitle">Did you know?</div><button class="dykbutton" onclick="changeString()">Next</button></div>
                 <div id="displayedString" class="dykdescription">Click here to see the next fact!</div>
-            </div>
+            </div> -->
 
             <!-- <div class="wwacontacttext">
                 <div class="wwacontactsubtitle">Want to reach out?</div>
                 <div class="wwacontactdescription">UMRF Ventures is always open to talking about our work, but we do request that any visits be scheduled through the manager. Service centers are off limits unless explicitly approved.</div>
             </div> -->
 
-            <script>
+            <!-- <script>
                 function getRandomString() {
                     const stringsList = [
                         "Since our incorporation in 2017, UMRF Ventures has paid nearly $8 million dollars in student wages.",
@@ -90,7 +90,7 @@
                 document.addEventListener("DOMContentLoaded", function() {
                     changeString();
                 });
-            </script>
+            </script> -->
 
             
 

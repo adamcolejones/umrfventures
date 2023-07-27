@@ -48,7 +48,7 @@
                 <div>
                     <a class="governanceinfo" href="info/PierreLandaiche.php">
                         <div class="governancename">Pierre Landaiche</div>
-                        <div class="governancetitle">Board Member</div>
+                        <div class="governancetitle">CEO</div>
                     </a>
                     <div class="governancepicture" style="background-image: url('assets/GovernancePierreLandaiche.png');" ></div>
                 </div>
