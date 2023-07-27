@@ -65,6 +65,8 @@
                 <div class="textdescription"> for pricing and how this model can meet your company's needs.</div>
             </div> -->
 
+            <div class="partnershowcasefix"></div>
+
             <div class="partnershowcasecontainer">
                 <!-- <img class="partnershowcase" src="assets/PartnerShowcase.png"> -->
                     <div class="partnershowcasetop">

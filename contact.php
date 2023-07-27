@@ -66,6 +66,7 @@
                 <div>
                     <div class="contactsubtitle">Students</div>
                     <div class="contactdescription">If you are a student at the University of Memphis and looking for employment, visit our employment page. For more information, contact us at this email address.</div>
+                    <br>
                     <div class="contactdescriptionemail">Email: info@umrfventures.com</div>
                 </div>
             </div>
