@@ -206,12 +206,21 @@ body {
 
 .dykcontainer {
   display: flex;
-  width: 100%;
+  width: 90%;
   height: 200px;
+  padding: 0 5% 0 5%;
   flex-direction: column;
   background-color: #12284b;
   justify-content: center;
-  margin-top: 50px;
+  background-image: url(assets/didyouknow.png);
+  /* margin-top: 50px; */
+  /* border-top: 10px solid #12284b; */
+  /* border-bottom: 10px solid #12284b; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,25,.80);
+  background-blend-mode: multiply;
 }
 
 .dyktitle {
@@ -233,7 +242,7 @@ body {
   display: block;
   font-size: 1.4em;
   font-weight: 40;
-  padding: 20px 0px 10px 0px;
+  padding: 20px 5% 10px 5%;
   font-style: italic;
   color: rgba(255, 255, 255, 0.728);
   font-variant: none;
@@ -588,7 +597,7 @@ body {
 
 .homejoincontent {
     margin: 0px 25% 0px 25%;
-    padding: 20px 20px 20px 20px;
+    padding: 5% 20px 5% 20px;
     text-align: center;
     /* border-top: 10px solid #38348b; */
     /* background-color:rgb(16, 36, 67); */
@@ -597,9 +606,60 @@ body {
     /* border-bottom: 10px solid #38348b; */
 }
 
+.homejoincontainer {
+  /* position: absolute; */
+  height: auto;
+  border-top: 10px solid #12284b;
+  border-bottom: 10px solid #12284b;
+  min-height: 200px;
+  height: auto;
+  width: 100%;
+  background-image: url('assets/UMRFBuildingFront.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,25,.80);
+  background-blend-mode: multiply;
+}
+
+.homepartnercontainer {
+  /* position: absolute; */
+  height: auto;
+  border-top: 10px solid #12284b;
+  /* border-bottom: 10px solid #12284b; */
+  min-height: 200px;
+  height: auto;
+  width: 100%;
+  background-image: url('assets/UMRF5thAnny.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,25,.80);
+  background-blend-mode: multiply;
+}
+
+.homeservicecontainer {
+  /* position: absolute; */
+  height: auto;
+  /* border-top: 10px solid #12284b; */
+  /* border-bottom: 10px solid #12284b; */
+  min-height: 200px;
+  height: auto;
+  width: 100%;
+  /* background-image: url('assets/UMRF5thAnny.png'); */
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,25,.80);
+  background-blend-mode: multiply; */
+  border-bottom: 10px solid #12284b;
+  margin-bottom:10px;
+  background-color: #020c17;
+}
+
 
 .hometextcontent {
-  margin: 20px 25% 0px 25%;
+  margin: 20px 20% 0px 20%;
   padding: 20px 20px 0px 20px;
   text-align: center;
   /* background-color:rgb(16, 36, 67); */
@@ -677,18 +737,7 @@ html {
  ██████████████
 */
 
-.joincontainer {
-  /* position: absolute; */
-  height: auto;
-  border-top: 10px solid #12284b;
-  width: 100%;
-  background-image: url('assets/UMRFBuildingFront.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: rgba(0,0,25,.80);
-  background-blend-mode: multiply;
-}
+
 
 /* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
 /* 
@@ -999,6 +1048,7 @@ li {
   margin: 0px 0px;
   width: 70%;
   height: 0%;
+  /* border-top: #12284b; */
   /* padding: 0% 10% 0% 10%; */
   margin: 0% 15% 0% 15%;
   padding-bottom: 46.5%; /*Padding-Height Work around required to show showcase*/
@@ -1174,7 +1224,7 @@ li {
   display: block;
   width: 100vw;
   height: calc(90%);
-  min-height: 90vh;
+  min-height: 90%;
   /* View height Prevents White space when resizing windows*/
   /* top: 5vh; */
   top: 10%;
@@ -1357,6 +1407,7 @@ li {
   color: rgba(255, 255, 255, 0.728);
   font-weight: 500;
   font-size: 2vw;
+  text-align: center;
 }
 
 a.textdescription {
@@ -1600,20 +1651,23 @@ ul {
 }
 
 .wwacontactsubtitle {
-  display:inline-block;
-  vertical-align: top;
+  display: block;
+  /* width: 100%; */
+  /* vertical-align: top; */
   font-weight: 900;
   font-size: 50px;
   color: white;
   letter-spacing: -1px;
   line-height: 50px;
+  padding: 20px 5% 10px 5%;
+  text-align: center;
 }
 
 .wwacontactdescription {
   display: inline;
   font-size: 20px;
   font-weight: 40;
-  padding: 20px 5% 10px 5%;
+  /* padding: 0px 5% 0px 5%; */
   font-style: italic;
   color: rgba(255, 255, 255, 0.728);
   font-variant: none;
@@ -1622,18 +1676,22 @@ ul {
 }
 
 a.wwacontactdescription {
+  display: inline;
   text-decoration: underline;
+  text-align: center;
 }
 
 .wwacontacttext {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 5% 0 0 0;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 90%;
+  padding: 5% 5% 5% 5%;
   /* height: 200px; */
-  align-items: center;
-  justify-content: center;
-  /* background-color: #0e1c37; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  text-align: center;
+  /* border-bottom:#12284b; */
+  /* background-color: #12284b; */
 }
 
 .wwacontainer {
