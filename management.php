@@ -32,7 +32,7 @@
 
             <div class="governancetextcontent">
                 <div class="texttitle">UMRF Ventures Management</div>
-                <div class="textdescription">Our management plays a crucial role in overseeing and enabling growth for university students they employ. By offering guidance, mentorship, and a nurturing environment, management can instill confidence in the students, empowering them to take on challenging tasks and responsibilities. Additionally, strong management fosters a culture of innovation and continuous improvement within the organization, encouraging students to think creatively and contribute fresh perspectives. Ultimately, a proactive and supportive management approach not only enriches the educational experience for the employed students but also helps build a workforce that is well-prepared for the demands of the ever-evolving professional world.</div>
+                <div class="textdescription"> Our effective management empowers university students by providing guidance, mentorship, and a nurturing environment, fostering confidence and encouraging innovation. This proactive approach enriches the educational experience and prepares students for the dynamic professional world.</div>
             </div>
 
             <div class="governancelist">

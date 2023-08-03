@@ -68,21 +68,15 @@
                     <div class="contactdescription">If you are a student at the University of Memphis and looking for employment, visit our employment page. For more information, contact us at this email address.</div>
                     <br>
                     <div class="contactdescriptionemail">Email: info@umrfventures.com</div>
+                    <br>
+                    <div class="contactsociallinks">
+                        <a href="https://www.facebook.com/umrfventures/"><img class="facebooklogo" src="assets/Facebook Logo.png" alt=""></a>
+                        <a href="https://www.linkedin.com/company/umrfventures/mycompany/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
+                        <a href="https://twitter.com/umrfventures"><img class="twitterlogo" src="assets/Twitter Logo.png" alt=""></a>
+                        <a href="https://www.instagram.com/umrfventures/"><img class="instagramlogo" src="assets/Instagram Logo.png" alt=""></a>
+                    </div>
                 </div>
             </div>
-            
-            <!-- <div class="contacttextcontent">
-                <div class="texttitle">Partners</div>
-                <div class="textdescription">If you are interested in partnering with UMRF Ventures and building a custom venture to support your company while establishing a talent pipeline, contact one of the email addresses below.</div>
-                <div class="textdescription">Pierre Landaiche, CEO Email: pierre@umrfventures.com</div>
-                <div class="textdescription">JT (Jutta) Schneider, Director Project Management & Corporate Initiatives Email: jtschneider@umrfventures.com</div>
-            </div> -->
-
-            <!-- <div class="contacttextcontent">
-                <div class="texttitle">Students</div>
-                <div class="textdescription">If you are a student at the University of Memphis and looking for employment, visit our employment page. For more information, contact us at this email address.</div>
-                <div class="textdescription">Email: info@umrfventures.com</div>
-            </div> -->
 
             <!-- <a href="test.php">Test</a> -->
             <div class="contactfooter">

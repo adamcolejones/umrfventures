@@ -36,10 +36,13 @@
                 <img class="wwaphoto" src="assets/StockStudy.png" alt="">
                 <div class="wwatext">
                     <div class="wwasubtitle">About Us</div>
-                    <div class="wwadescription">UMRF Ventures is a company staffed by students who attend the University of Memphis. Today’s students have to successfully balance life with their school commitments. Many students take on significant debt to further their education and work multiple jobs while they go to school to meet their financial obligations. </div>
+                    <div class="wwadescription">UMRF Ventures is a company staffed by students who attend the University of Memphis and surrounding colleges. Today’s students have to successfully balance life with their school commitments. Many students take on significant debt to further their education and work multiple jobs while they go to school to meet their financial obligations. </div>
                     <div class="wwadescription">UMRF Ventures mission is to help our students succeed by providing good-paying, part-time jobs, scheduled around their classroom commitments, and conveniently located on campus.</div>
                     <!-- <br> -->
                     <div class="wwadescription">Today we have over 200 undergraduate and graduate students working at UMRF Ventures for our partner companies, who frequently hire our students as full-time employees after they graduate.</div>
+                    <div class="wwadescription">Our employees have made lasting impressions with our parteners, click here to view first hand accounts of our</div>
+                    <a href="students.php" class="wwadescription">Talent Pipeline.</a>
+
                 </div>
             </div>
 

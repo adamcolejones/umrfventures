@@ -207,9 +207,18 @@
 
 .employmentdescription {
   display: block;
-  font-size: 30px;
+  /* font-size: 30px; */
   font-weight: 40;
-  padding: 20px 0px 10px 0px; 
+}
+
+.employmentsubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 4vw;
+  color: white;
+  /* letter-spacing: -1px; */
+  line-height: 3vw;
 }
 
 .employmenttext {
@@ -222,7 +231,7 @@
 
 .employmenttitle {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 4vw;
 }
 
 .employmentvideo {
