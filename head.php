@@ -3,15 +3,13 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - 1. The style.css will always flash before mobile.css in mobile view.  To fix, transfer all parent styling to mobile.css
-	// - 2. 
-	// - 
-    // -
-    // -
-	// -
-	// -
+	// + This page determines whether to display the styling found on mobile.css or style.css
+    // + style.css is for screens wider than tall.  (Horizontal Desktop Views)
+    // + mobile.css is for screens that are taller than wide.  (Vertical Smart Phone Views)
     
 ?>
+
+<!-- // + This page determines whether to display the styling found on mobile.css or style.css -->
 
 <head>
     <title>UMRF</title>
@@ -28,10 +26,12 @@
             var styleSheet = document.getElementById('style-sheet');
 
             // If screen is wider than its height, apply "style.css"
+// + style.css is for screens wider than tall.  (Horizontal Desktop Views)
             if (screenWidth > screenHeight) {
                 styleSheet.innerHTML = '@import "style.css";';
             }
             // Otherwise, apply "mobile.css"
+// + mobile.css is for screens that are taller than wide.  (Vertical Smart Phone Views)
             else {
                 styleSheet.innerHTML = '@import "mobile.css";';
             }

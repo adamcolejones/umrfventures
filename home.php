@@ -5,32 +5,38 @@
     // ********************************************************
 	// + This is the landing page for umrfventures.com
 	// + The menu.php file loads at the top of the page for navigation
+    // + head.php handles all of the head tag details to reduce repetitive information
+    // + the scrollableContent Class contains all the information on the page adjusting height based on the window and the menu bar above
+    // + The video container will adjust its orientation based on the width and heigh of the window along with its text
     // + The Home video will autoplay on most browsers if it's muted on start
-    // + Value Titles and Descriptions
-    // + Content Slide show
-	// + Partner Logos
-	// + Social Media Links
-    // + Contact Footer
+    // + What we Do Section with link
+	// + Partner Logos, change on hover
+    // + The partner logo image dimensions are specific. If they are changed they will need to match the prior dimensions to display correctly.
+	// + Partner with us Section with link
+    // + Join our team Section with link
+    // + Did you know facts, pressing the next button will shuffle a new fact stored in the array
+    // + Social Media Links
+    // + Contact footer signifies the end of the page.  Initially this was supposed to store additional contact info.
     // ********************************************************
 
 
 
-    // - 1. This is the landing page for umrfventures.com
-    // - 2. The menu.php file loads at the top of the page for navigation
+// + This is the landing page for umrfventures.com
+// + The menu.php file loads at the top of the page for navigation
 	require 'menu.php';
-    
 ?>
 
 <!DOCTYPE html>
 <html>
+<!-- // + head.php handles all of the head tag details to reduce repetitive information -->
     <?php include 'head.php'; ?>
     <body>
-        <!-- - 2.  -->
-        <?php
-            menu()
-        ?>
+<!-- // + The menu.php file loads at the top of the page for navigation -->
+        <?php menu() ?>
+<!-- // + the scrollableContent Class contains all the information on the page adjusting height based on the window and the menu bar above -->
         <div class="scrollableContent">
-        <!-- - 3.  -->
+<!-- // + The video container will adjust its orientation based on the width and heigh of the window along with its text -->
+<!-- // + The Home video will autoplay on most browsers if it's muted on start -->
             <div class="welcomecontainer">
                 <video class="welcomevideo" loop autoplay playsinline muted controls>
                     <source src="assets/homevideo.mp4" type="video/mp4">    
@@ -44,8 +50,7 @@
                     <div class="welcomedescription">UMRF Ventures is a managed service and contact center provider employing University students to meet your needs.</div>
                 </div>
             </div>
-            <!-- - 4.  -->
-
+<!-- // + What we Do Section with link  -->
             <div class="homeservicecontainer">
                 <div class="homejoincontent">
                     <div class="dyktitle">What We Do</div>
@@ -55,9 +60,9 @@
                     <div class="textdescription"> and the impact we've made with our existing partners.</div>
                 </div>
             </div>
-
+<!-- // + Partner Logos, change on hover -->
+<!-- // + The partner logo image dimensions are specific. If they are changed they will need to match the prior dimensions to display correctly. --> 
             <div class="partnershowcasefix"></div>
-
             <div class="partnershowcasecontainer">
                     <div class="partnershowcasetop">
                     <!-- The Background images for these have specific dimensions.  1/4 the size of 1920 x 1080 -->
@@ -70,7 +75,7 @@
                     <div class="partnershowcasebottomright"></div>
                 </div>
             </div>
-
+<!-- // + Partner with us Section with link -->
             <div class="homepartnercontainer">
                 <div class="homejoincontent">
                     <div class="dyktitle">Partner With Us</div>
@@ -79,7 +84,7 @@
                     <div class="textdescription"> for pricing and how this model can meet your company's needs.</div>
                 </div>
             </div>
-
+<!-- // + Join our team Section with link -->
             <div class="homejoincontainer">
                 <div class="homejoincontent">
                     <div class="dyktitle">Join Our Team!</div>
@@ -88,25 +93,12 @@
                     <div class="textdescription"> building career focused experiences.</div>
                 </div>
             </div>
-
+<!-- // + Did you know facts, pressing the next button will shuffle a new fact stored in the array -->
             <div class="dykcontainer">
                 <div class="dyktop"><div class="dyktitle">Did you know?</div><button class="dykbutton" onclick="changeString()">Next</button></div>
                 <div id="displayedString" class="textdescription">Click here to see the next fact!</div>
-            </div>
-
-            <!-- 5.  -->
-            
-
-            <!-- - 6.  -->
-
-            <!-- - 7.-->
-            <div class="sociallinks">
-                <a href="https://www.facebook.com/umrfventures/"><img class="facebooklogo" src="assets/Facebook Logo.png" alt=""></a>
-                <a href="https://www.linkedin.com/company/umrfventures/mycompany/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
-                <a href="https://twitter.com/umrfventures"><img class="twitterlogo" src="assets/Twitter Logo.png" alt=""></a>
-                <a href="https://www.instagram.com/umrfventures/"><img class="instagramlogo" src="assets/Instagram Logo.png" alt=""></a>
-            </div>
-
+            </div>            
+<!-- // + This is the array that contains the different facts for the did you know section -->
             <script>
                 function getRandomString() {
                     const stringsList = [
@@ -123,11 +115,9 @@
                         "The 35 students on our Raymond James team work directly with systems that dictate the flow of money between RJ branches and firms."
                         // Add more strings here as needed
                     ];
-
                     const randomIndex = Math.floor(Math.random() * stringsList.length);
                     return stringsList[randomIndex];
                 }
-
                 // Function to change the displayed string on button click
                 function changeString() {
                     const displayedElement = document.getElementById("displayedString");
@@ -138,12 +128,15 @@
                     changeString();
                 });
             </script>
-
-            <!-- - 8.  -->
-            <div class="contactfooter">
-        
+<!-- // + Social Media Links -->
+            <div class="sociallinks">
+                <a href="https://www.facebook.com/umrfventures/"><img class="facebooklogo" src="assets/Facebook Logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/umrfventures/mycompany/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
+                <a href="https://twitter.com/umrfventures"><img class="twitterlogo" src="assets/Twitter Logo.png" alt=""></a>
+                <a href="https://www.instagram.com/umrfventures/"><img class="instagramlogo" src="assets/Instagram Logo.png" alt=""></a>
             </div>
+<!-- // + Contact footer signifies the end of the page.  Initially this was supposed to store additional contact info. -->
+            <div class="contactfooter"></div>
         </div>
-        
     </body>
 </html>

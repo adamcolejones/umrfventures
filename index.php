@@ -3,25 +3,12 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - 1. This is the landing page for umrfventures.com
-	// - 2. The menu.php file loads at the top of the page for navigation
-    // - 3. The Home video will autoplay on most browsers if it's muted on start
-    // - 4. Value Titles and Descriptions
-    // - 5. Content Slide show
-	// - 6. Partner Logos
-	// - 7. Social Media Links
-    // - 8. Contact Footer
+    // + This is the (real) landing page for umrfventures.com
+    // + Most hosting services look for an index file to load first, in the event this happens we are linking back to the home.php the actual landing page
     // ********************************************************
-
-
-
-    // - 1. This is the landing page for umrfventures.com
-    // - 2. The menu.php file loads at the top of the page for navigation
-	require 'menu.php';
     
 ?>
 
-<!-- - 1. This is the landing page for umrfventures.com -->
 <!DOCTYPE html>
 <html>
 	<head>

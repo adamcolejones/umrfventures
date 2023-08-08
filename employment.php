@@ -3,24 +3,21 @@
     // ********************************************************
     // * A DESCRIPTION OF THE FUNCTIONALITY OF THE CODE BELOW *
     // ********************************************************
-	// - 
-	// - 
-    // -
-    // -
-	// -
-	// -
+	// + This page handles all information regarding the employment process of UMRF ventures
+	// + The menu.php file loads at the top of the page for navigation
+    // + head.php handles all of the head tag details to reduce repetitive information
+    // + the scrollableContent Class contains all the information on the page adjusting height based on the window and the menu bar above
 
+// + The menu.php file loads at the top of the page for navigation
 	require 'menu.php';
-    
 ?>
 
 <!DOCTYPE html>
 <html>
+<!-- // + head.php handles all of the head tag details to reduce repetitive information -->
     <?php include 'head.php'; ?>
     <body>
-        <?php
-            menu();
-        ?>
+        <?php menu(); ?>
         <div class="scrollableContent">
 
             <div class="wwacontacttext">
