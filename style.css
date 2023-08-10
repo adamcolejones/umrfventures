@@ -940,7 +940,7 @@ li {
 
 .managementdescription {
   display: block;
-  font-size: 1em;
+  font-size: 1.4vw;
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
@@ -999,7 +999,7 @@ li {
     width: 100%;
     padding-right: 50px;
     /*height needs to match the scrollable content height*/
-    min-height: 10%; 
+    min-height: 15%; 
     background: linear-gradient(to right, black, 10%, #060d1a);
     /* background: linear-gradient(to right, white, 10%, #060d1a); */
     z-index: 10; /*Higher the number, the further front the content is*/
@@ -1012,7 +1012,7 @@ li {
   /* display: flex; */
   color: white;
   float: right;
-  padding: 5px;
+  padding: 10px;
   font-size: 2vh;
 }
 
@@ -1354,11 +1354,11 @@ li {
   overflow-x: none;
   display: block;
   width: 100vw;
-  height: calc(90%);
-  min-height: 90%;
+  height: calc(85%);
+  min-height: 85%;
   /* View height Prevents White space when resizing windows*/
   /* top: 5vh; */
-  top: 10%;
+  top: 15%;
   /*This padding needs to match the .contactfooter height*/ /* View height Prevents White space when resizing windows*/
   left: 0px;
   right: 0px;
@@ -1590,10 +1590,10 @@ ul {
 }
 .umrflogo {
   position: absolute;  /* max-width: 100%; */
-  max-height: calc(100% - 20px);
-  height: 100%;
-  padding: 10px;
-  left: 20px;
+  /* max-height: calc(100% - 20px); */
+  height: calc(100% - 40px);
+  padding: 20px;
+  left: 5%;
   /* background-color: rgba(0,0,25,.80); */
 }
 
@@ -1763,10 +1763,11 @@ ul {
 }
 
 .wwalinkitem {
+  font-size: 2vw;
   display: flex;
   justify-content: space-evenly;
   color: white;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
 }
 
 .wwalinkitem:hover {
@@ -1870,8 +1871,8 @@ a.wwacontactdescription {
 }
 
 .wwadescription {
-  display: block;
-  font-size: 1.5vw;
+  display: inline;
+  font-size: 1.2vw;
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
@@ -1880,6 +1881,18 @@ a.wwacontactdescription {
   z-index: 10;
   /* text-align: center; */
 }
+
+/* a.wwadescription {
+  display: inline-block;
+  font-size: 1.5vw;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.728);
+  font-variant: none;
+  z-index: 10;
+  /* text-align: center; */
+/* } */
 
 
 
@@ -1927,10 +1940,10 @@ a.wwacontactdescription {
   display: inline-block;
   vertical-align: top;
   font-weight: 900;
-  font-size: 2em;
+  font-size: 3.5vw;
   color: white;
   letter-spacing: -1px;
-  line-height: 50px;
+  /* line-height: 100px; */
 }
 
 

@@ -49,17 +49,9 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/KeithSisson.php">
-                        <div class="governancename">Keith Sisson</div>
-                        <div class="governancetitle">Managing Director | Business Division B</div>
-                    </a>
-                    <div class="governancepicture" style="background-image: url('assets/TeamKeithSisson.png');" ></div>
-                </div>
-<!-- // + Each member has their own container with their name, picture, and title -->
-                <div>
                     <a class="governanceinfo" href="info/JuttaSchneider.php">
-                        <div class="governancenamehigher">Jutta Schneider</div>
-                        <div class="governancetitle">Director | Project Management & Corporate Initiatives</div>
+                        <div class="governancenamehigher">Jutta “JT” Schneider</div>
+                        <div class="governancetitle">Managing Director / Business Division B</div>
                     </a>
                     <div class="governancepicture" style="background-image: url('assets/TeamJuttaSchneider.png');" ></div>
                 </div>

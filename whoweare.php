@@ -35,11 +35,13 @@
             <div class="wwacontainer">
                 <img class="wwaphoto" src="assets/StockStudy.png" alt="">
                 <div class="wwatext">
-                    <div class="wwasubtitle">About Us</div>
+                    <div class="wwasubtitle">About Us</div><br>
                     <div class="wwadescription">UMRF Ventures is a company staffed by students who attend the University of Memphis and surrounding colleges. Today’s students have to successfully balance life with their school commitments. Many students take on significant debt to further their education and work multiple jobs while they go to school to meet their financial obligations. </div>
+                    <br><br>
                     <div class="wwadescription">UMRF Ventures mission is to help our students succeed by providing good-paying, part-time jobs, scheduled around their classroom commitments, and conveniently located on campus.</div>
-                    <!-- <br> -->
+                    <br><br>
                     <div class="wwadescription">Today we have over 200 undergraduate and graduate students working at UMRF Ventures for our partner companies, who frequently hire our students as full-time employees after they graduate.</div>
+                    <br><br>
                     <div class="wwadescription">Our employees have made lasting impressions with our parteners, click here to view first hand accounts of our</div>
                     <a href="students.php" class="wwadescription">Talent Pipeline.</a>
 
@@ -48,8 +50,9 @@
 
             <div class="wwacontainerbottom">
                 <div class="wwatextleft">
-                    <div class="wwasubtitle">Students</div>
+                    <div class="wwasubtitle">Students</div><br>
                     <div class="wwadescription">Our student employees work in a variety of different ventures, providing paid services to our partner companies. We operate both inbound and outbound Call Centers, on the Memphis and Lambuth campuses. We have student internship programs with partner companies. </div>
+                    <br><br>
                     <div class="wwadescription">Our students provide services to both for-profit and nonprofit companies in Memphis.  Our employees are both undergraduate and graduate students from a variety of academic curriculums. They work approximately 10-20 hours per week; after training, they earn approximately $15/per hour to $25/hour. Many earn more in supervisory positions.</div>
                 </div>
                 <img class="wwaphoto" src="assets/DeskSpaces.png" alt="">

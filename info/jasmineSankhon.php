@@ -52,7 +52,6 @@
             <!-- <img class="managementheader" src="assets/UMRFFrontLawn.png" alt=""> -->
 
             <div class="managementcontainer">
-                <img class="managementphoto" src="../assets/TeamJasmineSankhon.png" alt="">
                 <div class="managementphoto" style="background-image: url('../assets/TeamJasmineSankhon.png');" alt=""></div>
                 <div class="managementtext">
                     <div class="managementsubtitle">Jasmine Sankhon – Manager | ECS</div>

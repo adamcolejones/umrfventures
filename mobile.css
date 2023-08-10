@@ -444,7 +444,7 @@ html {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   overflow: hidden;
   /*height needs to match the scrollable content height*/
-  min-height: 7%; 
+  min-height: 10%; 
   /* gap: 10px; */
 }
 
@@ -644,9 +644,9 @@ html {
 
 .scrollableContent {
   /* View height Prevents White space when resizing windows*/
-  height: calc(93%);
-  min-height: 93vh;
-  top: 7%;
+  height: calc(90%);
+  min-height: 90vh;
+  top: 10%;
 }
 
 .serviceoption {
@@ -741,10 +741,10 @@ html {
 
 .umrflogo {
   position: absolute;  /* max-width: 100%; */
-  max-height: calc(7vh - 20px);
-  height: 100%;
-  padding: 10px;
-  left: 20px;
+  /* max-height: calc(100% - 20px); */
+  height: calc(100% - 40px);
+  padding: 20px;
+  left: 5%;
 }
 
 /* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
@@ -870,8 +870,8 @@ html {
 }
 
 .wwadescription {
-  display: block;
-  font-size: 1.5em;
+  display: inline;
+  font-size: 3.5vw;
   font-weight: 40;
   padding: 20px 0px 10px 0px; 
 }
@@ -893,6 +893,7 @@ html {
 }
 
 .wwasubtitle {
+  font-size: 4.5vw;
   padding: 30px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
   /* text-align: center; */
 }
