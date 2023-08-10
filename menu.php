@@ -39,11 +39,11 @@
                   <nav id="menu" class="menu">
                     <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
                     <div class="menuitemcontainer">
-                      <a href="home.php" class="menuitem">Home</a>
-                      <a href="whatwedo.php" class="menuitem">What We Do</a>
-                      <a href="whoweare.php" class="menuitem">Who We Are</a>
-                      <a href="employment.php" class="menuitem">Employment</a>
-                      <a href="contact.php" class="contactbutton menuitem">Contact Us</a>
+                      <a href="home" class="menuitem">Home</a>
+                      <a href="whatwedo" class="menuitem">What We Do</a>
+                      <a href="whoweare" class="menuitem">Who We Are</a>
+                      <a href="employment" class="menuitem">Employment</a>
+                      <a href="contact" class="contactbutton menuitem">Contact Us</a>
                       <div class="menuitem"></div>
                     </div>
                   </nav>
@@ -61,11 +61,11 @@
                     <div class="dropdown">
                       <button onclick="myFunction()" class="dropbtn">&#9776;</button>
                       <div id="myDropdown" class="dropdown-content">
-                        <a href="home.php" class="menuitem">Home</a>                        
-                        <a href="whatwedo.php" class="menuitem">What We Do</a>
-                        <a href="whoweare.php" class="menuitem">Who We Are</a>
-                        <a href="employment.php" class="menuitem">Employment</a>
-                        <a href="contact.php" class="menuitem">Connect With Us</a>
+                        <a href="home" class="menuitem">Home</a>                        
+                        <a href="whatwedo" class="menuitem">What We Do</a>
+                        <a href="whoweare" class="menuitem">Who We Are</a>
+                        <a href="employment" class="menuitem">Employment</a>
+                        <a href="contact" class="menuitem">Connect With Us</a>
                       </div>
                     </div>
                   </nav>

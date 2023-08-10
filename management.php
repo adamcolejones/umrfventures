@@ -28,10 +28,10 @@
         <div class="scrollableContent">
 <!-- // + wwalinks is a submenu for the Who We Are navigation Tab.  This allows user to click through and find UMRF people -->
             <div class="wwalinks">
-                <a href="whoweare.php" class="wwalinkitem">About Us</a>
-                <a href="students.php" class="wwalinkitem">Students</a>
-                <a href="management.php" class="wwalinkitem current">Management</a>
-                <a href="governance.php" class="wwalinkitem">Governance</a>
+                <a href="whoweare" class="wwalinkitem">About Us</a>
+                <a href="students" class="wwalinkitem">Students</a>
+                <a href="management" class="wwalinkitem current">Management</a>
+                <a href="governance" class="wwalinkitem">Governance</a>
             </div>
 <!-- // + A short Description to define the content below -->
             <div class="governancetextcontent">
@@ -41,7 +41,7 @@
 <!-- // + Each member has their own container with their name, picture, and title -->
             <div class="governancelist">
                 <div>
-                    <a class="governanceinfo" href="info/SheritaJohnson.php">
+                    <a class="governanceinfo" href="info/SheritaJohnson">
                         <div class="governancename">Sherita Johnson</div>
                         <div class="governancetitle">Managing Director | Business Division A</div>
                     </a>
@@ -49,7 +49,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/JuttaSchneider.php">
+                    <a class="governanceinfo" href="info/JuttaSchneider">
                         <div class="governancenamehigher">Jutta “JT” Schneider</div>
                         <div class="governancetitle">Managing Director / Business Division B</div>
                     </a>
@@ -57,7 +57,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/JasmineSankhon.php">
+                    <a class="governanceinfo" href="info/JasmineSankhon">
                         <div class="governancename">Jasmine Sankhon</div>
                         <div class="governancetitle">Manager | ECS</div>
                     </a>
@@ -65,7 +65,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/LashawnWillingham.php">
+                    <a class="governanceinfo" href="info/LashawnWillingham">
                         <div class="governancename">Lashawn Willingham</div>
                         <div class="governancetitle">Manager | Sedgwick</div>
                     </a>
@@ -73,7 +73,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/KatyHiggins.php">
+                    <a class="governanceinfo" href="info/KatyHiggins">
                         <div class="governancename">Katy Higgins</div>
                         <div class="governancetitle">Manager | FedEx Command Center</div>
                     </a>
@@ -81,7 +81,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/CruzSeguraRamirez.php">
+                    <a class="governanceinfo" href="info/CruzSeguraRamirez">
                         <div class="governancename">Cruz Segura-Ramirez</div>
                         <div class="governancetitle">Manager | Workforce Management</div>
                     </a>
@@ -89,7 +89,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/LaurenBoyette.php">
+                    <a class="governanceinfo" href="info/LaurenBoyette">
                         <div class="governancename">Lauren Boyette</div>
                         <div class="governancetitle">Manager | Raymond James</div>
                     </a>
@@ -97,7 +97,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/PierreLandaiche.php">
+                    <a class="governanceinfo" href="info/PierreLandaiche">
                         <div class="governancename">Pierre Landaiche</div>
                         <div class="governancetitle">CEO</div>
                     </a>

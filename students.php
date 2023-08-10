@@ -24,10 +24,10 @@
         <div class="scrollableContent">
 
             <div class="wwalinks">
-                <a href="whoweare.php" class="wwalinkitem">About Us</a>
-                <a href="students.php" class="wwalinkitem current">Students</a>
-                <a href="management.php" class="wwalinkitem">Management</a>
-                <a href="governance.php" class="wwalinkitem">Governance</a>
+                <a href="whoweare" class="wwalinkitem">About Us</a>
+                <a href="students" class="wwalinkitem current">Students</a>
+                <a href="management" class="wwalinkitem">Management</a>
+                <a href="governance" class="wwalinkitem">Governance</a>
             </div>
 
             <div class="governancetextcontent">

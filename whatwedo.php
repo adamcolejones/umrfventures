@@ -109,7 +109,7 @@
                 </div>
 
                 <div class="wwdcontactlink">
-                    <a href="contact.php" class="contactbutton">Contact Us</a>
+                    <a href="contact" class="contactbutton">Contact Us</a>
                 </div>
             </div>
 

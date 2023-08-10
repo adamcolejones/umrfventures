@@ -56,7 +56,7 @@
                     <div class="dyktitle">What We Do</div>
                     <br>
                     <div class="textdescription">See our </div>
-                    <a href="whatwedo.php" class="textdescription">Provided Services</a>
+                    <a href="whatwedo" class="textdescription">Provided Services</a>
                     <div class="textdescription"> and the impact we've made with our existing partners.</div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                 <div class="homejoincontent">
                     <div class="dyktitle">Partner With Us</div>
                     <br>
-                    <a href="contact.php" class="textdescription">Contact UMRF Ventures</a> 
+                    <a href="contact" class="textdescription">Contact UMRF Ventures</a> 
                     <div class="textdescription"> for pricing and how this model can meet your company's needs.</div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                 <div class="homejoincontent">
                     <div class="dyktitle">Join Our Team!</div>
                     <br>
-                    <a href="employment.php" class="textdescription">Employing university students,</a> 
+                    <a href="employment" class="textdescription">Employing university students,</a> 
                     <div class="textdescription"> building career focused experiences.</div>
                 </div>
             </div>

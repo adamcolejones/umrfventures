@@ -14,7 +14,7 @@
 	<head>
 		<title>UMRF</title>
         <script>
-            window.location.href = "home.php";
+            window.location.href = "home";
         </script>
     </head>
     <body>

@@ -26,10 +26,10 @@
         <div class="scrollableContent">
 
             <div class="wwalinks">
-                <a href="whoweare.php" class="wwalinkitem current">About Us</a>
-                <a href="students.php" class="wwalinkitem">Students</a>
-                <a href="management.php" class="wwalinkitem">Management</a>
-                <a href="governance.php" class="wwalinkitem">Governance</a>
+                <a href="whoweare" class="wwalinkitem current">About Us</a>
+                <a href="students" class="wwalinkitem">Students</a>
+                <a href="management" class="wwalinkitem">Management</a>
+                <a href="governance" class="wwalinkitem">Governance</a>
             </div>
 
             <div class="wwacontainer">
@@ -43,7 +43,7 @@
                     <div class="wwadescription">Today we have over 200 undergraduate and graduate students working at UMRF Ventures for our partner companies, who frequently hire our students as full-time employees after they graduate.</div>
                     <br><br>
                     <div class="wwadescription">Our employees have made lasting impressions with our parteners, click here to view first hand accounts of our</div>
-                    <a href="students.php" class="wwadescription">Talent Pipeline.</a>
+                    <a href="students" class="wwadescription">Talent Pipeline.</a>
 
                 </div>
             </div>

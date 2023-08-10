@@ -28,10 +28,10 @@
         <div class="scrollableContent">
 <!-- // + wwalinks is a submenu for the Who We Are navigation Tab.  This allows user to click through and find UMRF people -->
             <div class="wwalinks">
-                <a href="whoweare.php" class="wwalinkitem">About Us</a>
-                <a href="students.php" class="wwalinkitem">Students</a>
-                <a href="management.php" class="wwalinkitem">Management</a>
-                <a href="governance.php" class="wwalinkitem current">Governance</a>
+                <a href="whoweare" class="wwalinkitem">About Us</a>
+                <a href="students" class="wwalinkitem">Students</a>
+                <a href="management" class="wwalinkitem">Management</a>
+                <a href="governance" class="wwalinkitem current">Governance</a>
             </div>
 <!-- // + A short Description to define the content below -->
             <div class="governancetextcontent">
@@ -50,7 +50,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/PierreLandaiche.php">
+                    <a class="governanceinfo" href="info/PierreLandaiche">
                         <div class="governancename">Pierre Landaiche</div>
                         <div class="governancetitle">CEO</div>
                     </a>
@@ -58,7 +58,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/LanWang.php">
+                    <a class="governanceinfo" href="info/LanWang">
                         <div class="governancename">Lan Wang</div>
                         <div class="governancetitle">Board Member</div>
                     </a>
@@ -66,7 +66,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/JasbirDhaliwal.php">
+                    <a class="governanceinfo" href="info/JasbirDhaliwal">
                         <div class="governancename">Jasbir Dhaliwal</div>
                         <div class="governancetitle">Board Member</div>
                     </a>
@@ -74,7 +74,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/DonHutson.php">
+                    <a class="governanceinfo" href="info/DonHutson">
                         <div class="governancename">Don Hutson</div>
                         <div class="governancetitle">Board Member</div>
                     </a>
@@ -82,7 +82,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/RaajKurapati.php">
+                    <a class="governanceinfo" href="info/RaajKurapati">
                         <div class="governancename">Raaj Kurapati</div>
                         <div class="governancetitle">Board Member</div>
                     </a>
@@ -90,7 +90,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/PatrickElam.php">
+                    <a class="governanceinfo" href="info/PatrickElam">
                         <div class="governancename">Patrick Elam</div>
                         <div class="governancetitle">Board Member</div>
                     </a>
@@ -98,7 +98,7 @@
                 </div>
 <!-- // + Each member has their own container with their name, picture, and title -->
                 <div>
-                    <a class="governanceinfo" href="info/MarkFogelman.php">
+                    <a class="governanceinfo" href="info/MarkFogelman">
                         <div class="governancename">Mark Fogelman</div>
                         <div class="governancetitle">Board Member</div>
                     </a>

@@ -46,7 +46,7 @@
                 <br><br>
                 <div class="wwacontactdescription">Our students are serious about their education and their work at UMRF Ventures.</div>
                 <br><br>
-                <a href="apply.php" class="viewpositionsbutton">View Positions</a>
+                <a href="apply" class="viewpositionsbutton">View Positions</a>
             </div>
 
             <div class="employmentcontacttext">
