@@ -58,24 +58,20 @@
                     <br>
                     <div class="contactdescription">Pierre Landaiche, CEO</div>
                     <div class="contactdescriptionemail">Email: pierre@umrfventures.com</div>
-                    <br>
-                    <div class="contactdescription">JT (Jutta) Schneider,</div>
-                    <div class="contactdescription">Director Project Management & Corporate Initiatives</div>
-                    <div class="contactdescriptionemail">Email: jtschneider@umrfventures.com</div>
                 </div>
                 <div>
                     <div class="contactsubtitle">Students</div>
                     <div class="contactdescription">If you are a student at the University of Memphis and looking for employment, visit our employment page. For more information, contact us at this email address.</div>
                     <br>
                     <div class="contactdescriptionemail">Email: info@umrfventures.com</div>
-                    <br>
-                    <div class="contactsociallinks">
-                        <a href="https://www.facebook.com/umrfventures/"><img class="facebooklogo" src="assets/Facebook Logo.png" alt=""></a>
-                        <a href="https://www.linkedin.com/company/umrfventures/mycompany/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
-                        <a href="https://twitter.com/umrfventures"><img class="twitterlogo" src="assets/Twitter Logo.png" alt=""></a>
-                        <a href="https://www.instagram.com/umrfventures/"><img class="instagramlogo" src="assets/Instagram Logo.png" alt=""></a>
-                    </div>
                 </div>
+            </div>
+
+            <div class="contactsociallinks">
+                <a href="https://www.facebook.com/umrfventures/"><img class="facebooklogo" src="assets/Facebook Logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/umrfventures/mycompany/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
+                <a href="https://twitter.com/umrfventures"><img class="twitterlogo" src="assets/Twitter Logo.png" alt=""></a>
+                <a href="https://www.instagram.com/umrfventures/"><img class="instagramlogo" src="assets/Instagram Logo.png" alt=""></a>
             </div>
 
             <div class="contactfooter">
