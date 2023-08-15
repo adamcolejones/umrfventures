@@ -16,30 +16,34 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>UMRF</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <?php include 'head.php'; ?>
     <body>
         <?php
             menu()
         ?>
         <div class="scrollableContent">
-            <div><a href="services.php" class="back">Back</a></div>
-            <div>
-                <h2>Our Students - Who We Are</h2>
-                <img class="defaultpicture" src="assets/TPSpencerP.png" alt="">
-                <img class="defaultpicture" src="assets/TPChloeB.png" alt="">
-                <img class="defaultpicture" src="assets/TPJacobM.png" alt="">
-                <img class="defaultpicture" src="assets/TPAndrewE.png" alt="">
-                <img class="defaultpicture" src="assets/TPDylanD.png" alt="">
-                <img class="defaultpicture" src="assets/TPMicaelaS.png" alt="">
-                <ul>
-                    <li>Talent Pipeline</li>
-                    <li>Since 2017 more than 70 of our student employees have been employed by our partners. When you hire UMRF Ventures Inc we can become a training ground for your future staff.</li>
-                    <li></li>
-                </ul>
+
+            <div class="wwalinks">
+                <a href="whoweare" class="wwalinkitem">About Us</a>
+                <a href="students" class="wwalinkitem current">Students</a>
+                <a href="management" class="wwalinkitem">Management</a>
+                <a href="governance" class="wwalinkitem">Governance</a>
             </div>
+
+            <div class="governancetextcontent">
+                <div class="texttitle">Talent Pipeline</div>
+                <div class="textdescription">Since 2017 more than 70 of our student employees have been employed by our partners. When you hire UMRF Ventures Inc we can become a training ground for your future staff.</div>
+            </div>
+
+            <div class="studentContainer">
+                <img class="studentPicture" src="assets/TPSpencerP.png" alt="">
+                <img class="studentPicture" src="assets/TPChloeB.png" alt="">
+                <img class="studentPicture" src="assets/TPJacobM.png" alt="">
+                <img class="studentPicture" src="assets/TPAndrewE.png" alt="">
+                <img class="studentPicture" src="assets/TPDylanD.png" alt="">
+                <img class="studentPicture" src="assets/TPMicaelaS.png" alt="">
+            </div>
+
             <div class="contactfooter">
 
             </div>

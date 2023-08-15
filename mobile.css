@@ -1,0 +1,1064 @@
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████░░██
+ ██░░██  ██░░██
+ ██░░██████░░██
+ ██░░░░░░░░░░██
+ ██░░██████░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██████  ██████
+*/
+
+.applysection {
+    display: inline-flex;
+    align-items: start;
+    width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+    vertical-align: top;
+    padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+    /* border-top: 10px solid #12284b; */
+    background-color:#12284b;
+    flex-direction: column;
+}
+
+.applytitle {
+    display:inline-block;
+    vertical-align: top;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    letter-spacing: -1px;
+    line-height: 50px;
+    width: 100%;
+    overflow-wrap: break-word; /* Use overflow-wrap property to make text wrap or break */
+    /* word-break: break-all; */
+    hyphens: auto;
+  }
+
+  
+  .applydescription {
+    display: block;
+    font-size: 20px;
+    font-weight: 40;
+    padding: 20px 0px 10px 0px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.728);
+    font-variant: none;
+    z-index: 10;
+    /* text-align: bottom; */
+  }
+  
+  .applytext {
+    width: 100%;
+    /* word-wrap: break-word; */
+  }
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████░░██
+ ██░░██  ██░░██
+ ██░░██████░░████
+ ██░░░░░░░░░░░░██
+ ██░░████████░░██
+ ██░░██    ██░░██
+ ██░░████████░░██
+ ██░░░░░░░░░░░░██
+ ████████████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████████
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██████████
+ ██░░░░░░░░░░██
+ ██████████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ████████████
+ ██░░░░░░░░████
+ ██░░████░░░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░████░░░░██
+ ██░░░░░░░░████
+ ████████████
+*/
+
+.dropbtn {
+  height: fit-content; 
+  background-color: transparent;
+  padding: 10px 15px 15px 15px;
+  color: white;
+  font-size: 4vh;
+  border: none;
+  cursor: pointer;
+  float: right;
+  /* display: flex; */
+  /* display: block; */
+}
+
+.dropdown {
+  position: relative;
+  /* display: block; */
+  width: 100%;
+  float: right;
+  align-items: center;
+  /* display: flex; */
+  /* flex-direction: row-reverse; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* max-height: 50px;
+  overflow: hidden;
+  transition: max-height 0.5s ease; */
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  min-width: 160px;
+  overflow: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+  /* display: block; */
+  /* opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease; */
+}
+
+/* .dropdown-content.show {
+    opacity: 1;
+    max-height: 1000px; /* Adjust this value to control the height of the dropdown */
+/* } */
+
+.dropdown-content a {
+  color: black;
+  padding: 30px 30px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: right;
+  font-size: 2em;
+  /* max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease; */
+}
+
+.dropdown a:hover {background-color: #2980B9; color:white;}
+/* This display flex is only enabled after being shown, otherwise it would always show */
+.show {
+    display: block; 
+    display: flex; 
+    flex-direction: column; 
+    /* max-height: 1500px; Adjust this value to control the height of the dropdown */
+}
+
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████████
+ ██░░██
+ ██░░██████████
+ ██░░░░░░░░░░██
+ ██░░██████████
+ ██░░██
+ ██░░██████████
+ ██░░░░░░░░░░██
+ ██████████████
+*/
+
+.employmentcontainer {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 10% 5%; /*top, right, bottom. left*/
+  border-bottom: 10px solid #12284b;
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+.employmentdescription {
+  display: block;
+  /* font-size: 30px; */
+  font-weight: 40;
+}
+
+.employmentsubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 4vw;
+  color: white;
+  /* letter-spacing: -1px; */
+  line-height: 3vw;
+}
+
+.employmenttext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.employmenttitle {
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.employmentvideo {
+  display: inline;
+  width: 100%;
+  margin: 5% 0px 0% 0px;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;  
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████████
+ ██░░██
+ ██░░██████████
+ ██░░░░░░░░░░██
+ ██░░██████████
+ ██░░██
+ ██░░██
+ ██░░██
+ ██████
+*/
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████████
+ ██░░██
+ ██░░██
+ ██░░██  ██████
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██████░░██
+ ██░░░░░░░░░░██
+ ██████████████
+*/
+
+.governancetextcontent {
+  margin: 20px 10% 20px 10%;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  /* background-color:rgb(16, 36, 67); */
+  border-radius: 10px;
+  /* background-color: #0067c2; */
+  /* border-bottom: 10px solid #38348b; */
+}
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████  ██████
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██████░░██
+ ██░░░░░░░░░░██
+ ██░░██████░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██████  ██████
+*/
+
+html {
+  scroll-behavior: smooth; /* For .testtop and .testbottom */
+}
+
+.homejoincontent {
+    margin: 0px 5% 0px 5%;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    /* border-top: 10px solid #38348b; */
+    /* background-color: rgb(16, 36, 67); */
+    /* border-radius: 10px; */
+    /* background-color: #0067c2; */
+    /* border-bottom: 10px solid #38348b; */
+}
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████
+ ██░░░░░░██
+ ████░░████
+   ██░░██
+   ██░░██
+   ██░░██
+   ██░░██
+   ██░░██
+ ████░░████
+ ██░░░░░░██
+ ██████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+         ██████
+         ██░░██
+         ██░░██
+         ██░░██
+         ██░░██
+         ██░░██
+ ██████  ██░░██
+ ██░░██  ██░░██
+ ██░░██████░░██
+ ██░░░░░░░░░░██
+ ██████████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████  ████████
+ ██░░██  ██░░░░██
+ ██░░██  ██░░████
+ ██░░██  ██░░██
+ ██░░██████░░██
+ ██░░░░░░░░░░██
+ ██░░██████░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░████
+ ██░░██  ██░░░░██
+ ██████  ████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██
+ ██░░██████████
+ ██░░░░░░░░░░██
+ ██████████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- M ---------------------------------------------------------------------------------------------- */
+/*
+██████          ██████
+██░░██████████████░░██
+██░░░░░░░░░░░░░░░░░░██
+██░░██████░░██████░░██
+██░░██  ██░░██  ██░░██
+██░░██  ██░░██  ██░░██
+██░░██  ██████  ██░░██
+██░░██          ██░░██
+██░░██          ██░░██
+██░░██          ██░░██
+██████          ██████
+*/
+
+.managementcontainer {
+    display: flex;
+    align-items: center;
+    width: calc(100%); /*This calculation width needs to match the padding*/
+    vertical-align: top;
+    padding: 5% 0px 5% 0px; /*top, right, bottom. left*/
+    flex-direction: column;
+    
+    /* border-bottom: 10px solid #38348b; */
+    /* background-image: url('assets/CampusAdministrationBuildingBlur.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-color: rgba(0,0,25,.80); */
+    /* background-blend-mode: multiply; */
+  }
+
+.managementphoto {
+    position: relative;
+    display: inline;
+    /* width: 47%; */
+    /* height: max-content; */
+    box-shadow: 0px 0px 100px 10px #060d1a;
+    
+    height: 54vw;
+    width: 45vw;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin: 100px 0px 100px 0px; */
+    /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+.managementtext {
+    display: inline;
+    width: fit-content;
+    text-overflow: wrap;
+    padding: 50px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+    font-size: fit-content;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    /* text-shadow: 0px 0px 100px 10px #060d1a;   */
+  }
+
+.menu {
+  position: fixed;
+  width: 100%;
+  padding-right: 50px;
+  background: linear-gradient(to right, black, 40%, #060d1a);
+  z-index: 10; /*Higher the number, the further front the content is*/
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  overflow: hidden;
+  /*height needs to match the scrollable content height*/
+  min-height: 10%; 
+  /* gap: 10px; */
+}
+
+.menuitem {
+  font-size: 2.5vh;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- N ---------------------------------------------------------------------------------------------- */
+/* 
+██████████      ██████
+██░░░░██████    ██░░██
+██░░░░░░░░████  ██░░██
+██░░████░░░░██  ██░░██
+██░░██████░░██  ██░░██
+██░░██  ██░░██  ██░░██
+██░░██  ██░░██████░░██
+██░░██  ██░░░░████░░██
+██░░██  ████░░░░░░░░██
+██░░██    ██████░░░░██
+██████      ██████████
+ */
+
+/* ---------------------------------------------------------------------------------------------- P ---------------------------------------------------------------------------------------------- */
+/*
+██████████████
+██░░░░░░░░░░██
+██░░██████░░██
+██░░██  ██░░██
+██░░██  ██░░██
+██░░██  ██░░██
+██░░██  ██░░██
+██░░██  ██░░██
+██░░██████░░██
+██░░░░░░░░░░██
+██████████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- P ---------------------------------------------------------------------------------------------- */
+/* 
+██████████████
+██░░░░░░░░░░██
+██░░██████░░██
+██░░██  ██░░██
+██░░██████░░██
+██░░░░░░░░░░██
+██░░██████████
+██░░██
+██░░██
+██░░██
+██████
+*/
+
+.partnerrow {
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.partnershowcasefix {
+    height: 0%;
+    width: 100%;
+}
+
+.partnershowcasecontainer {
+  position: relative;
+  /* background-color: #034b8a; */
+  /* background-color: #0067c2; */
+  background-image: url('assets/PartnerShowcase1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 0px;
+  width: 100%;
+  height: 0;
+  padding: 0% 0% 0% 0%;
+  padding-bottom: 56.5%; /*Padding-Height Work around*/
+  /* border-top: 10px solid #38348b; */
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color: #034b8a; */
+}
+
+.partnershowcasetop {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+}
+
+.partnershowcasebottom {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+}
+
+.partnershowcasetopleft {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 0px;
+  background-image: url('assets/PartnerSectionFedExWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partnershowcasetopleft:hover {
+  background-image: url('assets/PartnerSectionFedExText.png');
+}
+
+.partnershowcasetopright {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 0px;
+  background-image: url('assets/PartnerSectionRaymondJamesWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partnershowcasetopright:hover {
+  background-image: url('assets/PartnerSectionRaymondJamesText.png');
+}
+
+.partnershowcasebottomleft {
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/PartnerSectionSedgwickWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partnershowcasebottomleft:hover {
+  background-image: url('assets/PartnerSectionSedgwickText.png');
+}
+
+.partnershowcasebottomright {
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/PartnerSectionCityofMemphisWhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partnershowcasebottomright:hover {
+  background-image: url('assets/PartnerSectionCityofMemphisText.png');
+}
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██████░░████
+ ██░░░░░░░░░░░░██
+ ████████████████
+  */
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ████████████████
+ ██░░░░░░░░░░░░██
+ ██░░████████░░██
+ ██░░██    ██░░██
+ ██░░████████░░██
+ ██░░░░░░░░░░░░██
+ ██░░██████░░████
+ ██░░██  ██░░██
+ ██░░██  ██░░██████
+ ██░░██  ██░░░░░░██
+ ██████  ██████████
+ */
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██░░██████████
+ ██░░██
+ ██░░██████████
+ ██░░░░░░░░░░██
+ ██████████░░██
+         ██░░██
+ ██████████░░██
+ ██░░░░░░░░░░██
+ ██████████████
+ */
+
+.scrollableContent {
+  /* View height Prevents White space when resizing windows*/
+  height: calc(90%);
+  min-height: 90vh;
+  top: 10%;
+}
+
+.serviceoption {
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+.serviceoptionscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+  /* margin: 5% 0% 0% 0%; */
+  /* border-top: 10px solid #38348b; */
+  border-bottom: 10px solid #12284b;
+  /* background-color: #050b15; */
+    background-color: #12284b;
+  /* background: linear-gradient(0deg, #0c162c 0%, #2c54a4 75%, #0c162c 100%); */
+}
+
+.servicedescription {
+  text-align: center;
+  /* width: 70%; */
+}
+
+.servicessection {
+  display: inline-flex;
+  width: 100%;
+  vertical-align: top;
+  /* background-color:#122449; */
+}
+
+.studentContainer {
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+  
+}
+
+.studentPicture {
+  width: 60%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████
+ ██░░░░░░░░░░██
+ ██████░░██████
+     ██░░██
+     ██░░██
+     ██░░██
+     ██░░██
+     ██░░██
+     ██░░██
+     ██░░██
+     ██████
+*/
+
+.textdescription {
+  /* color: #6EC1E4; */
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  
+}
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████  ██████
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██████░░██
+ ██░░░░░░░░░░██
+ ██████████████
+*/
+
+.umrflogo {
+  position: absolute;  /* max-width: 100%; */
+  /* max-height: calc(100% - 20px); */
+  height: calc(10vh - 40px);
+  padding: 20px;
+  left: 5%;
+}
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████  ██████
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░██  ██░░██
+ ██░░░░██░░░░██
+ ████░░░░░░████
+   ████░░████
+     ██████
+*/
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████          ██████
+ ██░░██          ██░░██
+ ██░░██          ██░░██
+ ██░░██          ██░░██
+ ██░░██  ██████  ██░░██
+ ██░░██  ██░░██  ██░░██
+ ██░░██  ██░░██  ██░░██
+ ██░░██████░░██████░░██
+ ██░░░░░░░░░░░░░░░░░░██
+ ██░░██████░░██████░░██
+ ██████  ██████  ██████
+*/
+
+.welcomecontainer {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 10% 5%; /*top, right, bottom. left*/
+  border-bottom: 10px solid #12284b;
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+.welcomedescription {
+  display: block;
+  /* font-size: 30px; */
+  font-weight: 40;
+}
+
+.welcomesubtitle {
+  display:inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  font-size: 4vw;
+  color: white;
+  /* letter-spacing: -1px; */
+  line-height: 3vw;
+}
+
+.welcometext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.welcometitle {
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.welcomevideo {
+  display: inline;
+  width: 100%;
+  margin: 5% 0px 0% 0px;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;  
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+.wwacontacttext {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 90%;
+    margin: auto;
+    padding: 5% 5% 5% 5%;
+    /* height: 200px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    /* border-bottom:#12284b; */
+    /* background-color: #12284b; */
+  }
+
+.wwacontainer {
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 5% 5% 5% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+.wwacontainerbottom {
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  vertical-align: top;
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+.wwadescription {
+  display: inline;
+  font-size: 3.5vw;
+  font-weight: 40;
+  padding: 20px 0px 10px 0px; 
+}
+
+.wwatext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.wwatextleft {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 5% 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.wwasubtitle {
+  font-size: 4.5vw;
+  padding: 30px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+.wwaphoto {
+  display: inline;
+  width: 100%;
+  margin: 0% 0px 0% 0px;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;  
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+}
+
+/**/
+.wwdcontainer {
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  height: auto;
+  vertical-align: top;
+  padding: 0% 5% 0% 5%; /*top, right, bottom. left*/
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+}
+
+/* .wwdcontainerbottom {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: calc(100% - 10%); /*This calculation width needs to match the padding*/
+  /* vertical-align: top; */
+  /* padding: 0% 5% 0% 5%; top, right, bottom. left */
+  /* flex-direction: column; */
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+/* } */
+
+.wwddescription {
+  display: block;
+  font-size: 30px;
+  font-weight: 40;
+  padding: 20px; 
+}
+
+.wwdsubject {
+  display: inline-flex;
+  align-items: flex-end;
+  width: calc(100% - 40px); /*This calculation width needs to match the margin*/
+  margin: 20px;
+  vertical-align: top;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 100px 10px #060d1a;
+  /* max-height: 100vw; */
+  /* margin: 20px 30% 20px 30%; top, right, bottom. left */
+  /* padding: 20px 0px 0px 0px; */
+  /* border-bottom: 10px solid #38348b; */
+  /* background-image: url('assets/wwdtemp2.png'); */
+  /* background-color: rgba(0,0,25,.80); */
+  /* background-blend-mode: multiply; */
+}
+
+/* .wwdtestcontainerbottom {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* width: calc(100% - 10%); This calculation width needs to match the padding */
+  /* vertical-align: top; */
+  /* padding: 0% 5% 0% 5%; top, right, bottom. left */
+  /* border-bottom: 10px solid #38348b; */
+  /* background-color:#122449; */
+  /* background: linear-gradient(to right, #060d1a, 60%, #091325); */
+/* } */
+
+.wwdtext {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+/* .wwdtextleft {
+  display: inline;
+  width: fit-content;
+  text-overflow: wrap;
+  padding: 0px 0px 0% 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+/* } */
+
+.wwdsubtitle {
+  padding: 30px 0px 0px 0px; /*Top, right, bottom, left - different measurements based on container padding*/
+  /* text-align: center; */
+}
+
+/* .wwdphoto {
+  display: inline;
+  width: 100%;
+  margin: 0% 0px 0% 0px;
+  height: max-content;
+  box-shadow: 0px 0px 100px 10px #060d1a;  
+  /* margin: 100px 0px 100px 0px; */
+  /* filter: sepia(1) hue-rotate(200deg);  */
+/* } */
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ████████  ████████
+ ██░░░░██  ██░░░░██
+ ████░░██  ██░░████
+   ██░░░░██░░░░██
+   ████░░░░░░████
+     ██░░░░░░██
+   ████░░░░░░████
+   ██░░░░██░░░░██
+ ████░░██  ██░░████
+ ██░░░░██  ██░░░░██
+ ████████  ████████
+*/
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ████████  ████████
+ ██░░░░██  ██░░░░██
+ ████░░██  ██░░████
+   ██░░░░██░░░░██
+   ████░░░░░░████
+     ████░░████
+       ██░░██
+       ██░░██
+       ██░░██
+       ██░░██
+       ██████
+*/
+
+/* ---------------------------------------------------------------------------------------------- S ---------------------------------------------------------------------------------------------- */
+/* 
+ ██████████████████
+ ██░░░░░░░░░░░░░░██
+ ████████████░░░░██
+         ████░░████
+       ████░░████
+     ████░░████
+   ████░░████
+ ████░░████
+ ██░░░░████████████
+ ██░░░░░░░░░░░░░░██
+ ██████████████████
+*/
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  margin: auto;
+  float: none;
+}
+
+

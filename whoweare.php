@@ -17,58 +17,91 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>UMRF</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <?php include 'head.php'; ?>
     <body>
         <!-- - 2. The menu.php file loads at the top of the page for navigation -->
         <?php
             menu()
         ?>
         <div class="scrollableContent">
-            <div>
-                <video width="100%" height="auto" controls loop autoplay playsinline muted>
-                    <source src="assets/homevideo.mp4" type="video/mp4">    
-                </video>
+
+            <div class="wwalinks">
+                <a href="whoweare" class="wwalinkitem current">About Us</a>
+                <a href="students" class="wwalinkitem">Students</a>
+                <a href="management" class="wwalinkitem">Management</a>
+                <a href="governance" class="wwalinkitem">Governance</a>
             </div>
-            <div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">About Us</div>
-                    <div class="servicesdescription">UMRF Ventures is a company staffed by students who attend the University of Memphis.<a href="about.php" class="readmore">Read More</a></div>
-                </div>
-            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
-            </div><div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">Our Students</div>
-                    <div class="servicesdescription">Description Goes Here  <a href="students.php" class="readmore">Read More</a></div>
-                </div>
-            </div>
-            <!--Allow white space new line here for styling-->
-            <div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">Our Team / Governance</div>
-                    <div class="servicesdescription">Description Goes Here  <a href="management.php" class="readmore">Read More</a></div>
-                </div>
-            <!--Lack of coded white space is taken into account for styling on the line below, do not have tabs, newlines, or white space between the divs-->
-            </div><div class="servicessection">
-                <div class="servicessectionpicture">
-                    <img class="defaultpicture" src="assets/DefaultPicture.png" alt="">
-                </div>
-                <div class="servicessectiontext">
-                    <div class="servicestitle">FAQs</div>
-                    <div class="servicesdescription">Description Goes Here<a href="faq.php" class="readmore">Read More</a></div>
+
+            <div class="wwacontainer">
+                <img class="wwaphoto" src="assets/StockStudy.png" alt="">
+                <div class="wwatext">
+                    <div class="wwasubtitle">About Us</div><br>
+                    <div class="wwadescription">UMRF Ventures is a company staffed by students who attend the University of Memphis and surrounding colleges. Today’s students have to successfully balance life with their school commitments. Many students take on significant debt to further their education and work multiple jobs while they go to school to meet their financial obligations. </div>
+                    <br><br>
+                    <div class="wwadescription">UMRF Ventures mission is to help our students succeed by providing good-paying, part-time jobs, scheduled around their classroom commitments, and conveniently located on campus.</div>
+                    <br><br>
+                    <div class="wwadescription">Today we have over 200 undergraduate and graduate students working at UMRF Ventures for our partner companies, who frequently hire our students as full-time employees after they graduate.</div>
+                    <br><br>
+                    <div class="wwadescription">Our employees have made lasting impressions with our parteners, click here to view first hand accounts of our</div>
+                    <a href="students" class="wwadescription">Talent Pipeline.</a>
+
                 </div>
             </div>
+
+            <div class="wwacontainerbottom">
+                <div class="wwatextleft">
+                    <div class="wwasubtitle">Students</div><br>
+                    <div class="wwadescription">Our student employees work in a variety of different ventures, providing paid services to our partner companies. We operate both inbound and outbound Call Centers, on the Memphis and Lambuth campuses. We have student internship programs with partner companies. </div>
+                    <br><br>
+                    <div class="wwadescription">Our students provide services to both for-profit and nonprofit companies in Memphis.  Our employees are both undergraduate and graduate students from a variety of academic curriculums. They work approximately 10-20 hours per week; after training, they earn approximately $15/per hour to $25/hour. Many earn more in supervisory positions.</div>
+                </div>
+                <img class="wwaphoto" src="assets/DeskSpaces.png" alt="">
+            </div>
+
+            <!-- <div class="dykcontainer">
+                <div class="dyktop"><div class="dyktitle">Did you know?</div><button class="dykbutton" onclick="changeString()">Next</button></div>
+                <div id="displayedString" class="dykdescription">Click here to see the next fact!</div>
+            </div> -->
+
+            <!-- <div class="wwacontacttext">
+                <div class="wwacontactsubtitle">Want to reach out?</div>
+                <div class="wwacontactdescription">UMRF Ventures is always open to talking about our work, but we do request that any visits be scheduled through the manager. Service centers are off limits unless explicitly approved.</div>
+            </div> -->
+
+            <!-- <script>
+                function getRandomString() {
+                    const stringsList = [
+                        "Since our incorporation in 2017, UMRF Ventures has paid nearly $8 million dollars in student wages.",
+                        "More than 750 University of Memphis students have worked for UMRF Ventures.",
+                        "Since 2017, our active student-employee population has grown by more than 920%.",
+                        "We have placed 38 student employees in full-time positions with our company or current partners.",
+                        "We manage all Level 1 customer service calls for a national waterfowl gear and duck hunting company.",
+                        "In 2021, we handled 214,643 customer facing chats for Sedgwick Claims Management.",
+                        "Ten University of Memphis faculty members have received UMRF Ventures Professorship grants valued at $10,000 each.",
+                        "Efficiencies discovered in Google Cloud Platform queries, by our InfoSec team, saves FedEx $60,000 a month.",
+                        "Health Sciences students placed more than 130,000 calls to 80,000 Memphians on behalf of the City of Memphis as part of their COVID Vaccine Advocacy Program.",
+                        "UMRF Ventures' agents are responsible for all Level 2 tasks for the FedEx Enterprise Common Services IT help desk.",
+                        "The 35 students on our Raymond James team work directly with systems that dictate the flow of money between RJ branches and firms."
+                        // Add more strings here as needed
+                    ];
+
+                    const randomIndex = Math.floor(Math.random() * stringsList.length);
+                    return stringsList[randomIndex];
+                }
+
+                // Function to change the displayed string on button click
+                function changeString() {
+                    const displayedElement = document.getElementById("displayedString");
+                    const randomString = getRandomString();
+                    displayedElement.textContent = randomString;
+                }
+                document.addEventListener("DOMContentLoaded", function() {
+                    changeString();
+                });
+            </script> -->
+
+            
+
             
             <div class="contactfooter">
 
