@@ -13,123 +13,95 @@
 	  // -
 
     function menu() {
-        echo'
-
-        <nav id="menu" class="menu">
-            <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
-        </nav>
-
-            <script>
-            function screenSize() {
-                var screenWidth = window.innerWidth;
-                var screenHeight = window.innerHeight;
-              
-                // If screen is not wider than its height, show the hamburger menu instead
-                if (screenWidth > screenHeight) {
-                  renderDesktopMenu();
-                } else {
-                  renderMobileMenu();
-                }
+      echo '
+      <nav id="menu" class="menu">
+          <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
+          <div id="menu-content" class="menuitemcontainer"></div>
+      </nav>
+      <script>
+          function renderMenu(menuHTML) {
+              var contentDiv = document.getElementById("menu-content");
+              contentDiv.innerHTML = menuHTML;
+              addUnderlineToCurrentMenuItem();
+          }
+  
+          function addUnderlineToCurrentMenuItem() {
+              var currentURL = window.location.href;
+              var menuItems = document.getElementsByClassName("menuitem");
+  
+              for (var i = 0; i < menuItems.length; i++) {
+                  var menuItem = menuItems[i];
+                  var menuItemURL = menuItem.href;
+  
+                  if (menuItemURL === currentURL) {
+                      menuItem.classList.add("current");
+                  }
+  
+                  if (currentURL.includes("students") || currentURL.includes("management") || currentURL.includes("governance")) {
+                      menuItems[2].classList.add("current");
+                  }
+  
+                  if (currentURL.includes("apply")) {
+                      menuItems[3].classList.add("current");
+                  }
               }
-              
-              // Function to render the desktop menu
-              function renderDesktopMenu() {
-                var contentDiv = document.getElementById("menu");
-                contentDiv.innerHTML = `
-                  <nav id="menu" class="menu">
-                    <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
-                    <div class="menuitemcontainer">
+          }
+  
+          function screenSize() {
+              var screenWidth = window.innerWidth;
+              var screenHeight = window.innerHeight;
+              var menuHTML;
+  
+              if (screenWidth > screenHeight) {
+                  menuHTML = `
                       <a href="home" class="menuitem">Home</a>
                       <a href="whatwedo" class="menuitem">What We Do</a>
                       <a href="whoweare" class="menuitem">Who We Are</a>
                       <a href="employment" class="menuitem">Employment</a>
                       <a href="contact" class="contactbutton menuitem">Contact Us</a>
                       <div class="menuitem"></div>
-                    </div>
-                  </nav>
-                `;
-              
-                addUnderlineToCurrentMenuItem();
-              }
-              
-              // Function to render the mobile menu
-              function renderMobileMenu() {
-                var contentDiv = document.getElementById("menu");
-                contentDiv.innerHTML = `
-                  <nav id="menu" class="menu">
-                    <img class="umrflogo" src="assets/UMRF Logo.png" alt="">
-                    <div class="dropdown">
-                      <button onclick="myFunction()" class="dropbtn">&#9776;</button>
-                      <div id="myDropdown" class="dropdown-content">
-                        <a href="home" class="menuitem">Home</a>                        
-                        <a href="whatwedo" class="menuitem">What We Do</a>
-                        <a href="whoweare" class="menuitem">Who We Are</a>
-                        <a href="employment" class="menuitem">Employment</a>
-                        <a href="contact" class="menuitem">Connect With Us</a>
+                  `;
+              } else {
+                  menuHTML = `
+                      <div class="dropdown">
+                          <button onclick="myFunction()" class="dropbtn">&#9776;</button>
+                          <div id="myDropdown" class="dropdown-content">
+                              <a href="home" class="menuitem">Home</a>
+                              <a href="whatwedo" class="menuitem">What We Do</a>
+                              <a href="whoweare" class="menuitem">Who We Are</a>
+                              <a href="employment" class="menuitem">Employment</a>
+                              <a href="contact" class="menuitem">Connect With Us</a>
+                          </div>
                       </div>
-                    </div>
-                  </nav>
-                `;
-              
-                addUnderlineToCurrentMenuItem();
+                  `;
               }
-              
-              // Function to add underline to the current menu item
-              function addUnderlineToCurrentMenuItem() {
-                // Get the current page URL
-                var currentURL = window.location.href;
-              
-                // Get all the menu items
-                var menuItems = document.getElementsByClassName("menuitem");
-                var whoweare = document.getElementsByClassName("whoweare");
-              
-                // Iterate over the menu items and check if the URL matches
-                for (var i = 0; i < menuItems.length; i++) {
-                  var menuItem = menuItems[i];
-                  var menuItemURL = menuItem.href;
-                  var menuItemURL = menuItem.href;
-              
-                  // Compare the URL of the menu item with the current page URL
-                  if (menuItemURL === currentURL) {
-                    // Add a class to the current menu item
-                    menuItem.classList.add("current");
+  
+              renderMenu(menuHTML);
+          }
+  
+          window.addEventListener("load", function() {
+              // Initially load with default style
+              document.getElementById("style-sheet").innerHTML = \'@import "style.css";\';
+              screenSize();
+          });
+  
+          window.addEventListener("resize", screenSize);
+  
+          function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+          }
+  
+          window.onclick = function(event) {
+              if (!event.target.matches(".dropbtn")) {
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  for (var i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains("show")) {
+                          openDropdown.classList.remove("show");
+                      }
                   }
-                  // This condition will check if the "whoweare" sub menus are being used and set who we are in the menu as the current selection
-                  if (currentURL.includes("students") || currentURL.includes("management") || currentURL.includes("governance")) {
-                    menuItems[2].classList.add("current");
-                  }
-
-                  if (currentURL.includes("apply")) {
-                    menuItems[3].classList.add("current");
-                  }
-                }
               }
-              
-              // Call the screenSize function when the page loads
-              window.addEventListener("load", screenSize);
-
-                window.addEventListener(`resize`, screenSize);
-                window.addEventListener(`load`, screenSize);
-
-                /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-                function myFunction() {
-                    document.getElementById("myDropdown").classList.toggle("show");
-                }
-
-                // Close the dropdown if the user clicks outside of it
-                window.onclick = function(event) {
-                    if (!event.target.matches(".dropbtn")) {
-                        var dropdowns = document.getElementsByClassName("dropdown-content");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                            var openDropdown = dropdowns[i];
-                            if (openDropdown.classList.contains("show")) {
-                                openDropdown.classList.remove("show");
-                            }
-                        }
-                    }
-                }
-
-            </script>
-        ';
-    }
+          }
+      </script>
+      ';
+  }
