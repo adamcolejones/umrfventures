@@ -718,7 +718,7 @@ html {
 
 .textdescription {
   /* color: #6EC1E4; */
-  color: white;
+  color: rgba(255, 255, 255, 0.728);
   font-weight: 500;
   font-size: 30px;
   

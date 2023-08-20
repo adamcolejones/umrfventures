@@ -1535,7 +1535,7 @@ li {
   /* color: #6EC1E4; */
   display: inline;
   /* color: white; */
-  color: rgba(255, 255, 255, 0.874);
+  color: rgba(255, 255, 255, 0.728);
   font-weight: 500;
   font-size: 30px;
   text-align: center;
@@ -1544,8 +1544,7 @@ li {
 a.textdescription {
   /* color: #6EC1E4; */
   display: inline;
-  color: white;
-  /* color: rgba(255, 255, 255, 0.728); */
+  color: rgba(255, 255, 255, 0.728);
   font-weight: 500;
   font-size: 30px;
   text-decoration: underline;

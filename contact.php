@@ -69,7 +69,7 @@
 
             <div class="contactsociallinks">
                 <a href="https://www.facebook.com/umrfventures/"><img class="facebooklogo" src="assets/Facebook Logo.png" alt=""></a>
-                <a href="https://www.linkedin.com/company/umrfventures/mycompany/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/umrfventures/"><img class="linkedinlogo" src="assets/Linkedin Logo.png" alt=""></a>
                 <a href="https://twitter.com/umrfventures"><img class="twitterlogo" src="assets/Twitter Logo.png" alt=""></a>
                 <a href="https://www.instagram.com/umrfventures/"><img class="instagramlogo" src="assets/Instagram Logo.png" alt=""></a>
             </div>
