@@ -106,7 +106,7 @@
                         "More than 750 University of Memphis students have worked for UMRF Ventures.",
                         "Since 2017, our active student-employee population has grown by more than 920%.",
                         "We have placed 38 student employees in full-time positions with our company or current partners.",
-                        "We manage all Level 1 customer service calls for a national waterfowl gear and duck hunting company.",
+                        "In 2021, we managed all Level 1 customer service calls for a national waterfowl gear and duck hunting company.",
                         "In 2021, we handled 214,643 customer facing chats for Sedgwick Claims Management.",
                         "Ten University of Memphis faculty members have received UMRF Ventures Professorship grants valued at $10,000 each.",
                         "Efficiencies discovered in Google Cloud Platform queries, by our InfoSec team, saves FedEx $60,000 a month.",

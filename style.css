@@ -1590,8 +1590,8 @@ ul {
 .umrflogo {
   position: absolute;  /* max-width: 100%; */
   /* max-height: calc(100% - 20px); */
-  height: calc(12.5vh - 40px);
-  padding: 20px;
+  height: calc(12.5vh - 20px);
+  padding: 10px;
   left: 5%;
   /* background-color: rgba(0,0,25,.80); */
 }
@@ -1881,17 +1881,18 @@ a.wwacontactdescription {
   /* text-align: center; */
 }
 
-/* a.wwadescription {
-  display: inline-block;
-  font-size: 1.5vw;
+a.wwadescription {
+  display: inline;
+  font-size: 1.2vw;
   font-weight: 40;
   padding: 20px 0px 10px 0px;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.728);
+  color: white;
   font-variant: none;
   z-index: 10;
+  text-decoration: underline;
   /* text-align: center; */
-/* } */
+}
 
 
 
@@ -2078,7 +2079,7 @@ a.wwacontactdescription {
   padding: 20px;
   /* Calculate for the padding */
   width: calc(100% - 40px);  
-  background: linear-gradient(to bottom, #060d1a,  transparent);
+  background: linear-gradient(to bottom, #112447,  transparent);
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
